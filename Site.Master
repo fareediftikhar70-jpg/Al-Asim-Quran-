@@ -1,0 +1,461 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.Master.vb" Inherits="Al_Asimquran.Site" %>
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title><asp:ContentPlaceHolder ID="TitleContent" runat="server">Al Asim Quran – Learn Quran Online &amp; Islamic Education</asp:ContentPlaceHolder></title>
+<link rel="icon" type="image/png" href="assets/img/icons/al-asim-logo-black-transparent.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com/" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="crossorigin" />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<link rel="stylesheet" href="assets/vendor/themify/themify.css" />
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+<link rel="stylesheet" href="assets/css/meanmenu.css" />
+<link rel="stylesheet" href="assets/css/preloader.css" />
+<link rel="stylesheet" href="assets/css/animate.css" />
+<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+<link rel="stylesheet" href="assets/css/magnific-popup.css" />
+<link rel="stylesheet" href="assets/css/niceselect.css" />
+<link rel="stylesheet" href="assets/css/style.css?v=55" />
+<link rel="stylesheet" href="assets/css/responsive.css?v=4" />
+<asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader_wrap">
+    <img src="assets/img/icons/al-asim-logo-black-transparent.png" class="pre_logo" alt="Al-Asim Quran" style="max-height: 60px; width: auto; background: transparent;" />
+    <span class="preloader"></span>
+</div>	
+
+<!-- Offcanvas Area Start (Mobile Menu / Drawer) -->
+<div class="fix-area">
+	<div class="offcanvas__info">
+		<div class="offcanvas__wrapper">
+			<div class="offcanvas__content">
+				<div class="offcanvas__top d-flex justify-content-between align-items-center">
+					<div class="offcanvas__logo">
+						<a href="Default.aspx">
+							<img src="assets/img/icons/al-asim-logo-black-transparent.png" alt="Al-Asim Quran" style="max-height: 48px; width: auto;" />
+						</a>
+					</div>
+					<div class="offcanvas__close">
+						<button type="button" aria-label="Close menu">
+							<i class="fa-solid fa-xmark"></i>
+						</button>
+					</div>
+				</div>
+				<p>
+					Al-Asim Quran is a dedicated online Islamic academy offering comprehensive Quran reading with Tajweed, Hifz, Tafseer, and Arabic language for students of all ages across the globe.
+				</p>
+				
+				<!-- Mobile Menu Container (Populated by MeanMenu) -->
+				<div class="mobile-menu fix mb-3"></div>  
+
+				<div class="offcanvas__contact">
+					<h4>Contact Info</h4>
+					<ul>
+						<li class="d-flex align-items-center">
+							<div class="offcanvas__contact-icon">
+								<i class="fas fa-map-marker-alt"></i>
+							</div>
+							<div class="offcanvas__contact-text">
+								<a href="contact.aspx">Serving Students Online Worldwide in 20+ Countries</a>
+							</div>
+						</li>
+						<li class="d-flex align-items-center">
+							<div class="offcanvas__contact-icon mr-15">
+								<i class="fas fa-envelope"></i>
+							</div>
+							<div class="offcanvas__contact-text">
+								<a href="mailto:alasimquran@gmail.com"><span>alasimquran@gmail.com</span></a>
+							</div>
+						</li>
+						<li class="d-flex align-items-center">
+							<div class="offcanvas__contact-icon mr-15">
+								<i class="fas fa-clock"></i>
+							</div>
+							<div class="offcanvas__contact-text">
+								<a href="inquiry.aspx">24/7 Flexible Timings &amp; Schedules</a>
+							</div>
+						</li>
+						<li class="d-flex align-items-center">
+							<div class="offcanvas__contact-icon mr-15">
+								<i class="fas fa-phone"></i>
+							</div>
+							<div class="offcanvas__contact-text">
+								<a href="tel:+923424852893">0342-4852893</a> / <a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+							</div>
+						</li>
+					</ul>
+					
+					<div class="header-button mt-4 d-grid gap-2">
+						<a href="free-trial.aspx" class="green_btn text-center">
+							<span>Book Free Trial</span>
+						</a>
+					</div>
+										
+					<h4 class="mb-2 mt-4">Follow Us</h4>
+					<div class="sidebar-social mt-3 d-flex gap-3 align-items-center">
+						<a href="social-media.aspx" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="social-media.aspx" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+						<a href="social-media.aspx" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+						<a href="social-media.aspx" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>						
+						<a href="social-media.aspx" title="YouTube"><i class="fa-brands fa-youtube"></i></a>					
+						<a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>					
+					</div>
+				</div>						
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="offcanvas__overlay"></div>
+<!-- Offcanvas Area End -->
+
+<!-- ===================== START HEADER ===================== -->
+<header id="navigation">
+
+	<!-- Header Top Bar -->
+	<div class="header-top am-header-top-bar">
+		<div class="container-fluid px-3 px-xl-4 position-relative">
+			<div class="row align-items-center g-2 am-header-top-row">
+				
+				<!-- Left info -->
+				<div class="col-xl-4 col-lg-4 col-12 htleft d-flex align-items-center justify-content-center justify-content-lg-start">
+					<ul class="m-0 p-0 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-3">
+						<li><i class="fa-solid fa-envelope me-1"></i> <a href="mailto:alasimquran@gmail.com">alasimquran@gmail.com</a></li>
+						<li><i class="fa-solid fa-phone me-1"></i> <a href="tel:+923424852893" style="color: inherit;">0342-4852893</a></li>
+					</ul>							
+				</div><!-- End Col -->
+
+				<!-- Center Bismillah Calligraphy (Dead Center of the Bar) -->
+				<div class="bis_himage_center d-none d-lg-flex justify-content-center align-items-center">
+					<img src="assets/img/bismillah-white-transparent.png" alt="Bismillah Calligraphy" class="am-bismillah-img" />
+				</div>
+
+				<!-- Right info: Sunrise & Sunset on top, Social Icons below, flush to right edge -->
+				<div class="col-xl-4 col-lg-4 col-12 ms-auto htright d-flex justify-content-center justify-content-lg-end align-items-center">
+					<div class="am-ht-right-box">
+						<div class="am-sun-times mb-1">
+							<span><i class="fa-solid fa-sun me-1"></i> Sunrise At: 5.30 AM</span>
+							<span class="ms-3"><i class="fa-solid fa-moon me-1"></i> Sunset At: 5.30 PM</span>
+						</div>
+						<div class="social_icons d-flex align-items-center justify-content-center justify-content-lg-end gap-2">
+							<a href="social-media.aspx" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="social-media.aspx" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+							<a href="social-media.aspx" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+							<a href="social-media.aspx" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+							<a href="social-media.aspx" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+							<a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+						</div>
+					</div>
+				</div><!-- End Col -->
+
+			</div>
+		</div>
+	</div><!-- End Header Top -->
+	
+	<!-- Main Navigation Bar -->
+	<div class="main-header">							
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				
+				<!-- Logo -->
+				<div class="col-xl-2 col-md-3 col-sm-4 col-5">
+					<div class="site-logo">
+						<a href="Default.aspx" title="Al-Asim Quran">
+							<img src="assets/img/icons/al-asim-logo-black-transparent.png" alt="Al-Asim Quran" />
+						</a>
+					</div>
+				</div><!-- End Col -->
+
+				<!-- Center Menu -->
+				<div class="col-xl-7 col-md-6 d-none d-xl-block align-self-center">
+					<div class="header-left d-flex justify-content-center">								
+						<nav id="main-menu">
+							<ul>
+								<li><a href="Default.aspx">Home</a></li>
+								
+								<!-- Who We Are Dropdown -->
+								<li class="menu-item-has-children">
+									<a href="javascript:void(0);" class="nav-dropdown-toggle">Who We Are</a>
+									<ul class="sub-menu">
+										<li><a href="our-story.aspx">Our Story</a></li>
+										<li><a href="introduction.aspx">Introduction</a></li>
+										<li><a href="mission-statement.aspx">Mission Statement</a></li>
+										<li><a href="vision-statement.aspx">Vision Statement</a></li>
+										<li><a href="core-values.aspx">Core Values</a></li>
+										<li><a href="the-message.aspx">The Message (CEO)</a></li>
+										<li><a href="team-management.aspx">Team Management</a></li>
+										<li><a href="why-choose-al-asim-quran.aspx">Why Choose Us</a></li>
+										<li><a href="aims-and-objectives.aspx">Aims &amp; Objectives</a></li>
+										<li><a href="our-certificate.aspx">Our Certificate</a></li>
+										<li><a href="our-registration.aspx">Our Registration</a></li>
+										<li><a href="support.aspx">Support Center</a></li>
+										<li><a href="inquiry.aspx">Inquiry Page</a></li>
+									</ul>
+								</li>
+
+								<!-- Courses Dropdown -->
+								<li class="menu-item-has-children">
+									<a href="javascript:void(0);" class="nav-dropdown-toggle">Courses</a>
+									<ul class="sub-menu">
+										<li><a href="quran-reading-for-beginners.aspx">Quran Reading (Nazra)</a></li>
+										<li><a href="quran-with-tajweed.aspx">Quran with Tajweed</a></li>
+										<li><a href="hifz-ul-quran.aspx">Hifz-ul-Quran</a></li>
+										<li><a href="tafseer-and-translation.aspx">Tafseer &amp; Translation</a></li>
+										<li><a href="islamic-studies.aspx">Islamic Studies</a></li>
+										<li><a href="arabic-language.aspx">Arabic Language</a></li>
+										<li><a href="courses.aspx">View All Courses &amp; Fee Plans</a></li>
+									</ul>
+								</li>
+
+								<!-- Explore Dropdown (Renamed from Pages) -->
+								<li class="menu-item-has-children">
+									<a href="javascript:void(0);" class="nav-dropdown-toggle">Explore</a>
+									<ul class="sub-menu">
+										<li><a href="service-details.aspx">Service Details</a></li>
+										<li><a href="spiritual-development.aspx">Spiritual Development</a></li>
+										<li><a href="modern-integrations.aspx">Modern Integrations</a></li>
+										<li><a href="student-programs.aspx">Student Programs</a></li>
+										<li><a href="tutors.aspx">Meet Qualified Tutors</a></li>
+										<li><a href="testimonials.aspx">Testimonials | Reviews</a></li>
+										<li><a href="events.aspx">Events</a></li>
+										<li><a href="announcements.aspx">Announcements</a></li>
+										<li><a href="gallery.aspx">Official Gallery</a></li>
+										<li><a href="downloads.aspx">Downloads</a></li>
+										<li><a href="publications.aspx">Publications</a></li>
+										<li><a href="online-payments.aspx">Online Payments</a></li>
+										<li><a href="free-trial.aspx">Free Trial Classes</a></li>
+									</ul>
+								</li>
+
+								<li><a href="blog.aspx">Blog</a></li>
+
+								<li><a href="contact.aspx">Contact</a></li>
+							</ul>
+						</nav><!-- End Main Menu -->							
+					</div>
+				</div>
+				<!-- End Col -->			
+				
+				<!-- Right Controls: Search, Join Now, Burger -->
+				<div class="col-xl-3 col-md-9 col-sm-8 col-7 align-self-center">
+					<div class="header_right d-flex gap-3 justify-content-end align-items-center">	
+						<a class="search_btn align-self-center" data-menu="#popup_searchbox" href="javascript:void(0);" title="Search Courses">
+							<i class="ph ph-magnifying-glass"></i>
+						</a>
+						<a class="green_btn align-self-center d-none d-sm-block" href="free-trial.aspx">
+							<span>JOIN NOW</span>
+						</a>
+						<a href="javascript:void(0);" class="widget_menu_icon" aria-label="Open Mobile Menu">
+							<i class="ph ph-list"></i>
+						</a>
+					</div>
+				</div>
+				<!-- End Col -->			
+
+			</div>
+		</div>
+	</div>	
+</header>
+<!-- ===================== END HEADER ===================== -->
+
+<!-- Start Popup Search Box -->
+<div id="popup_searchbox" class="popup_searchbox_wrapper">
+	<div class="searchbox_drawer position-relative">
+		<a href="javascript:void(0);" class="popup_close"><i class="bx bx-x"></i></a>				
+		<div class="popup_searchform text-center">
+			<div class="col-lg-7 mx-auto">
+				<form action="courses.aspx" class="position-relative" method="get">
+					<input type="text" name="q" placeholder="What are you looking for? Search courses, tajweed, hifz..." />
+					<button type="submit"><i class="ph ph-magnifying-glass"></i> Search</button>
+				</form>
+			</div>									
+		</div>									
+	</div>
+</div>			
+<!-- End Popup Search Box -->
+
+<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+<!-- ===================== FOOTER AREA ===================== -->
+<footer class="footer-area position-relative">
+	<div class="container">		
+		<div class="row g-4">
+			
+			<!-- Col 1: Logo & Contact Details -->
+			<div class="col-xl-3 col-md-6 footer-logo wow fadeIn">
+				<div class="footer-widget footer-contact">
+					<a href="Default.aspx" class="footer-logo mb-2 d-inline-block">
+						<img src="assets/img/icons/al-asim-logo-white-transparent.png" alt="Al-Asim Quran Logo" style="max-height: 52px; width: auto;" />
+					</a>
+					<p class="mb-3" style="font-size: 13.5px; line-height: 1.45; color: rgba(255, 255, 255, 0.85); font-weight: 500;">Al Asim Quran – Learn Quran Online &amp; Islamic Education</p>
+					<ul class="mt-2">
+						<li><i class="bx bx-map"></i> <p>Personalized Online Quran Classes<br />Serving Students in 20+ Countries</p></li>
+						<li><i class="bx bx-phone"></i> <a href="tel:+923424852893">0342-4852893</a> / <a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+						<li><i class="bx bx-envelope"></i> <a href="mailto:alasimquran@gmail.com">alasimquran@gmail.com</a></li>
+					</ul>
+				</div>
+			</div><!-- End Col -->	
+
+			<!-- Col 2: COMPANY -->
+			<div class="col-xl-3 col-md-6 wow fadeIn">
+				<div class="footer-widget">
+					<h3 class="ftitle"><i class="fa-solid fa-mosque"></i> COMPANY</h3>
+					<ul>
+						<li><a href="our-story.aspx">About Us</a></li>
+						<li><a href="courses.aspx">Courses</a></li>
+						<li><a href="tutors.aspx">Instructors &amp; Tutors</a></li>
+						<li><a href="events.aspx">Events</a></li>
+						<li><a href="why-choose-al-asim-quran.aspx">Why Choose Us</a></li>
+					</ul>
+				</div>
+			</div><!-- End Col -->	
+
+			<!-- Col 3: QUICK LINKS -->
+			<div class="col-xl-3 col-md-6 wow fadeIn">
+				<div class="footer-widget">
+					<h3 class="ftitle"><i class="fa-solid fa-mosque"></i> QUICK LINKS</h3>
+					<ul>
+						<li><a href="courses.aspx">Online Courses</a></li>
+						<li><a href="hifz-ul-quran.aspx">Quran Hifz</a></li>
+						<li><a href="tafseer-and-translation.aspx">Tafseer &amp; Translation</a></li>
+						<li><a href="free-trial.aspx">Free Trial Classes</a></li>
+						<li><a href="faq.aspx">FAQ</a></li>
+						<li><a href="privacy-policy.aspx">Privacy Policy</a></li>
+						<li><a href="terms-conditions.aspx">Terms &amp; Conditions</a></li>
+						<li><a href="disclaimer.aspx">Disclaimer</a></li>
+					</ul>
+				</div>
+			</div><!-- End Col -->	
+			
+			<!-- Col 4: LATEST NEWSLETTER -->
+			<div class="col-xl-3 col-md-6 wow fadeIn">
+				<div class="footer-widget newsletter-widget">
+					<h3 class="ftitle"><i class="fa-solid fa-mosque"></i> LATEST NEWSLETTER</h3>
+					<p>Subscribe us &amp; receive our offers and updates in your inbox directly.</p>
+					<div class="footer_news_form">
+						<form action="inquiry.aspx" method="get">
+							<input type="email" name="EMAIL" placeholder="Enter Email Address" required="required" />
+							<button type="submit" class="green_btn"><span>SUBSCRIBE NOW</span></button>
+						</form>
+					</div>
+				</div>
+			</div><!-- End Col -->
+	
+		</div>				
+	</div>
+
+	<!-- Dotted Box with Centered Circle Social Icons -->
+	<div class="container footer_social">
+		<div class="row">
+			<div class="fsocial-option my-3 text-center">
+				<ul>
+					<li><a href="social-media.aspx" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+					<li><a href="social-media.aspx" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+					<li><a href="social-media.aspx" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+					<li><a href="social-media.aspx" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Copyright Area -->
+	<div class="container">
+		<div class="copyright">
+			<div class="row">
+				<div class="col-12 text-center">
+					<p class="mb-2">
+						Copyright 2026 All Rights Reserved Al-Asim Quran
+					</p>
+					<div class="footer-legal-links">
+						<a href="faq.aspx">FAQ</a> &bull;
+						<a href="privacy-policy.aspx">Privacy Policy</a> &bull;
+						<a href="terms-conditions.aspx">Terms &amp; Conditions</a> &bull;
+						<a href="disclaimer.aspx">Disclaimer</a>
+					</div>
+				</div><!-- End Col -->
+			</div>				
+		</div>
+	</div><!-- End copyright -->
+	
+	<!-- Floating Footer Shapes (FontAwesome Icons) -->
+	<div class="footer_shapes am-footer-icons">
+		<span class="am-fshape shape1"><i class="fa-solid fa-star-and-crescent"></i></span>
+		<span class="am-fshape shape2"><i class="fa-solid fa-mosque"></i></span>
+		<span class="am-fshape shape3"><i class="fa-solid fa-kaaba"></i></span>
+		<span class="am-fshape shape4"><i class="fa-solid fa-book-quran"></i></span>
+	</div>
+</footer>
+<!-- ===================== END FOOTER AREA ===================== -->
+
+<!-- Scroll-To-Top Progress Wrap -->
+<div class="progress-wrap">
+	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+	</svg>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.meanmenu.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1"></script>
+<script src="assets/js/jquery.inview.min.js"></script>		
+<script src="assets/js/jquery.magnific-popup.js"></script>	
+<script src="assets/js/swiper-bundle.min.js"></script>	
+<script src="assets/js/wow.js"></script>		
+<script src="assets/js/scroll-top.js"></script>		
+<script src="assets/js/audio-player.js"></script>											
+<script src="assets/js/scripts.js"></script>	
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/923424852893?text=Assalam-o-Alaikum%2C%20I%20want%20to%20inquire%20about%20Al-Asim%20Quran%20courses" 
+   class="am-whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   aria-label="Chat with Al-Asim Quran on WhatsApp"
+   title="Chat on WhatsApp">
+	<i class="fa-brands fa-whatsapp"></i>
+	<span class="am-wa-tooltip">Chat with us on WhatsApp</span>
+</a>
+
+<!-- Dropdown Click & Accessibility Script -->
+<script>
+	jQuery(document).ready(function ($) {
+		// Toggle dropdown on click instead of refreshing/navigating
+		$('#main-menu .menu-item-has-children > a').on('click', function (e) {
+			e.preventDefault();
+			e.stopPropagation();
+			var $parent = $(this).parent('.menu-item-has-children');
+			var wasOpen = $parent.hasClass('dropdown-open');
+			$('#main-menu .menu-item-has-children').removeClass('dropdown-open');
+			if (!wasOpen) {
+				$parent.addClass('dropdown-open');
+			}
+		});
+
+		// Close dropdown when clicking anywhere outside
+		$(document).on('click', function (e) {
+			if (!$(e.target).closest('#main-menu').length) {
+				$('#main-menu .menu-item-has-children').removeClass('dropdown-open');
+			}
+		});
+
+		// Keep dropdown open when interacting inside sub-menu
+		$('#main-menu .sub-menu').on('click', function (e) {
+			e.stopPropagation();
+		});
+	});
+</script>
+
+</body>
+</html>
