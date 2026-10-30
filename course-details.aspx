@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Course Details - Al-Asim Quran" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
+<%@ Page Title="Course Details - Al-Asim Quran" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="Al-Asim Quran and Islamic learning community" /></asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
 
@@ -456,16 +456,16 @@
 										</p>
 										<ul>
 											<li>
-												<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+												<a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
 											</li>
 											<li>
-												<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+												<a href="https://www.tiktok.com/@al_asimquran?_r=1&_t=ZS-9Az307IrOAn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
 											</li>
 											<li>
-												<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+												<a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
 											</li>
 											<li>
-												<a href="#"><i class="fa-brands fa-youtube"></i></a>
+												<a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
 											</li>
 										</ul>
 									</div>
@@ -531,11 +531,9 @@
 							<div class="social-share">
 								<span class="share-title">Share this course</span>
 								<div class="share-icons">
-									<a href="#" aria-label="Share on Facebook"><i
-											class="fa-brands fa-facebook-f"></i></a>
-									<a href="#" aria-label="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
-									<a href="#" aria-label="Share on LinkedIn"><i
-											class="fa-brands fa-linkedin-in"></i></a>
+									<a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+									<a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+									<a href="https://www.tiktok.com/@al_asimquran?_r=1&_t=ZS-9Az307IrOAn" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
 								</div>
 							</div>
 

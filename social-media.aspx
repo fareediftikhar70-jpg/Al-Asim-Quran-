@@ -1,6 +1,6 @@
 <%@ Page Title="Al-Asim Quran | Social Media Channels" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent">
-    <meta name="description" content="Connect with Al-Asim Quran across social platforms including WhatsApp, Facebook, Instagram, YouTube, and LinkedIn." />
+    <meta name="description" content="Connect with Al-Asim Quran across official social platforms including WhatsApp, Facebook, Instagram, TikTok, and YouTube." />
 </asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
 <div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
@@ -48,11 +48,11 @@
                         <h2>Official Social Channels</h2>
                         <p>We are active on the following verified platforms:</p>
                         <ul>
-                            <li><i class="fa-brands fa-whatsapp text-success me-2"></i><strong>WhatsApp:</strong> <a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer">+92 342 4852893</a></li>
-                            <li><i class="fa-brands fa-facebook-f text-primary me-2"></i><strong>Facebook:</strong> Al-Asim Quran Academy</li>
-                            <li><i class="fa-brands fa-instagram text-danger me-2"></i><strong>Instagram:</strong> @AlAsimQuran</li>
-                            <li><i class="fa-brands fa-youtube text-danger me-2"></i><strong>YouTube:</strong> Al-Asim Quran Online</li>
-                            <li><i class="fa-brands fa-linkedin-in text-info me-2"></i><strong>LinkedIn:</strong> Al-Asim Quran</li>
+                            <li><i class="fa-brands fa-whatsapp text-success me-2"></i><strong>WhatsApp:</strong> <a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer">0342-4852893 (+92 342 4852893)</a></li>
+                            <li><i class="fa-brands fa-facebook-f text-primary me-2"></i><strong>Facebook:</strong> <a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer">Al-Asim Quran Official Page</a></li>
+                            <li><i class="fa-brands fa-instagram text-danger me-2"></i><strong>Instagram:</strong> <a href="https://www.instagram.com/al_asimquran?srtk=MXhpNnJ4d3l1ZGtleg==" target="_blank" rel="noopener noreferrer">@al_asimquran</a></li>
+                            <li><i class="fa-brands fa-tiktok text-dark me-2"></i><strong>TikTok:</strong> <a href="https://www.tiktok.com/@al_asimquran?_r=1&amp;_t=ZS-9Az307IrOAn" target="_blank" rel="noopener noreferrer">@al_asimquran</a></li>
+                            <li><i class="fa-brands fa-youtube text-danger me-2"></i><strong>YouTube:</strong> <a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer">@alasimquran</a></li>
                         </ul>
                     </article>
                 </div>

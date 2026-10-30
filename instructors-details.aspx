@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Instructor Details - Al-Asim Quran" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
+<%@ Page Title="Instructor Details - Al-Asim Quran" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="Al-Asim Quran and Islamic learning community" /></asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
 
@@ -139,15 +139,16 @@
 								<li><strong>Experience:</strong> 12 years</li>
 								<li><strong>Email:</strong> alasimquran@gmail.com</li>
 								<li><strong>Education:</strong> Ph.D. in Islamic Studies</li>
-								<li><strong>Phone:</strong> +91 258 654 583</li>
-								<li><strong>Website:</strong> <a href="#">www.al-asimquran.com</a></li>
+								<li><strong>Phone:</strong> 0342-4852893 / +92 342 4852893</li>
+								<li><strong>Email:</strong> alasimquran@gmail.com</li>
 							</ul>
 							
 							<ul class="id_social">
-								<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+								<li><a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+								<li><a href="https://www.instagram.com/al_asimquran?srtk=MXhpNnJ4d3l1ZGtleg==" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+								<li><a href="https://www.tiktok.com/@al_asimquran?_r=1&_t=ZS-9Az307IrOAn" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+								<li><a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+								<li><a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
 							</ul>
 						</div>
 					</div><!-- End Col -->

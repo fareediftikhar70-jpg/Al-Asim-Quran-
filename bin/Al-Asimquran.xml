@@ -6,33 +6,33 @@ Al-Asimquran
 </name>
 </assembly>
 <members>
-<member name="F:Al_Asimquran.Register.RegisterUser">
+<member name="F:Al_Asimquran.Site.Head1">
 	<summary>
-RegisterUser control.
+Head1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Al_Asimquran.Register.RegisterUserWizardStep">
+</member><member name="F:Al_Asimquran.Site.TitleContent">
 	<summary>
-RegisterUserWizardStep control.
+TitleContent control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Al_Asimquran.Login.RegisterHyperLink">
+</member><member name="F:Al_Asimquran.Site.HeadContent">
 	<summary>
-RegisterHyperLink control.
+HeadContent control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Al_Asimquran.Login.LoginUser">
+</member><member name="F:Al_Asimquran.Site.MainContent">
 	<summary>
-LoginUser control.
+MainContent control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -71,41 +71,41 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
+</member><member name="F:Al_Asimquran.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Al_Asimquran.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Al_Asimquran.Login.RegisterHyperLink">
+	<summary>
+RegisterHyperLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Al_Asimquran.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Al_Asimquran.ChangePassword.ChangeUserPassword">
 	<summary>
 ChangeUserPassword control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Al_Asimquran.Site.Head1">
-	<summary>
-Head1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Al_Asimquran.Site.TitleContent">
-	<summary>
-TitleContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Al_Asimquran.Site.HeadContent">
-	<summary>
-HeadContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Al_Asimquran.Site.MainContent">
-	<summary>
-MainContent control.
 </summary>
 	<remarks>
 Auto-generated field.

@@ -839,9 +839,9 @@
 							<div class="scholar_img position-relative">
 								<img src="assets/img/tutors/qari-abu-bakar.jpg" alt="Qari Abu Bakar - Quran Teacher" />
 								<ul class="scholar_social">
-									<li><a href="social-media.aspx"><i class="fa-brands fa-facebook-f"></i></a></li>
-									<li><a href="social-media.aspx"><i class="fa-brands fa-x-twitter"></i></a></li>
-									<li><a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a></li>
+									<li><a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+									<li><a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
 								</ul>
 							</div>
 							<h3><a href="tutors.aspx">Qari Abu Bakar</a></h3>
@@ -855,9 +855,9 @@
 							<div class="scholar_img position-relative">
 								<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib - Quran Teacher" />
 								<ul class="scholar_social">
-									<li><a href="social-media.aspx"><i class="fa-brands fa-facebook-f"></i></a></li>
-									<li><a href="social-media.aspx"><i class="fa-brands fa-x-twitter"></i></a></li>
-									<li><a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a></li>
+									<li><a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+									<li><a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
 								</ul>
 							</div>
 							<h3><a href="tutors.aspx">Qari Habib</a></h3>

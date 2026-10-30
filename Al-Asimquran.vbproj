@@ -272,10 +272,6 @@
     <Content Include="prayer-lessons.aspx" />
     <Content Include="social-media.aspx" />
     <Content Include="privacy-policy.aspx" />
-    <Content Include="index-2.aspx" />
-    <Content Include="index-3.aspx" />
-    <Content Include="index-4.aspx" />
-    <Content Include="index04b9.aspx" />
     <Content Include="instructors-details.aspx" />
     <Content Include="instructors.aspx" />
     <Content Include="login.aspx" />

@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 <link rel="stylesheet" href="assets/css/magnific-popup.css" />
 <link rel="stylesheet" href="assets/css/niceselect.css" />
-<link rel="stylesheet" href="assets/css/style.css?v=55" />
+<link rel="stylesheet" href="assets/css/style.css?v=56" />
 <link rel="stylesheet" href="assets/css/responsive.css?v=4" />
 <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
 </head>
@@ -102,11 +102,10 @@
 										
 					<h4 class="mb-2 mt-4">Follow Us</h4>
 					<div class="sidebar-social mt-3 d-flex gap-3 align-items-center">
-						<a href="social-media.aspx" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-						<a href="social-media.aspx" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-						<a href="social-media.aspx" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-						<a href="social-media.aspx" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>						
-						<a href="social-media.aspx" title="YouTube"><i class="fa-brands fa-youtube"></i></a>					
+						<a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="https://www.instagram.com/al_asimquran?srtk=MXhpNnJ4d3l1ZGtleg==" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://www.tiktok.com/@al_asimquran?_r=1&_t=ZS-9Az307IrOAn" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+						<a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a>					
 						<a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>					
 					</div>
 				</div>						
@@ -147,11 +146,10 @@
 							<span class="ms-3"><i class="fa-solid fa-moon me-1"></i> Sunset At: 5.30 PM</span>
 						</div>
 						<div class="social_icons d-flex align-items-center justify-content-center justify-content-lg-end gap-2">
-							<a href="social-media.aspx" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-							<a href="social-media.aspx" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-							<a href="social-media.aspx" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-							<a href="social-media.aspx" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-							<a href="social-media.aspx" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+							<a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/al_asimquran?srtk=MXhpNnJ4d3l1ZGtleg==" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+							<a href="https://www.tiktok.com/@al_asimquran?_r=1&_t=ZS-9Az307IrOAn" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+							<a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
 							<a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 						</div>
 					</div>
@@ -358,10 +356,10 @@
 		<div class="row">
 			<div class="fsocial-option my-3 text-center">
 				<ul>
-					<li><a href="social-media.aspx" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
-					<li><a href="social-media.aspx" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
-					<li><a href="social-media.aspx" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
-					<li><a href="social-media.aspx" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+					<li><a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+					<li><a href="https://www.instagram.com/al_asimquran?srtk=MXhpNnJ4d3l1ZGtleg==" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://www.tiktok.com/@al_asimquran?_r=1&_t=ZS-9Az307IrOAn" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+					<li><a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
 					<li><a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
 				</ul>
 			</div>
