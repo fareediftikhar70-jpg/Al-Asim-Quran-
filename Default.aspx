@@ -51,8 +51,8 @@
 				</div><!-- End Swiper Wrapper -->
 
 				<div class="slider_arrows wow fadeIn" data-wow-delay=".5s">
-					<a href="#" class="rev_prev"><img src="assets/img/icons/arrow-left.ico" alt=""></a>
-					<a href="#" class="rev_next"><img src="assets/img/icons/arrow-right.ico" alt=""></a>
+					<a href="#" class="rev_prev"><img src="assets/img/icons/arrow-left.ico?v=2" alt=""></a>
+					<a href="#" class="rev_next"><img src="assets/img/icons/arrow-right.ico?v=2" alt=""></a>
 				</div>
 
 				<!-- Wave Shape at bottom of Slider (Image 1 fix) -->
@@ -756,8 +756,8 @@
 						<div class="testimonial_image position-relative">
 							<img src="assets/img/review/review.png" alt="review Image">
 							<div class="rev_arrow">
-								<a href="#" class="rev_prev"><img src="assets/img/icons/arrow-left.ico" alt=""></a>
-								<a href="#" class="rev_next"><img src="assets/img/icons/arrow-right.ico" alt=""></a>
+								<a href="#" class="rev_prev"><img src="assets/img/icons/arrow-left.ico?v=2" alt=""></a>
+								<a href="#" class="rev_next"><img src="assets/img/icons/arrow-right.ico?v=2" alt=""></a>
 							</div>
 						</div>
 					</div><!-- End Col -->

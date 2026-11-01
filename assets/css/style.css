@@ -8850,3 +8850,25 @@ body, button, input, select, textarea, .btn {
 	.am-pillars-cta { align-items: flex-start; flex-direction: column; padding: 26px 23px; }
 	.am-integration-note { padding: 21px 18px; }
 }
+
+
+/* Navigation slider & review arrows: clean transparent icon sizing */
+.slider_arrows a img,
+.rev_arrow a img {
+	width: 26px !important;
+	height: auto !important;
+	vertical-align: middle !important;
+	display: inline-block !important;
+	background: transparent !important;
+}
+.slider_arrows a,
+.rev_arrow a {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	background: #ffffff;
+}
+.slider_arrows a:hover,
+.rev_arrow a:hover {
+	background: #f4bd35 !important;
+}
