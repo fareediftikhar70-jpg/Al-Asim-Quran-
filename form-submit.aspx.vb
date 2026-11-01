@@ -18,19 +18,19 @@ Partial Public Class FormSubmit
 
         ' Honeypot check: automated spam bots fill hidden inputs
         If Not String.IsNullOrWhiteSpace(Request.Form("website_check")) Then
-            ShowFeedback("<div style='color: #0e8544; font-size: 17px; margin-bottom: 15px;'><i class='fa-solid fa-circle-check fa-2x d-block mb-2'></i><strong>Alhamdulillah! Your message has been received.</strong></div><p class='text-secondary'>Our support team will contact you shortly, Insha'Allah.</p>", True)
+            ShowFeedback("<div style='color: #0e8544; font-size: 19px; font-weight: 700; margin-bottom: 16px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;'><i class='fa-solid fa-circle-check' style='font-size: 20px; color: #0e8544;'></i><span>Alhamdulillah! Your message has been received.</span></div><p class='text-secondary'>Our support team will contact you shortly, Insha'Allah.</p>", True)
             Return
         End If
 
         Try
             EnforceRateLimit()
             SendWebsiteEmail()
-            ShowFeedback("<div style='color: #0e8544; font-size: 18px; margin-bottom: 15px;'><i class='fa-solid fa-circle-check fa-2x d-block mb-2'></i><strong>Alhamdulillah! Your message has been sent successfully.</strong></div><p style='color: #444; font-size: 16px; line-height: 1.6;'>Thank you for reaching out to <strong>Al-Asim Quran</strong>. Our academic coordinators have received your inquiry and will contact you via email or WhatsApp shortly, Insha'Allah.</p>", True)
+            ShowFeedback("<div style='color: #0e8544; font-size: 19px; font-weight: 700; margin-bottom: 16px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;'><i class='fa-solid fa-circle-check' style='font-size: 20px; color: #0e8544;'></i><span>Alhamdulillah! Your message has been sent successfully.</span></div><p style='color: #444; font-size: 16px; line-height: 1.6;'>Thank you for reaching out to <strong>Al-Asim Quran</strong>. Our academic coordinators have received your inquiry and will contact you via email or WhatsApp shortly, Insha'Allah.</p>", True)
         Catch ex As InvalidOperationException
-            ShowFeedback("<div style='color: #d97706; font-size: 17px; margin-bottom: 15px;'><i class='fa-solid fa-clock fa-2x d-block mb-2'></i><strong>Please wait a moment.</strong></div><p class='text-secondary'>" & Server.HtmlEncode(ex.Message) & "</p>", False)
+            ShowFeedback("<div style='color: #d97706; font-size: 19px; font-weight: 700; margin-bottom: 16px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;'><i class='fa-solid fa-clock' style='font-size: 20px; color: #d97706;'></i><span>Please wait a moment.</span></div><p class='text-secondary'>" & Server.HtmlEncode(ex.Message) & "</p>", False)
         Catch ex As Exception
             System.Diagnostics.Trace.TraceError("Website form email failed: " & ex.ToString())
-            ShowFeedback("<div style='color: #dc2626; font-size: 17px; margin-bottom: 15px;'><i class='fa-solid fa-triangle-exclamation fa-2x d-block mb-2'></i><strong>We could not send your message right now.</strong></div><p style='color: #555; font-size: 15px; line-height: 1.6;'>A temporary connection issue occurred. Please contact us directly via WhatsApp or email:</p><p style='font-size: 16px;'><i class='fa-brands fa-whatsapp text-success me-1'></i> <strong>WhatsApp:</strong> <a href='https://wa.me/923424852893' target='_blank'>+92 342 4852893</a><br><i class='fa-regular fa-envelope text-primary me-1'></i> <strong>Email:</strong> <a href='mailto:alasimquran@gmail.com'>alasimquran@gmail.com</a></p>", False)
+            ShowFeedback("<div style='color: #dc2626; font-size: 19px; font-weight: 700; margin-bottom: 16px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;'><i class='fa-solid fa-triangle-exclamation' style='font-size: 20px; color: #dc2626;'></i><span>We could not send your message right now.</span></div><p style='color: #555; font-size: 15px; line-height: 1.6;'>A temporary connection issue occurred. Please contact us directly via WhatsApp or email:</p><p style='font-size: 16px;'><i class='fa-brands fa-whatsapp text-success me-1'></i> <strong>WhatsApp:</strong> <a href='https://wa.me/923424852893' target='_blank'>+92 342 4852893</a><br><i class='fa-regular fa-envelope text-primary me-1'></i> <strong>Email:</strong> <a href='mailto:alasimquran@gmail.com'>alasimquran@gmail.com</a></p>", False)
         End Try
     End Sub
 
