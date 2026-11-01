@@ -16,7 +16,7 @@
                     </div>
                     <span class="am-page-kicker"><i class="fa-solid fa-lightbulb"></i> Course 4: Divine Comprehension</span>
                     <h1>Quran Tafseer &amp; Translation</h1>
-                    <p>Unlock the divine wisdom, historical contexts (Asbab al-Nuzul), and practical daily life applications of the Holy Quran with authentic classical commentary.</p>
+                    <p>Study Quranic meanings through translation, language, historical context and guided discussion of the lessons and values found in selected verses.</p>
                     <div class="am-page-actions">
                         <a class="green_btn" href="free-trial.aspx"><span>Book Free Trial Class</span></a>
                         <a class="am-page-text-link" href="inquiry.aspx">Inquire About Course <i class="fa-solid fa-arrow-right"></i></a>
@@ -49,32 +49,32 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".1s">
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-language"></i></span>
-                        <h4 class="mt-3">Word-by-Word Translation</h4>
-                        <p class="mb-0 text-secondary">Break down every single Arabic word in the Ayah, learning root letters and accurate meanings in English or Urdu.</p>
+                        <h4 class="mt-3">Quranic Interpretation</h4>
+                        <p class="mb-0 text-secondary">Explore the meaning of selected verses and how their surrounding context can guide understanding.</p>
                     </div>
                 </div>
                 <!-- Module 2 -->
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".15s">
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-landmark"></i></span>
-                        <h4 class="mt-3">Authentic Tafseer</h4>
-                        <p class="mb-0 text-secondary">Study explanations from trusted classical commentaries (Tafseer Ibn Kathir, Ma'ariful Quran, Tafseer As-Sa'di).</p>
+                        <h4 class="mt-3">Principles of Tafseer</h4>
+                        <p class="mb-0 text-secondary">Become familiar with the role of language, context and scholarly principles in explaining Quranic passages.</p>
                     </div>
                 </div>
                 <!-- Module 3 -->
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-compass"></i></span>
-                        <h4 class="mt-3">Practical Guidance</h4>
-                        <p class="mb-0 text-secondary">Extract life lessons on family relationships, honesty in business, patience in adversity, and dealing with people.</p>
+                        <h4 class="mt-3">Islamic Sciences</h4>
+                        <p class="mb-0 text-secondary">Study how Arabic grammar and relevant Hadith can help learners engage with Quranic meanings and teachings.</p>
                     </div>
                 </div>
                 <!-- Module 4 -->
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".25s">
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-shield-heart"></i></span>
-                        <h4 class="mt-3">Islamic Values</h4>
-                        <p class="mb-0 text-secondary">Strengthen your worldview and faith, answering modern doubts and establishing deep certainty in Allah's word.</p>
+                        <h4 class="mt-3">History, Ethics &amp; Guidance</h4>
+                        <p class="mb-0 text-secondary">Discuss historical background, worship, good character and practical values in the light of the lesson being studied.</p>
                     </div>
                 </div>
             </div>
@@ -84,10 +84,10 @@
                     <div class="p-4 bg-light rounded-3 border h-100">
                         <h4 class="fw-bold mb-3"><i class="fa-solid fa-graduation-cap text-success me-2"></i>Ideal For:</h4>
                         <ul class="list-unstyled mb-0">
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Anyone who recites the Quran but wants to comprehend its message</li>
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Parents who want to explain Quranic values to their children</li>
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Young adults looking for spiritual purpose and moral clarity</li>
-                            <li class="py-2"><i class="fa-solid fa-check text-success me-2"></i> Reverts and learners of all backgrounds</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Learners who can read the Quran and want to study its meanings</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Students interested in context and the explanation of selected verses</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Adults seeking guided study of Quranic values and teachings</li>
+                            <li class="py-2"><i class="fa-solid fa-check text-success me-2"></i> Learners ready to ask questions and reflect on what they study</li>
                         </ul>
                     </div>
                 </div>
@@ -95,10 +95,10 @@
                     <div class="p-4 bg-light rounded-3 border h-100">
                         <h4 class="fw-bold mb-3"><i class="fa-solid fa-layer-group text-primary me-2"></i>Course Details:</h4>
                         <ul class="list-unstyled mb-0">
-                            <li class="py-2 border-bottom"><strong>Prerequisite:</strong> Basic Quran reading ability (Nazra)</li>
-                            <li class="py-2 border-bottom"><strong>Sessions:</strong> 1-on-1 personalized discussions with scholars</li>
-                            <li class="py-2 border-bottom"><strong>Schedule:</strong> 2 to 4 classes per week (30 to 45 mins)</li>
-                            <li class="py-2"><strong>Materials:</strong> Digital vocabulary sheets and commentary notes included</li>
+                            <li class="py-2 border-bottom"><strong>Starting point:</strong> Basic Quran reading is recommended</li>
+                            <li class="py-2 border-bottom"><strong>Study areas:</strong> Translation, interpretation, context and selected Islamic sciences</li>
+                            <li class="py-2 border-bottom"><strong>Learning style:</strong> Guided lessons with room for questions and discussion</li>
+                            <li class="py-2"><strong>Scheduling:</strong> Discuss suitable class times when you inquire</li>
                         </ul>
                     </div>
                 </div>

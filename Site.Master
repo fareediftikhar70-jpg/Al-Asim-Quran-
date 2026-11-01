@@ -6,30 +6,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title><asp:ContentPlaceHolder ID="TitleContent" runat="server">Al Asim Quran – Learn Quran Online &amp; Islamic Education</asp:ContentPlaceHolder></title>
-<link rel="icon" type="image/png" href="assets/img/icons/al-asim-logo-black-transparent.png" />
+<link rel="icon" type="image/png" href="<%= ResolveUrl("~/assets/img/icons/al-asim-logo-black-transparent.png") %>" />
 <link rel="preconnect" href="https://fonts.googleapis.com/" />
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="crossorigin" />
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-<link rel="stylesheet" href="assets/vendor/themify/themify.css" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/vendor/bootstrap/css/bootstrap.min.css") %>" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/vendor/themify/themify.css") %>" />
 <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
-<link rel="stylesheet" href="assets/css/meanmenu.css" />
-<link rel="stylesheet" href="assets/css/preloader.css" />
-<link rel="stylesheet" href="assets/css/animate.css" />
-<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-<link rel="stylesheet" href="assets/css/magnific-popup.css" />
-<link rel="stylesheet" href="assets/css/niceselect.css" />
-<link rel="stylesheet" href="assets/css/style.css?v=56" />
-<link rel="stylesheet" href="assets/css/responsive.css?v=4" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/meanmenu.css") %>" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/preloader.css") %>" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/animate.css") %>" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/swiper-bundle.min.css") %>" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/magnific-popup.css") %>" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/niceselect.css") %>" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/style.css?v=75") %>" />
+<link rel="stylesheet" href="<%= ResolveUrl("~/assets/css/responsive.css?v=4") %>" />
 <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
 </head>
 <body>
 
 <!-- Preloader -->
 <div class="preloader_wrap">
-    <img src="assets/img/icons/al-asim-logo-black-transparent.png" class="pre_logo" alt="Al-Asim Quran" style="max-height: 60px; width: auto; background: transparent;" />
+    <img src="<%= ResolveUrl("~/assets/img/icons/al-asim-logo-black-transparent.png") %>" class="pre_logo" alt="Al-Asim Quran" style="max-height: 60px; width: auto; background: transparent;" />
     <span class="preloader"></span>
 </div>	
 
@@ -40,8 +39,8 @@
 			<div class="offcanvas__content">
 				<div class="offcanvas__top d-flex justify-content-between align-items-center">
 					<div class="offcanvas__logo">
-						<a href="Default.aspx">
-							<img src="assets/img/icons/al-asim-logo-black-transparent.png" alt="Al-Asim Quran" style="max-height: 48px; width: auto;" />
+						<a href="<%= ResolveUrl("~/Default.aspx") %>">
+							<img src="<%= ResolveUrl("~/assets/img/icons/al-asim-logo-black-transparent.png") %>" alt="Al-Asim Quran" style="max-height: 48px; width: auto;" />
 						</a>
 					</div>
 					<div class="offcanvas__close">
@@ -65,7 +64,7 @@
 								<i class="fas fa-map-marker-alt"></i>
 							</div>
 							<div class="offcanvas__contact-text">
-								<a href="contact.aspx">Serving Students Online Worldwide in 20+ Countries</a>
+								<a href="<%= ResolveUrl("~/contact.aspx") %>">Serving Students Online Worldwide in 20+ Countries</a>
 							</div>
 						</li>
 						<li class="d-flex align-items-center">
@@ -73,7 +72,7 @@
 								<i class="fas fa-envelope"></i>
 							</div>
 							<div class="offcanvas__contact-text">
-								<a href="mailto:alasimquran@gmail.com"><span>alasimquran@gmail.com</span></a>
+								<a href="mailto:alasimquran@gmail.com?subject=Inquiry%20to%20Al-Asim%20Quran&amp;body=Assalamu%20Alaikum%2C%0D%0A%0D%0AI%20would%20like%20to%20know%20more%20about%20your%20Quran%20courses.%0D%0A%0D%0AName%3A%0D%0ACourse%20of%20interest%3A%0D%0APreferred%20class%20time%3A%0D%0A%0D%0AJazakAllah%20Khair" aria-label="Email Al-Asim Quran"><span>alasimquran@gmail.com</span></a>
 							</div>
 						</li>
 						<li class="d-flex align-items-center">
@@ -81,7 +80,7 @@
 								<i class="fas fa-clock"></i>
 							</div>
 							<div class="offcanvas__contact-text">
-								<a href="inquiry.aspx">24/7 Flexible Timings &amp; Schedules</a>
+								<a href="<%= ResolveUrl("~/inquiry.aspx") %>">24/7 Flexible Timings &amp; Schedules</a>
 							</div>
 						</li>
 						<li class="d-flex align-items-center">
@@ -95,7 +94,7 @@
 					</ul>
 					
 					<div class="header-button mt-4 d-grid gap-2">
-						<a href="free-trial.aspx" class="green_btn text-center">
+						<a href="<%= ResolveUrl("~/free-trial.aspx") %>" class="green_btn text-center">
 							<span>Book Free Trial</span>
 						</a>
 					</div>
@@ -126,25 +125,22 @@
 			<div class="row align-items-center g-2 am-header-top-row">
 				
 				<!-- Left info -->
-				<div class="col-xl-4 col-lg-4 col-12 htleft d-flex align-items-center justify-content-center justify-content-lg-start">
-					<ul class="m-0 p-0 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-3">
-						<li><i class="fa-solid fa-envelope me-1"></i> <a href="mailto:alasimquran@gmail.com">alasimquran@gmail.com</a></li>
-						<li><i class="fa-solid fa-phone me-1"></i> <a href="tel:+923424852893" style="color: inherit;">0342-4852893</a></li>
-					</ul>							
+				<div class="col-xl-4 col-lg-4 col-12 htleft am-header-contact d-flex align-items-center justify-content-center justify-content-lg-start">
+					<div class="am-header-contact-stack">
+						<div class="am-header-welcome">Welcome to Al-Asim Quran!</div>
+						<a class="am-header-contact-line" href="mailto:alasimquran@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> <span>alasimquran@gmail.com</span></a>
+						<a class="am-header-contact-line" href="tel:+923424852893"><i class="fa-solid fa-phone" aria-hidden="true"></i> <span>0342-4852893</span></a>
+					</div>
 				</div><!-- End Col -->
 
 				<!-- Center Bismillah Calligraphy (Dead Center of the Bar) -->
 				<div class="bis_himage_center d-none d-lg-flex justify-content-center align-items-center">
-					<img src="assets/img/bismillah-white-transparent.png" alt="Bismillah Calligraphy" class="am-bismillah-img" />
+					<img src="<%= ResolveUrl("~/assets/img/icons/topmidloogo-transparent.png?v=3") %>" alt="Al-Asim Quran calligraphy" class="am-bismillah-img" />
 				</div>
 
 				<!-- Right info: Sunrise & Sunset on top, Social Icons below, flush to right edge -->
 				<div class="col-xl-4 col-lg-4 col-12 ms-auto htright d-flex justify-content-center justify-content-lg-end align-items-center">
 					<div class="am-ht-right-box">
-						<div class="am-sun-times mb-1">
-							<span><i class="fa-solid fa-sun me-1"></i> Sunrise At: 5.30 AM</span>
-							<span class="ms-3"><i class="fa-solid fa-moon me-1"></i> Sunset At: 5.30 PM</span>
-						</div>
 						<div class="social_icons d-flex align-items-center justify-content-center justify-content-lg-end gap-2">
 							<a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
 							<a href="https://www.instagram.com/al_asimquran?srtk=MXhpNnJ4d3l1ZGtleg==" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -152,6 +148,7 @@
 							<a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
 							<a href="https://wa.me/923424852893" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 						</div>
+						<div class="am-follow-label">Follow us!</div>
 					</div>
 				</div><!-- End Col -->
 
@@ -167,8 +164,8 @@
 				<!-- Logo -->
 				<div class="col-xl-2 col-md-3 col-sm-4 col-5">
 					<div class="site-logo">
-						<a href="Default.aspx" title="Al-Asim Quran">
-							<img src="assets/img/icons/al-asim-logo-black-transparent.png" alt="Al-Asim Quran" />
+						<a href="<%= ResolveUrl("~/Default.aspx") %>" title="Al-Asim Quran">
+							<img src="<%= ResolveUrl("~/assets/img/icons/navbarlogo-transparent.png?v=2") %>" alt="Al-Asim Quran" />
 						</a>
 					</div>
 				</div><!-- End Col -->
@@ -178,25 +175,29 @@
 					<div class="header-left d-flex justify-content-center">								
 						<nav id="main-menu">
 							<ul>
-								<li><a href="Default.aspx">Home</a></li>
+								<li><a href="<%= ResolveUrl("~/Default.aspx") %>">Home</a></li>
 								
 								<!-- Who We Are Dropdown -->
 								<li class="menu-item-has-children">
 									<a href="javascript:void(0);" class="nav-dropdown-toggle">Who We Are</a>
 									<ul class="sub-menu">
-										<li><a href="our-story.aspx">Our Story</a></li>
-										<li><a href="introduction.aspx">Introduction</a></li>
-										<li><a href="mission-statement.aspx">Mission Statement</a></li>
-										<li><a href="vision-statement.aspx">Vision Statement</a></li>
-										<li><a href="core-values.aspx">Core Values</a></li>
-										<li><a href="the-message.aspx">The Message (CEO)</a></li>
-										<li><a href="team-management.aspx">Team Management</a></li>
-										<li><a href="why-choose-al-asim-quran.aspx">Why Choose Us</a></li>
-										<li><a href="aims-and-objectives.aspx">Aims &amp; Objectives</a></li>
-										<li><a href="our-certificate.aspx">Our Certificate</a></li>
-										<li><a href="our-registration.aspx">Our Registration</a></li>
-										<li><a href="support.aspx">Support Center</a></li>
-										<li><a href="inquiry.aspx">Inquiry Page</a></li>
+										<li><a href="<%= ResolveUrl("~/our-story.aspx") %>">Our Story</a></li>
+										<li class="menu-item-has-children am-nested-hover-menu am-introduction-menu">
+											<a href="javascript:void(0);" class="nav-dropdown-toggle">Introduction</a>
+											<ul class="sub-menu">
+												<li><a href="<%= ResolveUrl("~/introduction.aspx") %>">Introduction</a></li>
+												<li><a href="<%= ResolveUrl("~/mission-statement.aspx") %>">Mission Statement</a></li>
+												<li><a href="<%= ResolveUrl("~/vision-statement.aspx") %>">Vision Statement</a></li>
+												<li><a href="<%= ResolveUrl("~/core-values.aspx") %>">Core Values</a></li>
+												<li><a href="<%= ResolveUrl("~/the-message.aspx") %>">The Message (CEO)</a></li>
+												<li><a href="<%= ResolveUrl("~/team-management.aspx") %>">Team Management</a></li>
+												<li><a href="<%= ResolveUrl("~/why-choose-al-asim-quran.aspx") %>">Why Choose Us</a></li>
+												<li><a href="<%= ResolveUrl("~/aims-and-objectives.aspx") %>">Aims &amp; Objectives</a></li>
+											</ul>
+										</li>
+										<li><a href="<%= ResolveUrl("~/our-certificate.aspx") %>">Our Certificate</a></li>
+										<li><a href="<%= ResolveUrl("~/our-registration.aspx") %>">Our Registration</a></li>
+										<li><a href="<%= ResolveUrl("~/inquiry.aspx") %>">Inquiry Page</a></li>
 									</ul>
 								</li>
 
@@ -204,13 +205,20 @@
 								<li class="menu-item-has-children">
 									<a href="javascript:void(0);" class="nav-dropdown-toggle">Courses</a>
 									<ul class="sub-menu">
-										<li><a href="quran-reading-for-beginners.aspx">Quran Reading (Nazra)</a></li>
-										<li><a href="quran-with-tajweed.aspx">Quran with Tajweed</a></li>
-										<li><a href="hifz-ul-quran.aspx">Hifz-ul-Quran</a></li>
-										<li><a href="tafseer-and-translation.aspx">Tafseer &amp; Translation</a></li>
-										<li><a href="islamic-studies.aspx">Islamic Studies</a></li>
-										<li><a href="arabic-language.aspx">Arabic Language</a></li>
-										<li><a href="courses.aspx">View All Courses &amp; Fee Plans</a></li>
+										<li><a href="<%= ResolveUrl("~/quran-reading-for-beginners.aspx") %>">Quran Reading (Nazra)</a></li>
+										<li><a href="<%= ResolveUrl("~/noorani-qaida.aspx") %>">Noorani Qaida</a></li>
+										<li><a href="<%= ResolveUrl("~/quran-with-tajweed.aspx") %>">Quran with Tajweed</a></li>
+										<li><a href="<%= ResolveUrl("~/hifz-ul-quran.aspx") %>">Hifz-ul-Quran</a></li>
+										<li><a href="<%= ResolveUrl("~/tafseer-and-translation.aspx") %>">Tafseer &amp; Translation</a></li>
+										<li><a href="<%= ResolveUrl("~/daily-islamic-supplications.aspx") %>">Daily Duas &amp; Sunnah</a></li>
+										<li class="menu-item-has-children am-nested-hover-menu am-islamic-studies-menu">
+											<a href="<%= ResolveUrl("~/islamic-studies.aspx") %>" class="nav-dropdown-toggle">Islamic Studies</a>
+											<ul class="sub-menu">
+												<li><a href="<%= ResolveUrl("~/pillars-of-islam.aspx") %>">Pillars of Islam</a></li>
+											</ul>
+										</li>
+										<li><a href="<%= ResolveUrl("~/arabic-language.aspx") %>">Arabic Language</a></li>
+										<li><a href="<%= ResolveUrl("~/courses.aspx") %>">Courses &amp; Fee Plans</a></li>
 									</ul>
 								</li>
 
@@ -218,25 +226,23 @@
 								<li class="menu-item-has-children">
 									<a href="javascript:void(0);" class="nav-dropdown-toggle">Explore</a>
 									<ul class="sub-menu">
-										<li><a href="service-details.aspx">Service Details</a></li>
-										<li><a href="spiritual-development.aspx">Spiritual Development</a></li>
-										<li><a href="modern-integrations.aspx">Modern Integrations</a></li>
-										<li><a href="student-programs.aspx">Student Programs</a></li>
-										<li><a href="tutors.aspx">Meet Qualified Tutors</a></li>
-										<li><a href="testimonials.aspx">Testimonials | Reviews</a></li>
-										<li><a href="events.aspx">Events</a></li>
-										<li><a href="announcements.aspx">Announcements</a></li>
-										<li><a href="gallery.aspx">Official Gallery</a></li>
-										<li><a href="downloads.aspx">Downloads</a></li>
-										<li><a href="publications.aspx">Publications</a></li>
-										<li><a href="online-payments.aspx">Online Payments</a></li>
-										<li><a href="free-trial.aspx">Free Trial Classes</a></li>
+										<li><a href="<%= ResolveUrl("~/spiritual-development.aspx") %>">Spiritual Development</a></li>
+										<li><a href="<%= ResolveUrl("~/tutors.aspx") %>">Meet Qualified Tutors</a></li>
+										<li><a href="<%= ResolveUrl("~/testimonials.aspx") %>">Testimonials | Reviews</a></li>
+										<li><a href="<%= ResolveUrl("~/events.aspx") %>">Events</a></li>
+										<li><a href="<%= ResolveUrl("~/announcements.aspx") %>">Announcements</a></li>
+										<li><a href="<%= ResolveUrl("~/gallery.aspx") %>">Official Gallery</a></li>
+										<li><a href="<%= ResolveUrl("~/downloads.aspx") %>">Downloads</a></li>
+										<li><a href="<%= ResolveUrl("~/online-payments.aspx") %>">Online Payments</a></li>
+										<li><a href="<%= ResolveUrl("~/free-trial.aspx") %>">Free Trial Classes</a></li>
+						<li><a href="<%= ResolveUrl("~/modern-integrations.aspx") %>">Integrations</a></li>
 									</ul>
 								</li>
 
-								<li><a href="blog.aspx">Blog</a></li>
+								<li><a href="<%= ResolveUrl("~/blog.aspx") %>">Blog</a></li>
 
-								<li><a href="contact.aspx">Contact</a></li>
+								<li><a href="<%= ResolveUrl("~/contact.aspx") %>">Contact</a></li>
+								<li><a href="<%= ResolveUrl("~/support.aspx") %>">Support Center</a></li>
 							</ul>
 						</nav><!-- End Main Menu -->							
 					</div>
@@ -249,7 +255,7 @@
 						<a class="search_btn align-self-center" data-menu="#popup_searchbox" href="javascript:void(0);" title="Search Courses">
 							<i class="ph ph-magnifying-glass"></i>
 						</a>
-						<a class="green_btn align-self-center d-none d-sm-block" href="free-trial.aspx">
+						<a class="green_btn align-self-center d-none d-sm-block" href="<%= ResolveUrl("~/free-trial.aspx") %>">
 							<span>JOIN NOW</span>
 						</a>
 						<a href="javascript:void(0);" class="widget_menu_icon" aria-label="Open Mobile Menu">
@@ -281,6 +287,86 @@
 </div>			
 <!-- End Popup Search Box -->
 
+<!-- Arabic Hadith & Quranic Ayat Ticker (Running Islamic Ribbon) -->
+<div class="am-islamic-ribbon">
+	<div class="container-fluid px-3">
+		<div class="am-ribbon-inner">
+			<div class="am-ribbon-tag">
+				<i class="fa-solid fa-book-quran"></i>
+				<span>فرمانِ نبوی ﷺ و قرآنِ مجید</span>
+			</div>
+			<div class="am-ribbon-marquee">
+				<div class="am-ribbon-track">
+					<span class="am-ribbon-item">
+						<span class="am-ar">«خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ»</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"تم میں سے بہترین وہ ہے جو قرآن سیکھے اور سکھائے" (صحیح بخاری)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"The best among you are those who learn the Quran and teach it." (Bukhari)</span>
+					</span>
+					<span class="am-star">✦</span>
+					<span class="am-ribbon-item">
+						<span class="am-ar">﴿وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا﴾</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"اور قرآن کو ٹھہر ٹھہر کر صاف پڑھا کرو" (سورۃ المزمل: 4)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"And recite the Quran with measured recitation." (Surah Al-Muzzammil)</span>
+					</span>
+					<span class="am-star">✦</span>
+					<span class="am-ribbon-item">
+						<span class="am-ar">«طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَىٰ كُلِّ مُسْلِمٍ»</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"علم حاصل کرنا ہر مسلمان پر فرض ہے" (ابن ماجہ)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"Seeking knowledge is an obligation upon every Muslim." (Ibn Majah)</span>
+					</span>
+					<span class="am-star">✦</span>
+					<span class="am-ribbon-item">
+						<span class="am-ar">﴿إِنَّ هَٰذَا الْقُرْآنَ يَهْدِي لِلَّتِي هِيَ أَقْوَمُ﴾</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"بے شک یہ قرآن اس راستے کی رہنمائی کرتا ہے جو سب سے سیدھا ہے" (سورۃ الاسراء: 9)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"Indeed, this Quran guides to that which is most upright." (Surah Al-Isra)</span>
+					</span>
+					<span class="am-star">✦</span>
+					<span class="am-ribbon-item">
+						<span class="am-ar">«الْمَاهِرُ بِالْقُرْآنِ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ»</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"قرآن کا ماہر معزز اور نیک فرشتوں کے ساتھ ہوگا" (صحیح مسلم)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"The one proficient in the Quran is with the noble righteous scribes." (Muslim)</span>
+					</span>
+					<span class="am-star">✦</span>
+					<!-- Duplicate for continuous marquee loop -->
+					<span class="am-ribbon-item">
+						<span class="am-ar">«خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ»</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"تم میں سے بہترین وہ ہے جو قرآن سیکھے اور سکھائے" (صحیح بخاری)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"The best among you are those who learn the Quran and teach it." (Bukhari)</span>
+					</span>
+					<span class="am-star">✦</span>
+					<span class="am-ribbon-item">
+						<span class="am-ar">﴿وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا﴾</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"اور قرآن کو ٹھہر ٹھہر کر صاف پڑھا کرو" (سورۃ المزمل: 4)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"And recite the Quran with measured recitation." (Surah Al-Muzzammil)</span>
+					</span>
+					<span class="am-star">✦</span>
+					<span class="am-ribbon-item">
+						<span class="am-ar">«طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَىٰ كُلِّ مُسْلِمٍ»</span>
+						<span class="am-sep">•</span>
+						<span class="am-ur">"علم حاصل کرنا ہر مسلمان پر فرض ہے" (ابن ماجہ)</span>
+						<span class="am-sep">•</span>
+						<span class="am-en">"Seeking knowledge is an obligation upon every Muslim." (Ibn Majah)</span>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <asp:ContentPlaceHolder ID="MainContent" runat="server" />
 
 <!-- ===================== FOOTER AREA ===================== -->
@@ -291,8 +377,8 @@
 			<!-- Col 1: Logo & Contact Details -->
 			<div class="col-xl-3 col-md-6 footer-logo wow fadeIn">
 				<div class="footer-widget footer-contact">
-					<a href="Default.aspx" class="footer-logo mb-2 d-inline-block">
-						<img src="assets/img/icons/al-asim-logo-white-transparent.png" alt="Al-Asim Quran Logo" style="max-height: 52px; width: auto;" />
+					<a href="<%= ResolveUrl("~/Default.aspx") %>" class="footer-logo mb-2 d-inline-block">
+						<img src="<%= ResolveUrl("~/assets/img/icons/al-asim-logo-white-transparent.png") %>" alt="Al-Asim Quran Logo" style="max-height: 52px; width: auto;" />
 					</a>
 					<p class="mb-3" style="font-size: 13.5px; line-height: 1.45; color: rgba(255, 255, 255, 0.85); font-weight: 500;">Al Asim Quran – Learn Quran Online &amp; Islamic Education</p>
 					<ul class="mt-2">
@@ -308,11 +394,11 @@
 				<div class="footer-widget">
 					<h3 class="ftitle"><i class="fa-solid fa-mosque"></i> COMPANY</h3>
 					<ul>
-						<li><a href="our-story.aspx">About Us</a></li>
-						<li><a href="courses.aspx">Courses</a></li>
-						<li><a href="tutors.aspx">Instructors &amp; Tutors</a></li>
-						<li><a href="events.aspx">Events</a></li>
-						<li><a href="why-choose-al-asim-quran.aspx">Why Choose Us</a></li>
+						<li><a href="<%= ResolveUrl("~/our-story.aspx") %>">About Us</a></li>
+						<li><a href="<%= ResolveUrl("~/courses.aspx") %>">Courses</a></li>
+						<li><a href="<%= ResolveUrl("~/tutors.aspx") %>">Instructors &amp; Tutors</a></li>
+						<li><a href="<%= ResolveUrl("~/events.aspx") %>">Events</a></li>
+						<li><a href="<%= ResolveUrl("~/why-choose-al-asim-quran.aspx") %>">Why Choose Us</a></li>
 					</ul>
 				</div>
 			</div><!-- End Col -->	
@@ -322,14 +408,14 @@
 				<div class="footer-widget">
 					<h3 class="ftitle"><i class="fa-solid fa-mosque"></i> QUICK LINKS</h3>
 					<ul>
-						<li><a href="courses.aspx">Online Courses</a></li>
-						<li><a href="hifz-ul-quran.aspx">Quran Hifz</a></li>
-						<li><a href="tafseer-and-translation.aspx">Tafseer &amp; Translation</a></li>
-						<li><a href="free-trial.aspx">Free Trial Classes</a></li>
-						<li><a href="faq.aspx">FAQ</a></li>
-						<li><a href="privacy-policy.aspx">Privacy Policy</a></li>
-						<li><a href="terms-conditions.aspx">Terms &amp; Conditions</a></li>
-						<li><a href="disclaimer.aspx">Disclaimer</a></li>
+						<li><a href="<%= ResolveUrl("~/courses.aspx") %>">Online Courses</a></li>
+						<li><a href="<%= ResolveUrl("~/hifz-ul-quran.aspx") %>">Quran Hifz</a></li>
+						<li><a href="<%= ResolveUrl("~/tafseer-and-translation.aspx") %>">Tafseer &amp; Translation</a></li>
+						<li><a href="<%= ResolveUrl("~/free-trial.aspx") %>">Free Trial Classes</a></li>
+						<li><a href="<%= ResolveUrl("~/faq.aspx") %>">FAQ</a></li>
+						<li><a href="<%= ResolveUrl("~/privacy-policy.aspx") %>">Privacy Policy</a></li>
+						<li><a href="<%= ResolveUrl("~/terms-conditions.aspx") %>">Terms &amp; Conditions</a></li>
+						<li><a href="<%= ResolveUrl("~/disclaimer.aspx") %>">Disclaimer</a></li>
 					</ul>
 				</div>
 			</div><!-- End Col -->	
@@ -340,8 +426,9 @@
 					<h3 class="ftitle"><i class="fa-solid fa-mosque"></i> LATEST NEWSLETTER</h3>
 					<p>Subscribe us &amp; receive our offers and updates in your inbox directly.</p>
 					<div class="footer_news_form">
-						<form action="inquiry.aspx" method="get">
+						<form action="<%= ResolveUrl("~/form-submit.aspx?type=Newsletter") %>" method="post">
 							<input type="email" name="EMAIL" placeholder="Enter Email Address" required="required" />
+							<div aria-hidden="true" style="position:absolute;left:-10000px;height:1px;width:1px;overflow:hidden;"><label>Leave this field empty<input type="text" name="website_check" tabindex="-1" autocomplete="off" /></label></div>
 							<button type="submit" class="green_btn"><span>SUBSCRIBE NOW</span></button>
 						</form>
 					</div>
@@ -374,12 +461,6 @@
 					<p class="mb-2">
 						Copyright 2026 All Rights Reserved Al-Asim Quran
 					</p>
-					<div class="footer-legal-links">
-						<a href="faq.aspx">FAQ</a> &bull;
-						<a href="privacy-policy.aspx">Privacy Policy</a> &bull;
-						<a href="terms-conditions.aspx">Terms &amp; Conditions</a> &bull;
-						<a href="disclaimer.aspx">Disclaimer</a>
-					</div>
 				</div><!-- End Col -->
 			</div>				
 		</div>
@@ -403,17 +484,17 @@
 </div>
 
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/jquery.meanmenu.min.js"></script>
+<script src="<%= ResolveUrl("~/assets/js/jquery.min.js") %>"></script>
+<script src="<%= ResolveUrl("~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js") %>"></script>
+<script src="<%= ResolveUrl("~/assets/js/jquery.meanmenu.min.js") %>"></script>
 <script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1"></script>
-<script src="assets/js/jquery.inview.min.js"></script>		
-<script src="assets/js/jquery.magnific-popup.js"></script>	
-<script src="assets/js/swiper-bundle.min.js"></script>	
-<script src="assets/js/wow.js"></script>		
-<script src="assets/js/scroll-top.js"></script>		
-<script src="assets/js/audio-player.js"></script>											
-<script src="assets/js/scripts.js"></script>	
+<script src="<%= ResolveUrl("~/assets/js/jquery.inview.min.js") %>"></script>		
+<script src="<%= ResolveUrl("~/assets/js/jquery.magnific-popup.js") %>"></script>	
+<script src="<%= ResolveUrl("~/assets/js/swiper-bundle.min.js") %>"></script>	
+<script src="<%= ResolveUrl("~/assets/js/wow.js") %>"></script>		
+<script src="<%= ResolveUrl("~/assets/js/scroll-top.js") %>"></script>		
+<script src="<%= ResolveUrl("~/assets/js/audio-player.js") %>"></script>											
+<script src="<%= ResolveUrl("~/assets/js/scripts.js") %>"></script>	
 
 <!-- Floating WhatsApp Button -->
 <a href="https://wa.me/923424852893?text=Assalam-o-Alaikum%2C%20I%20want%20to%20inquire%20about%20Al-Asim%20Quran%20courses" 
@@ -430,14 +511,16 @@
 <script>
 	jQuery(document).ready(function ($) {
 		// Toggle dropdown on click instead of refreshing/navigating
-		$('#main-menu .menu-item-has-children > a').on('click', function (e) {
+		$('#main-menu .menu-item-has-children:not(.am-nested-hover-menu) > a.nav-dropdown-toggle').on('click', function (e) {
 			e.preventDefault();
 			e.stopPropagation();
 			var $parent = $(this).parent('.menu-item-has-children');
 			var wasOpen = $parent.hasClass('dropdown-open');
-			$('#main-menu .menu-item-has-children').removeClass('dropdown-open');
+			$parent.siblings('.menu-item-has-children').removeClass('dropdown-open');
 			if (!wasOpen) {
 				$parent.addClass('dropdown-open');
+			} else {
+				$parent.find('.menu-item-has-children').removeClass('dropdown-open');
 			}
 		});
 

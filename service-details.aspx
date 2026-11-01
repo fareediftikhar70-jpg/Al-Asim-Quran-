@@ -180,11 +180,12 @@
                     <!-- Widget 3: Quick Registration / Inquiry Form -->
                     <div class="sidebar-widget wow fadeInUp">
                         <h4 class="widget-title">Register Your Interest</h4>
-                        <form>
-                            <input type="text" placeholder="Full Name" class="form-control" required>
-                            <input type="email" placeholder="Email Address" class="form-control" required>
-                            <input type="tel" placeholder="Phone Number" class="form-control">
-                            <textarea placeholder="Tell us about the participant (Age, Interests)" rows="3"
+                        <form action="form-submit.aspx?type=Service" method="post">
+                            <div aria-hidden="true" style="position:absolute;left:-10000px;height:1px;width:1px;overflow:hidden;"><label>Leave this field empty<input type="text" name="website_check" tabindex="-1" autocomplete="off"></label></div>
+                            <input type="text" name="name" placeholder="Full Name" class="form-control" required="required">
+                            <input type="email" name="email" placeholder="Email Address" class="form-control" required="required">
+                            <input type="tel" name="phone" placeholder="Phone Number" class="form-control">
+                            <textarea name="message" placeholder="Tell us about the participant (Age, Interests)" rows="3"
                                 class="form-control"></textarea>
                             <button type="submit" class="green_btn"><span>Submit Inquiry</span></button>
                         </form>

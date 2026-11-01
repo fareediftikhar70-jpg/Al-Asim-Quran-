@@ -759,9 +759,9 @@ button.yellow_btn {
 .am-step-number { display: inline-flex; width: 46px; height: 46px; align-items: center; justify-content: center; margin-bottom: 18px; border-radius: 50%; color: #fff; background: #198f5b; font-weight: 700; }
 .am-step-card h3 { margin-bottom: 10px; color: #183125; font-size: 20px; }
 .am-step-card p { margin: 0; color: #6b746e; line-height: 1.7; }
-.am-home-cta { padding: 55px 0; background: #173c2d; }
+.am-home-cta { padding: 25px 0; background: #113626; }
 .am-home-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding: 38px 44px; border: 1px solid rgba(255,255,255,.16); border-radius: 20px; background: linear-gradient(115deg, rgba(25,143,91,.28), rgba(255,255,255,.04)); }
-.am-home-cta-inner span { display: block; margin-bottom: 10px; color: #f4bd35; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.am-home-cta-inner span.am-cta-tagline { display: block; margin-bottom: 10px; color: #f4bd35; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .am-home-cta-inner h2 { margin: 0 0 10px; color: #fff; font-size: clamp(26px, 3vw, 38px); }
 .am-home-cta-inner p { margin: 0; color: rgba(255,255,255,.8); }
 @media (max-width: 767px) { .am-home-cta-inner { align-items: flex-start; flex-direction: column; padding: 30px 24px; } }
@@ -6666,7 +6666,7 @@ a.pthumb {
 
 .sidebar-widget .form-control{
 	margin-bottom: 14px;
-	font-family: var(--body);
+	font-family: 'Lexend', sans-serif;
   	font-size: 14px;
 }
 .sidebar-widget form .green_btn {
@@ -7073,6 +7073,25 @@ a.pthumb {
 	top: 100% !important;
 	pointer-events: auto !important;
 }
+#navigation #main-menu ul li.am-nested-hover-menu.dropdown-open > ul,
+#navigation #main-menu ul li.am-nested-hover-menu:hover > ul {
+	top: 0 !important;
+	left: 100% !important;
+	margin-left: 0 !important;
+}
+#navigation #main-menu ul li.am-nested-hover-menu > ul {
+	opacity: 0 !important;
+	visibility: hidden !important;
+	pointer-events: none !important;
+}
+#navigation #main-menu ul li.am-nested-hover-menu:hover > ul {
+	opacity: 1 !important;
+	visibility: visible !important;
+	pointer-events: auto !important;
+}
+#navigation #main-menu .am-nested-hover-menu::after {
+	content: "\e649";
+}
 #navigation #main-menu .menu-item-has-children > a {
 	cursor: pointer;
 	user-select: none;
@@ -7275,6 +7294,13 @@ a.pthumb {
 	color: #1a1a1a;
 	line-height: 1.35;
 	margin-bottom: 14px;
+}
+.am-extra-card h3 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #1a1a1a;
+	line-height: 1.4;
+	margin: 0 0 10px;
 }
 .am-extra-card p {
 	color: #555555;
@@ -7489,9 +7515,7 @@ a.pthumb {
 .am-sub-btn-standard,
 .am-sub-btn-premium {
 	background: linear-gradient(135deg, #0e8544 0%, #085a2d 100%);
-}
-	color: #ffffff;
-	transform: translateY(-2px);
+	color: #ffffff !important;
 }
 
 /* ============================================================
@@ -7864,8 +7888,8 @@ select.form-control option {
 .am-bismillah-img,
 .bis_himage img,
 .bis_himage_center img {
-	height: 38px !important;
-	max-height: 42px !important;
+	height: 88px !important;
+	max-height: 92px !important;
 	width: auto !important;
 	display: block !important;
 	background: transparent !important;
@@ -7873,6 +7897,26 @@ select.form-control option {
 	box-shadow: none !important;
 	filter: none !important;
 	margin: 0 auto;
+}
+.am-header-welcome {
+	margin: 0 0 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .02em;
+	line-height: 1.2;
+}
+.am-header-slogan {
+	margin-top: 4px;
+	color: rgba(255,255,255,.94);
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .025em;
+	line-height: 1.2;
+	text-align: right;
+}
+@media (max-width: 991px) {
+	.am-header-slogan { text-align: center; }
 }
 .bis_himage {
 	position: absolute;
@@ -7891,6 +7935,11 @@ select.form-control option {
    HEADER TOP RIGHT ALIGNED (SUNRISE/SUNSET & SOCIAL ICONS FLUSH RIGHT)
    ============================================================ */
 .header-top.am-header-top-bar {
+	position: relative;
+	min-height: 104px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
 	padding: 8px 15px !important;
 }
 .header-top.am-header-top-bar .htright {
@@ -7898,6 +7947,46 @@ select.form-control option {
 	justify-content: flex-end !important;
 	align-items: center !important;
 	text-align: right !important;
+}
+.am-header-contact {
+	position: relative;
+	z-index: 1;
+}
+.am-header-contact-stack {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.25;
+}
+.am-header-welcome {
+	color: #fff;
+	margin-bottom: 2px;
+}
+.am-header-contact-line {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: #fff !important;
+	text-decoration: none;
+}
+.am-header-contact-line:hover {
+	color: #ffe07a !important;
+}
+.am-header-contact-line i {
+	width: 16px;
+	text-align: center;
+}
+.am-follow-label {
+	margin-top: 4px;
+	color: rgba(255,255,255,.9);
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .06em;
+	text-transform: uppercase;
 }
 .am-ht-right-box {
 	display: flex !important;
@@ -7949,6 +8038,14 @@ select.form-control option {
 	transform: translateY(-2px) !important;
 }
 @media (max-width: 991px) {
+	.header-top.am-header-top-bar {
+		min-height: 0;
+		padding: 12px 15px !important;
+	}
+	.am-header-contact-stack {
+		align-items: center;
+		text-align: center;
+	}
 	.header-top.am-header-top-bar .htright {
 		justify-content: center !important;
 		text-align: center !important;
@@ -7957,6 +8054,9 @@ select.form-control option {
 		align-items: center !important;
 		text-align: center !important;
 		margin-top: 8px !important;
+	}
+	.am-follow-label {
+		text-align: center;
 	}
 	.am-sun-times,
 	.am-ht-right-box .social_icons {
@@ -8162,4 +8262,591 @@ select.form-control option {
 	line-height: 1.65;
 	margin: 0;
 	flex: 1;
+}
+
+
+/* ==========================================================================
+   AL-ASIM QURAN - ENHANCEMENTS: RUNNING HADITH/AYAT TICKER, CTA, WAVE & CARDS
+   ========================================================================== */
+
+/* 1. Islamic Running Ribbon (Arabic Quranic Ayat & Hadith Marquee) */
+.am-islamic-ribbon {
+	background: #092c1c;
+	color: #ffffff;
+	border-bottom: 2px solid #caa304;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 8px 0;
+	position: relative;
+	z-index: 100;
+	overflow: hidden;
+}
+.am-ribbon-inner {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.am-ribbon-tag {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	background: linear-gradient(135deg, #caa304, #9f7d02);
+	color: #092c1c;
+	font-size: 13px;
+	font-weight: 800;
+	padding: 5px 14px;
+	border-radius: 6px;
+	white-space: nowrap;
+	flex-shrink: 0;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.am-ribbon-tag i {
+	font-size: 14px;
+}
+.am-ribbon-marquee {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	position: relative;
+	mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent);
+	-webkit-mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent);
+}
+.am-ribbon-track {
+	display: inline-flex;
+	align-items: center;
+	white-space: nowrap;
+	animation: amScrollTicker 50s linear infinite;
+	gap: 24px;
+}
+.am-ribbon-track:hover {
+	animation-play-state: paused;
+}
+.am-ribbon-item {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	white-space: nowrap;
+}
+.am-ribbon-item .am-ar {
+	font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif;
+	font-size: 20px;
+	color: #ffe685;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding: 0 4px;
+}
+.am-ribbon-item .am-ur {
+	font-size: 14px;
+	color: #e5f4ec;
+	font-weight: 500;
+}
+.am-ribbon-item .am-en {
+	font-size: 13px;
+	color: #b5dac6;
+	font-style: italic;
+}
+.am-ribbon-item .am-sep {
+	color: #caa304;
+	opacity: 0.7;
+	font-weight: bold;
+}
+.am-star {
+	color: #f4bd35;
+	font-size: 13px;
+	opacity: 0.9;
+}
+@keyframes amScrollTicker {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+/* 2. Slider Wave Bottom Shape (Image 1 fix) */
+.home-slider {
+	position: relative !important;
+	overflow: hidden !important;
+}
+.home-slider::after {
+	content: "" !important;
+	position: absolute !important;
+	bottom: -1px !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 120px !important;
+	background-image: url(../img/slider/btm_shape.svg) !important;
+	z-index: 10 !important;
+	pointer-events: none !important;
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat !important;
+}
+.am-slider-bottom-wave {
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	height: 125px;
+	z-index: 10;
+	pointer-events: none;
+	overflow: hidden;
+	line-height: 0;
+}
+.am-slider-bottom-wave img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	display: block;
+}
+
+/* 3. Counter Cards & Exact Crescent Circular Badges (Image 2 fix) */
+.single-counter {
+	background-image: url(../img/bg/counter.jpg) !important;
+	background-color: #f9fbf9 !important;
+	background-size: cover !important;
+	border-radius: 16px !important;
+	padding: 24px 20px !important;
+	gap: 18px !important;
+	border: 1px solid rgba(24, 143, 91, 0.14) !important;
+	box-shadow: 0 8px 24px rgba(10, 42, 27, 0.05) !important;
+	transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+.single-counter:hover {
+	transform: translateY(-5px) !important;
+	box-shadow: 0 14px 30px rgba(24, 143, 91, 0.12) !important;
+}
+.counter_icon.am-counter-badge {
+	width: 68px !important;
+	height: 68px !important;
+	min-width: 68px !important;
+	border-radius: 50% !important;
+	background: #188f5b !important;
+	position: relative !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	box-shadow: -5px -3px 0 0 #caa304 !important;
+	color: #ffffff !important;
+	font-size: 27px !important;
+	margin: 0 !important;
+	flex-shrink: 0 !important;
+}
+.counter_icon.am-counter-badge i {
+	color: #ffffff !important;
+	font-size: 26px !important;
+}
+.single-counter h2 {
+	font-size: 28px !important;
+	font-weight: 700 !important;
+	color: #173c2d !important;
+	margin-bottom: 2px !important;
+}
+.single-counter p {
+	font-size: 14.5px !important;
+	color: #5d6d63 !important;
+	margin-bottom: 0 !important;
+}
+
+/* 4. Why Choose Al-Asim Quran Pillar Cards (Image 4 fix) */
+.pillar_of_islam .single-pillar {
+	text-align: center;
+	position: relative;
+	padding: 35px 22px 0;
+	border-radius: 20px;
+	background: #ffffff;
+	box-shadow: 0 10px 30px rgba(10, 42, 27, 0.06);
+	border: 1px solid rgba(24, 143, 91, 0.12);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	overflow: hidden;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.pillar_of_islam .single-pillar:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 18px 40px rgba(24, 143, 91, 0.14);
+}
+.pillar_of_islam .single-pillar img {
+	width: 125px;
+	height: 125px;
+	object-fit: cover;
+	margin: 0 auto 18px;
+	border-radius: 50%;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+	border: 4px solid #f2f7f4;
+}
+.pillar_of_islam .single-pillar h3 {
+	font-size: 21px;
+	font-weight: 700;
+	color: #173c2d;
+	margin-bottom: 10px;
+}
+.pillar_of_islam .single-pillar p {
+	font-size: 14.5px;
+	color: #617369;
+	line-height: 1.65;
+	padding: 0 8px;
+	margin-bottom: 22px;
+	flex-grow: 1;
+}
+.pillar_of_islam .single-pillar .pl_btm {
+	background-color: #f4bd35;
+	color: #0b3d26;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	padding: 12px 0;
+	border-radius: 0 0 19px 19px;
+	margin: 0 -22px;
+}
+
+/* 5. Sleek Single-Line Home CTA Banner (Image 3 fix) */
+.am-home-cta {
+	padding: 24px 0 !important;
+	background: #113626 !important;
+}
+.am-home-cta-inner {
+	max-width: 1100px !important;
+	margin: 0 auto !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-between !important;
+	gap: 24px !important;
+	padding: 16px 30px !important;
+	border: 1px solid rgba(244, 189, 53, 0.4) !important;
+	border-radius: 16px !important;
+	background: linear-gradient(135deg, rgba(20, 75, 49, 0.96), rgba(9, 36, 23, 0.98)) !important;
+	box-shadow: 0 8px 26px rgba(0, 0, 0, 0.22) !important;
+}
+.am-cta-left-content {
+	flex: 1;
+	min-width: 0;
+}
+.am-cta-tagline {
+	display: inline-block !important;
+	margin-bottom: 2px !important;
+	color: #f4bd35 !important;
+	font-size: 11.5px !important;
+	font-weight: 700 !important;
+	letter-spacing: .08em !important;
+	text-transform: uppercase !important;
+}
+.am-cta-heading-wrap {
+	display: flex !important;
+	align-items: baseline !important;
+	gap: 12px !important;
+	flex-wrap: wrap !important;
+}
+.am-cta-title {
+	margin: 0 !important;
+	color: #ffffff !important;
+	font-size: clamp(19px, 2.2vw, 24px) !important;
+	font-weight: 700 !important;
+	line-height: 1.25 !important;
+}
+.am-cta-desc {
+	margin: 0 !important;
+	color: rgba(255, 255, 255, 0.88) !important;
+	font-size: 13.5px !important;
+}
+.am-cta-btn-wrap {
+	flex-shrink: 0;
+}
+.am-cta-btn {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	padding: 10px 24px !important;
+	background: #f4bd35 !important;
+	color: #092c1c !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	border-radius: 30px !important;
+	text-decoration: none !important;
+	white-space: nowrap !important;
+	box-shadow: 0 4px 14px rgba(244, 189, 53, 0.35) !important;
+	transition: all 0.25s ease !important;
+	border: none !important;
+}
+.am-cta-btn:hover {
+	background: #ffffff !important;
+	color: #0e8544 !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 6px 20px rgba(255, 255, 255, 0.35) !important;
+}
+@media (max-width: 991px) {
+	.am-home-cta-inner {
+		flex-direction: column !important;
+		align-items: flex-start !important;
+		padding: 20px 22px !important;
+		gap: 14px !important;
+	}
+	.am-cta-heading-wrap {
+		flex-direction: column !important;
+		gap: 4px !important;
+	}
+	.am-cta-btn-wrap {
+		width: 100% !important;
+	}
+	.am-cta-btn {
+		width: 100% !important;
+		text-align: center !important;
+	}
+}
+
+/* Final homepage polish: working trial action, crisp services backdrop,
+   and simpler fee cards in the academy's green-and-gold palette. */
+.am-cta-btn span {
+	display: inline !important;
+	margin: 0 !important;
+	color: #092c1c !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	letter-spacing: 0 !important;
+	text-transform: none !important;
+}
+.am-cta-desc {
+	display: block !important;
+	margin: 5px 0 0 !important;
+	color: rgba(255,255,255,.82) !important;
+	font-size: 14px !important;
+	letter-spacing: 0 !important;
+	text-transform: none !important;
+}
+.am-cta-heading-wrap { display: block !important; }
+.am-home-cta-inner { align-items: center; }
+
+/* The old mosque image was being enlarged behind this section. A clean,
+   high-resolution CSS gradient keeps the course cards sharp at every zoom. */
+.services {
+	background-color: #123f2d !important;
+	background-image: linear-gradient(125deg, #103b2a 0%, #176a48 52%, #123f2d 100%) !important;
+	background-position: center;
+}
+.services::before { display: none !important; }
+
+/* Calm down the fee plan cards while keeping the existing brand colors. */
+.am-subscription-section { background: #f7f8f4; }
+.am-sub-card {
+	border: 1px solid #e4ebe4;
+	border-radius: 18px;
+	box-shadow: 0 8px 24px rgba(20, 57, 37, .07);
+}
+.am-sub-card:hover { transform: translateY(-4px); box-shadow: 0 14px 32px rgba(20, 57, 37, .12); }
+.am-sub-card-featured { border: 2px solid #198f5b !important; box-shadow: 0 12px 30px rgba(25, 143, 91, .12); }
+.am-sub-header { padding: 22px 18px 18px; border-radius: 17px 17px 0 0; }
+.am-sub-header-basic { background: #eaf5ed; }
+.am-sub-header-standard { background: #e2f2e7; }
+.am-sub-header-premium { background: #fbf4df; }
+.am-sub-title { color: #15553a; font-size: 22px; letter-spacing: .08em; text-shadow: none; }
+.am-sub-ribbon-wrap { margin-top: 0; padding: 16px 22px 0; }
+.am-sub-ribbon {
+	justify-content: flex-start;
+	gap: 7px;
+	padding: 12px 15px;
+	border: 1px solid #e9eddf;
+	border-radius: 10px;
+	background: #f5f7ef;
+	box-shadow: none;
+	color: #163e2d;
+}
+.am-sub-price { color: #14784c; font-size: 21px; text-shadow: none; }
+.am-sub-period { color: #66736a; font-size: 13px; }
+.am-sub-body { padding: 18px 22px 24px; }
+.am-sub-features li { padding: 10px 0; font-size: 14px; }
+.am-sub-check { color: #198f5b; font-size: 17px; }
+.am-sub-btn { padding: 12px 18px; border-radius: 10px; background: #14784c; box-shadow: none; }
+.am-sub-btn:hover { background: #0f603c; box-shadow: 0 7px 18px rgba(15,96,60,.18); }
+
+/* Shared type and colors across the site's Web Forms pages. */
+:root {
+	--title: #173c2d;
+	--body: #59685e;
+	--blue: #198f5b;
+	--bs-primary: #198f5b;
+	--bs-primary-rgb: 25, 143, 91;
+	--bs-success: #198f5b;
+	--bs-success-rgb: 25, 143, 91;
+	--bs-warning: #e5b83c;
+	--bs-warning-rgb: 229, 184, 60;
+}
+body, button, input, select, textarea, .btn {
+	font-family: 'Lexend', sans-serif;
+}
+.am-quran-verse {
+	margin: 16px auto;
+	padding: 19px 24px;
+	border: 1px solid #dcebdd;
+	border-left: 4px solid #198f5b;
+	border-radius: 14px;
+	background: linear-gradient(135deg, #f4faf5, #fffdf5);
+	text-align: center;
+}
+.am-quran-verse-compact { max-width: 540px; margin: 14px auto 0; padding: 14px 18px; }
+.am-quran-verse-light { max-width: 880px; }
+.am-quran-verse-section { padding: 24px 0 8px; background: #fff; }
+.am-quran-arabic {
+	margin: 0 0 9px;
+	color: #15553a;
+	direction: rtl;
+	font-family: 'Amiri', 'Traditional Arabic', serif;
+	font-size: clamp(25px, 3vw, 35px);
+	font-weight: 700;
+	line-height: 1.65;
+}
+.am-quran-translation { margin: 0 0 7px; color: #45584b; font-size: 14px; line-height: 1.7; }
+.am-quran-reference { color: #96721a; font-size: 11px; font-weight: 700; letter-spacing: .03em; }
+.am-quran-verse-dark {
+	max-width: 640px;
+	margin: 18px auto 0;
+	padding: 13px 18px;
+	border: 1px solid rgba(255,255,255,.22);
+	border-left: 3px solid #e5b83c;
+	background: rgba(9,45,29,.24);
+}
+.am-quran-verse-dark .am-quran-arabic { margin-bottom: 3px; color: #f7d878; font-size: 26px; }
+.am-quran-verse-dark .am-quran-translation { margin-bottom: 2px; color: rgba(255,255,255,.9); }
+.am-quran-verse-dark .am-quran-reference { color: #f4d57a; }
+.am-quran-verse-compact .am-quran-arabic { margin-bottom: 2px; font-size: 25px; }
+.am-quran-verse-compact .am-quran-translation { margin-bottom: 2px; }
+@media (max-width: 575px) {
+	.am-quran-verse { padding: 17px 16px; }
+	.am-quran-arabic { font-size: 27px; }
+}
+
+/* Crop the instructor portrait upward and slightly closer inside the circular badge. */
+.single-course1 .course_author img,
+.course_author img {
+	transform: scale(1.25) translateY(-4px);
+	transform-origin: center top;
+	clip-path: circle(50%);
+}
+
+/* Instructor profile portrait: fill a framed crop so no empty black bands show. */
+.cd_instructor {
+	align-items: flex-start;
+	gap: 30px;
+}
+.cdin_image {
+	flex: 0 0 180px;
+	width: 180px;
+	height: 280px;
+	padding: 5px;
+	overflow: hidden;
+	border: 1px solid rgba(25, 143, 91, .2);
+	border-radius: 22px;
+	background: #fff;
+	box-shadow: 0 14px 32px rgba(23, 60, 45, .2);
+}
+.cdin_image > img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	border-radius: 16px;
+	object-fit: cover;
+	object-position: center 18%;
+	box-shadow: 0 7px 18px rgba(15, 39, 29, .2);
+}
+@media (max-width: 575px) {
+	.cd_instructor { flex-direction: column; gap: 20px; }
+	.cdin_image { flex-basis: auto; width: 160px; height: 245px; }
+}
+
+/* Tajweed course guide */
+.am-tajweed-intro { background: #fff; }
+.am-tajweed-eyebrow { display: block; margin-bottom: 10px; color: #198f5b; font-size: 12px; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+.am-tajweed-heading { margin: 0 0 16px; color: #173c2d; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.2; }
+.am-tajweed-lead { color: #34483c; font-size: 17px; line-height: 1.85; }
+.am-tajweed-copy { color: #69766d; line-height: 1.85; }
+.am-tajweed-intro .section-heading h2 { color: #173c2d; font-size: clamp(25px, 3vw, 34px); }
+.am-tajweed-syllabus, .am-tajweed-outcomes { background: #f7f8f4; }
+.am-tajweed-syllabus .section-heading > p, .am-tajweed-levels .section-heading > p { max-width: 720px; margin: 12px auto 18px; color: #69766d; line-height: 1.8; }
+.am-tajweed-group-title { display: flex; align-items: center; gap: 14px; margin: 4px 0 22px; }
+.am-tajweed-group-title > span { flex: 0 0 auto; padding: 7px 11px; border-radius: 30px; color: #126440; background: #e3f1e7; font-size: 12px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
+.am-tajweed-group-title h3 { margin: 0; color: #173c2d; font-size: 22px; }
+.am-tajweed-card { height: 100%; border: 1px solid #e5ebe3; border-radius: 16px; background: #fff; box-shadow: 0 10px 28px rgba(23,60,45,.055); transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
+.am-tajweed-card:hover { transform: translateY(-4px); border-color: rgba(25,143,91,.35); box-shadow: 0 16px 34px rgba(23,60,45,.1); }
+.am-tajweed-benefit { min-height: 220px; padding: 21px 18px; }
+.am-tajweed-rule { min-height: 218px; padding: 23px 21px; }
+.am-tajweed-number { display: inline-flex; width: 39px; height: 39px; align-items: center; justify-content: center; margin-bottom: 15px; border-radius: 12px; color: #fff; background: #198f5b; font-size: 13px; font-weight: 800; }
+.am-tajweed-card h3 { margin: 0 0 9px; color: #173c2d; font-size: 18px; line-height: 1.4; }
+.am-tajweed-card p { margin: 0; color: #68756c; font-size: 14px; line-height: 1.75; }
+.am-tajweed-method { background: #fff; }
+.am-tajweed-method-card { min-height: 245px; padding: 25px 22px; }
+.am-tajweed-icon { display: inline-flex; width: 48px; height: 48px; align-items: center; justify-content: center; margin-bottom: 17px; border-radius: 14px; color: #198f5b; background: #eaf5ee; font-size: 20px; }
+.am-tajweed-practice { padding: 20px 0; background: #f7f8f4; }
+.am-tajweed-practice-inner { padding: 42px 48px; border: 1px solid rgba(244,189,53,.45); border-radius: 20px; color: #fff; background: linear-gradient(115deg, #123d2c, #187348); box-shadow: 0 18px 38px rgba(23,60,45,.13); }
+.am-tajweed-practice-inner .am-tajweed-eyebrow { color: #f5c84d; }
+.am-tajweed-practice-inner h2 { max-width: 720px; margin: 0 0 12px; color: #fff; font-size: clamp(27px, 3.4vw, 40px); }
+.am-tajweed-practice-inner p { max-width: 850px; margin: 0; color: rgba(255,255,255,.84); line-height: 1.85; }
+.am-tajweed-check-card { display: flex; min-height: 158px; align-items: flex-start; gap: 14px; padding: 22px 20px; }
+.am-tajweed-check-card > i { flex: 0 0 auto; margin-top: 2px; color: #198f5b; font-size: 20px; }
+.am-tajweed-check-card h3 { font-size: 17px; }
+.am-tajweed-outcome-card { min-height: 220px; padding: 22px 19px; }
+.am-tajweed-levels { background: #fff; }
+.am-tajweed-level-card { height: 100%; padding: 30px 28px; border: 1px solid #e4ebe2; border-radius: 18px; background: #fff; box-shadow: 0 12px 32px rgba(23,60,45,.07); }
+.am-tajweed-level-featured { border: 2px solid #198f5b; box-shadow: 0 16px 38px rgba(25,143,91,.12); }
+.am-tajweed-level-label { display: inline-block; margin-bottom: 12px; padding: 7px 11px; border-radius: 30px; color: #126440; background: #eaf5ee; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.am-tajweed-level-card h3 { margin: 0 0 10px; color: #173c2d; font-size: 25px; }
+.am-tajweed-level-card p { min-height: 76px; color: #68756c; font-size: 14px; line-height: 1.75; }
+.am-tajweed-level-card ul { display: grid; gap: 11px; margin: 18px 0 0; padding: 0; list-style: none; }
+.am-tajweed-level-card li { color: #34483c; font-size: 14px; }
+.am-tajweed-level-card li::before { content: '✓'; margin-right: 9px; color: #198f5b; font-weight: 800; }
+.am-tajweed-cta { display: flex; align-items: center; justify-content: space-between; gap: 28px; margin-top: 52px; padding: 34px 38px; border-radius: 18px; color: #fff; background: #173c2d; }
+.am-tajweed-cta h2 { margin: 4px 0 8px; color: #fff; font-size: clamp(24px, 3vw, 34px); }
+.am-tajweed-cta p { margin: 0; color: rgba(255,255,255,.78); }
+@media (max-width: 767px) {
+	.am-tajweed-benefit, .am-tajweed-rule, .am-tajweed-method-card, .am-tajweed-outcome-card { min-height: 0; }
+	.am-tajweed-level-card p { min-height: 0; }
+	.am-tajweed-practice-inner { padding: 30px 24px; }
+	.am-tajweed-cta { align-items: flex-start; flex-direction: column; padding: 27px 23px; }
+}
+
+/* Online learning integrations */
+.am-integrations-section { background: #f7f8f4; }
+.am-integrations-section .section-heading > p { color: #68756c; line-height: 1.8; }
+.am-integration-card { position: relative; display: flex; height: 100%; min-height: 310px; flex-direction: column; align-items: flex-start; padding: 28px 25px; overflow: hidden; border: 1px solid #e4ebe3; border-radius: 18px; background: #fff; box-shadow: 0 12px 32px rgba(23,60,45,.065); transition: transform .24s ease, box-shadow .24s ease, border-color .24s ease; scroll-margin-top: 130px; }
+.am-integration-card::before { position: absolute; top: 0; right: 0; left: 0; height: 4px; background: linear-gradient(90deg, #198f5b, #d6aa26); content: ""; opacity: .8; }
+.am-integration-card:hover { transform: translateY(-5px); border-color: rgba(25,143,91,.34); box-shadow: 0 18px 40px rgba(23,60,45,.12); }
+.am-integration-icon { display: inline-flex; flex: 0 0 48px; width: 48px; height: 48px; align-items: center; justify-content: center; margin-bottom: 17px; border-radius: 14px; color: #198f5b; background: #eaf5ee; font-size: 21px; }
+.am-integration-label { margin: 0 0 7px; color: #198f5b; font-size: 11px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+.am-integration-card h3 { margin: 0 0 10px; color: #173c2d; font-size: 21px; }
+.am-integration-card p { margin: 0 0 18px; color: #68756c; font-size: 14px; line-height: 1.75; }
+.am-integration-card > a { display: inline-flex; align-items: center; gap: 8px; margin-top: auto; color: #198f5b; font-size: 13px; font-weight: 700; }
+.am-integration-card > a:hover { color: #126440; }
+.am-integration-note { display: flex; align-items: flex-start; gap: 18px; padding: 25px 28px; border: 1px solid #e5eadd; border-radius: 16px; background: #fff; }
+.am-integration-note .am-integration-icon { margin: 0; }
+.am-integration-note h3 { margin: 0 0 6px; color: #173c2d; font-size: 19px; }
+.am-integration-note p { margin: 0; color: #68756c; line-height: 1.75; }
+
+/* Pillars of Islam learning page */
+.am-pillars-content { background: #f7f8f4; }
+.am-pillars-intro { max-width: 820px; margin: 0 auto 42px; }
+.am-pillars-intro h2 { margin: 0 0 12px; color: #173c2d; font-size: clamp(29px, 4vw, 42px); }
+.am-pillars-intro p { color: #68756c; font-size: 16px; line-height: 1.8; }
+.am-pillar-card { position: relative; height: 100%; min-height: 285px; padding: 27px 25px; overflow: hidden; border: 1px solid #e4ebe3; border-radius: 18px; background: #fff; box-shadow: 0 12px 32px rgba(23,60,45,.065); transition: transform .24s ease, box-shadow .24s ease; }
+.am-pillar-card:hover { transform: translateY(-5px); box-shadow: 0 18px 40px rgba(23,60,45,.12); }
+.am-pillar-number { position: absolute; top: 19px; right: 21px; color: #d1a326; font-size: 14px; font-weight: 800; letter-spacing: .08em; }
+.am-pillar-icon { display: inline-flex; width: 54px; height: 54px; align-items: center; justify-content: center; margin-bottom: 17px; border-radius: 16px; color: #198f5b; background: #eaf5ee; font-size: 23px; }
+.am-pillar-card h3 { margin: 0 0 12px; color: #173c2d; font-size: 22px; }
+.am-pillar-card h3 small { margin-left: 5px; color: #748077; font-size: 13px; font-weight: 600; }
+.am-pillar-card p { margin: 0; color: #68756c; font-size: 14px; line-height: 1.8; }
+.am-pillars-cta { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-top: 45px; padding: 30px 34px; border-radius: 18px; color: #fff; background: linear-gradient(115deg, #173c2d, #198f5b); }
+
+.am-pillars-cta > div > span { display: block; margin-bottom: 8px; color: #f5ca50; font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.am-pillars-cta h2 { margin: 0 0 8px; color: #fff; font-size: 27px; }
+.am-pillars-cta p { margin: 0; color: rgba(255,255,255,.82); }
+.am-pillar-course-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; color: #198f5b; font-size: 14px; font-weight: 700; }
+.am-pillar-course-link:hover { color: #126440; }
+@media (min-width: 1200px) {
+	.header-left { margin-right: 8px !important; margin-left: 8px !important; }
+	#main-menu > ul > li { padding-right: 7px !important; padding-left: 7px !important; }
+	#main-menu > ul > li > a { font-size: 14px; white-space: nowrap; }
+}
+@media (max-width: 767px) {
+	.am-integration-card { min-height: 0; }
+	.am-pillars-cta { align-items: flex-start; flex-direction: column; padding: 26px 23px; }
+	.am-integration-note { padding: 21px 18px; }
 }

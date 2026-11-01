@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Al-Asim Quran | Disclaimer" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
+<%@ Page Title="Al-Asim Quran | Disclaimer" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="Read the information, educational purpose, limitations and responsibilities related to using Al-Asim Quran online services." /></asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
-<div class="am-extra-page" style="--am-extra-accent: #198f5b;">
+<div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
 <section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/banner.jpg');"><div class="container"><div class="row"><div class="col-12 text-center"><span class="am-extra-eyebrow">Al-Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span><h1>Disclaimer</h1><p><a href="Default.aspx">Home</a> <i class="fa-solid fa-angles-right"></i> Disclaimer</p></div></div></div></section>
 <section class="am-extra-content section-padding"><div class="container"><header class="am-extra-lead wow fadeInUp"><span>Scope and use of our website and services</span><h2>Disclaimer</h2><p>Read the information, educational purpose, limitations and responsibilities related to using Al-Asim Quran online services.</p><p>This disclaimer outlines the limitations of liability and the scope of information provided on our website and services.</p><p class="am-extra-updated">Last Updated: June 2026</p></header>
 

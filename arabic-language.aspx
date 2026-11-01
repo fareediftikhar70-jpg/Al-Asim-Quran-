@@ -16,7 +16,7 @@
                     </div>
                     <span class="am-page-kicker"><i class="fa-solid fa-language"></i> Course 6 &amp; Language Learning</span>
                     <h1>Arabic Language Course</h1>
-                    <p>Master Classical and Quranic Arabic to directly understand the words of Allah, the Sunnah of Prophet Muhammad ﷺ, and classical Islamic texts.</p>
+                    <p>Develop Arabic reading, writing, pronunciation, vocabulary and speaking skills through a structured course for beginners and learners building on what they already know.</p>
                     <div class="am-page-actions">
                         <a class="green_btn" href="free-trial.aspx"><span>Book Free Trial Class</span></a>
                         <a class="am-page-text-link" href="inquiry.aspx">Ask About Schedule <i class="fa-solid fa-arrow-right"></i></a>
@@ -50,7 +50,7 @@
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-spell-check"></i></span>
                         <h4 class="mt-3">Arabic Grammar (Nahw &amp; Sarf)</h4>
-                        <p class="mb-0 text-secondary">Understand sentence structure, word derivation, verb conjugations, and noun cases in simple practical steps.</p>
+                        <p class="mb-0 text-secondary">Build a foundation in Arabic grammar and sentence patterns with guided examples and practice.</p>
                     </div>
                 </div>
                 <!-- Feature 2 -->
@@ -58,7 +58,7 @@
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-book-atlas"></i></span>
                         <h4 class="mt-3">Rich Vocabulary</h4>
-                        <p class="mb-0 text-secondary">Build a strong bank of essential Quranic vocabulary and classical expressions used in prayers and everyday Islamic life.</p>
+                        <p class="mb-0 text-secondary">Learn useful words and expressions that support reading, understanding and everyday communication.</p>
                     </div>
                 </div>
                 <!-- Feature 3 -->
@@ -66,7 +66,7 @@
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-comments"></i></span>
                         <h4 class="mt-3">Conversation Skills</h4>
-                        <p class="mb-0 text-secondary">Develop practical conversational fluency, polite Islamic greetings, question-asking, and listening comprehension.</p>
+                        <p class="mb-0 text-secondary">Practice greetings, introductions, simple questions and short everyday conversations.</p>
                     </div>
                 </div>
                 <!-- Feature 4 -->
@@ -74,7 +74,7 @@
                     <div class="am-info-tile p-4 h-100 text-center">
                         <span class="am-highlight-icon"><i class="fa-solid fa-pen-nib"></i></span>
                         <h4 class="mt-3">Reading &amp; Writing</h4>
-                        <p class="mb-0 text-secondary">Attain confidence in reading classical Arabic scripts, comprehension of sentences, and accurate writing skills.</p>
+                        <p class="mb-0 text-secondary">Recognize Arabic letter forms, read simple sentences and practice writing from right to left.</p>
                     </div>
                 </div>
             </div>
@@ -83,30 +83,45 @@
             <div class="row g-4">
                 <div class="col-lg-6 wow fadeInLeft">
                     <div class="am-info-tile p-4 h-100 border-top border-4 border-success">
-                        <span class="badge bg-success mb-2">Track A</span>
-                        <h3 class="fw-bold">Quranic Arabic (Comprehension Focus)</h3>
-                        <p class="text-secondary">Designed specifically for students who want to understand the Holy Quran while listening to recitation in Salah or reading daily Surahs.</p>
+                        <span class="badge bg-success mb-2">Learning Focus A</span>
+                        <h3 class="fw-bold">Arabic for Quran Study</h3>
+                        <p class="text-secondary">Build foundational language skills that can support engagement with Quranic words and Islamic learning.</p>
                         <ul class="list-unstyled mt-3">
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> High-frequency Quranic vocabulary (70%+ coverage)</li>
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Grammatical patterns in Ayahs and Surahs</li>
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Direct connection to daily recitation</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Arabic letters, pronunciation and vocabulary</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Introductory grammar and sentence patterns</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-success me-2"></i> Practice with selected Quranic words and phrases</li>
                             <li class="py-2"><i class="fa-solid fa-check text-success me-2"></i> One-on-one tailored pacing</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
                     <div class="am-info-tile p-4 h-100 border-top border-4 border-primary">
-                        <span class="badge bg-primary mb-2">Track B</span>
-                        <h3 class="fw-bold">Classical Arabic (Standard &amp; Modern)</h3>
-                        <p class="text-secondary">Comprehensive language track for students seeking complete literacy in Arabic reading, writing, speaking, and academic texts.</p>
+                        <span class="badge bg-primary mb-2">Learning Focus B</span>
+                        <h3 class="fw-bold">Everyday Arabic Skills</h3>
+                        <p class="text-secondary">Practice the language through useful vocabulary, basic phrases, short sentences and guided conversation.</p>
                         <ul class="list-unstyled mt-3">
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-primary me-2"></i> Classical literature and Hadith comprehension</li>
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-primary me-2"></i> Sentence composition and essay reading</li>
-                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-primary me-2"></i> Interactive dialogues with fluent tutors</li>
-                            <li class="py-2"><i class="fa-solid fa-check text-primary me-2"></i> Certification upon level completion</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-primary me-2"></i> Greetings, introductions and simple questions</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-primary me-2"></i> Numbers, family and common daily vocabulary</li>
+                            <li class="py-2 border-bottom"><i class="fa-solid fa-check text-primary me-2"></i> Reading, writing and basic sentence practice</li>
+                            <li class="py-2"><i class="fa-solid fa-check text-primary me-2"></i> Listening and role-play conversation exercises</li>
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div class="section-heading text-center mt-5 mb-4">
+                <span>The Roadmap</span><h2>Course Syllabus</h2>
+                <p class="mx-auto" style="max-width:720px;">Progress from the Arabic alphabet to practical reading and conversation skills.</p>
+            </div>
+            <div class="row g-4 mb-5">
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">01</span><h3>Alphabet &amp; Sounds</h3><p class="text-secondary mb-0">Learn the 28 Arabic letters, their sounds and their changing forms in words.</p></div></div>
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">02</span><h3>Words &amp; Phrases</h3><p class="text-secondary mb-0">Practice common greetings, useful expressions and simple questions and responses.</p></div></div>
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">03</span><h3>Numbers &amp; Vocabulary</h3><p class="text-secondary mb-0">Build everyday vocabulary and learn to use numbers in short phrases.</p></div></div>
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">04</span><h3>Simple Sentences</h3><p class="text-secondary mb-0">Combine familiar words to understand and form basic Arabic sentences.</p></div></div>
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">05</span><h3>Pronouns &amp; Verbs</h3><p class="text-secondary mb-0">Meet common pronouns and introductory verbs through practical examples.</p></div></div>
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">06</span><h3>Family &amp; People</h3><p class="text-secondary mb-0">Learn words for family members, friends and people around you.</p></div></div>
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">07</span><h3>Days &amp; Dates</h3><p class="text-secondary mb-0">Study days of the week, months and simple ways to express dates.</p></div></div>
+                <div class="col-lg-3 col-md-6"><div class="am-info-tile p-4 h-100"><span class="badge bg-success mb-2">08</span><h3>Conversation Practice</h3><p class="text-secondary mb-0">Use short guided dialogues and role-play for everyday situations.</p></div></div>
             </div>
 
             <!-- CTA -->

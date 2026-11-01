@@ -122,16 +122,17 @@
 						
 						<div class="comment-form">
 							<h2 class="bdtitle">Comment</h2>
-							<form action="#" method="post">
+							<form action="form-submit.aspx?type=BlogComment" method="post">
+								<div aria-hidden="true" style="position:absolute;left:-10000px;height:1px;width:1px;overflow:hidden;"><label>Leave this field empty<input type="text" name="website_check" tabindex="-1" autocomplete="off"></label></div>
 								<div class="d-flex name_email">
 									<p>
 										<label for="name">Write Full Name</label>
-										<input type="text" id="name" class="form-control" name="name">
+										<input type="text" id="name" class="form-control" name="name" required="required">
 									</p>
 
 									<p>
 										<label for="email">Email Address</label>
-										<input type="email" id="email" class="form-control" name="email">
+										<input type="email" id="email" class="form-control" name="email" required="required">
 									</p>	
 								</div>
 								<p>
@@ -141,7 +142,7 @@
 
 								<p>
 									<label for="message">Comment</label>
-									<textarea id="message" class="form-control" name="comment"></textarea>
+									<textarea id="message" class="form-control" name="comment" required="required"></textarea>
 								</p>
 								<p>
 									<input type="submit" id="submit" value="Comment">

@@ -3,7 +3,7 @@
     <meta name="description" content="Review payment methods, fee timing, security, refund policy and international payment options for Al-Asim Quran students worldwide." />
 </asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
-<div class="am-extra-page" style="--am-extra-accent: #198f5b;">
+<div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
     <section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/charity.jpg');">
         <div class="container">
             <div class="row">

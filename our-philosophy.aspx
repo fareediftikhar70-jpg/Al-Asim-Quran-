@@ -1,7 +1,7 @@
-﻿<%@ Page Title="Al-Asim Quran | Our Philosophy" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
+<%@ Page Title="Al-Asim Quran | Our Philosophy" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="A faith-based, personalized and balanced approach to Quranic education, accessible to students around the world." /></asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
-<div class="am-extra-page" style="--am-extra-accent: #b8891a;">
+<div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
 <section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/banner.jpg');"><div class="container"><div class="row"><div class="col-12 text-center"><span class="am-extra-eyebrow">Al-Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span><h1>Our Philosophy</h1><p><a href="Default.aspx">Home</a> <i class="fa-solid fa-angles-right"></i> Our Philosophy</p></div></div></div></section>
 <section class="am-extra-content section-padding"><div class="container"><header class="am-extra-lead wow fadeInUp"><span>Learning as a lifelong spiritual journey</span><h2>Our Philosophy</h2><p>A faith-based, personalized and balanced approach to Quranic education, accessible to students around the world.</p><p>At Al-Asim Quran, our philosophy is rooted in the belief that learning the Holy Quran is not just an educational journey, but a lifelong spiritual transformation. We aim to connect students with the teachings of Islam in a meaningful, practical, and inspiring way that shapes both character and faith.</p></header>
 

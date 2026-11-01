@@ -3,7 +3,7 @@
     <meta name="description" content="Official Gallery of Al-Asim Quran – Capturing knowledge, growth, and spiritual progress worldwide through our online Quran classes and student activities." />
 </asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
-<div class="am-extra-page" style="--am-extra-accent: #198f5b;">
+<div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
     <section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/service.jpg');">
         <div class="container">
             <div class="row">

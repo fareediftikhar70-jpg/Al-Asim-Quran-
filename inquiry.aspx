@@ -50,7 +50,8 @@
 
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
-                        <form class="am-inquiry-form" action="contact.aspx" method="post">
+                        <form class="am-inquiry-form" action="form-submit.aspx?type=Inquiry" method="post">
+                            <div aria-hidden="true" style="position:absolute;left:-10000px;height:1px;width:1px;overflow:hidden;"><label>Leave this field empty<input type="text" name="website_check" tabindex="-1" autocomplete="off" /></label></div>
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="am-form-group">
@@ -82,9 +83,11 @@
                                         <select id="inqCourse" class="form-control" name="course" style="height: 52px !important; line-height: normal !important; padding: 10px 16px !important; font-size: 15px !important; display: block !important;">
                                             <option value="">Select a Course</option>
                                             <option value="Quran Reading (Nazra)">Quran Reading (Nazra)</option>
+                                            <option value="Noorani Qaida">Noorani Qaida</option>
                                             <option value="Quran with Tajweed">Quran with Tajweed</option>
                                             <option value="Hifz-ul-Quran">Hifz-ul-Quran</option>
                                             <option value="Tafseer & Translation">Tafseer &amp; Translation</option>
+                                            <option value="Daily Duas & Sunnah">Daily Duas &amp; Sunnah</option>
                                             <option value="Islamic Studies">Islamic Studies</option>
                                             <option value="Arabic Language">Arabic Language</option>
                                         </select>
@@ -132,4 +135,23 @@
             </article>
         </div>
     </section>
-</asp:Content>
+<script>
+(function () {
+    var params = new URLSearchParams(window.location.search);
+    var courseName = params.get("courseName");
+    var courseSelect = document.getElementById("inqCourse");
+    if (!courseName || !courseSelect) return;
+    var selected = Array.prototype.slice.call(courseSelect.options).find(function (option) {
+        return option.text.trim().toLowerCase() === courseName.trim().toLowerCase();
+    });
+    if (!selected) {
+        selected = document.createElement("option");
+        selected.value = courseName;
+        selected.text = courseName;
+        courseSelect.add(selected);
+    }
+    courseSelect.value = selected.value;
+    var subject = document.getElementById("inqSubject");
+    if (subject && !subject.value) subject.value = "Free trial class: " + courseName;
+})();
+</script></asp:Content>

@@ -2,7 +2,7 @@
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="Learn how to perform Salah step-by-step according to Quran and Sunnah with Al-Asim Quran." /></asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
 <div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
-<section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/slider1.jpg');"><div class="container"><div class="row"><div class="col-12 text-center"><span class="am-extra-eyebrow">Al-Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span><h1>Prayer Lessons (Salah)</h1><p><a href="Default.aspx">Home</a> <i class="fa-solid fa-angles-right"></i> Prayer Lessons</p></div></div></div></section>
+<section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/prayer_bg.jpg');"><div class="container"><div class="row"><div class="col-12 text-center"><span class="am-extra-eyebrow">Al-Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span><h1>Prayer Lessons (Salah)</h1><p><a href="Default.aspx">Home</a> <i class="fa-solid fa-angles-right"></i> Prayer Lessons</p></div></div></div></section>
 <section class="am-extra-content section-padding"><div class="container"><header class="am-extra-lead wow fadeInUp"><span>Step-by-step Salah guidance</span><h2>Learn the Proper Method of Prayer</h2><p>Our Prayer Lessons program is designed to guide students through the correct method of performing Salah (daily prayers) and Wudhu according to the Holy Quran and Sunnah.</p></header>
 
 <div class="row g-4 am-extra-grid">

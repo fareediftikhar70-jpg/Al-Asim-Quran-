@@ -1,112 +1,19 @@
 <%@ Page Title="Course Details - Al-Asim Quran" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
-<asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="Al-Asim Quran and Islamic learning community" /></asp:Content>
+<asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="Explore Quran reading, Tajweed, Hifz, Tafseer, Islamic Studies, and Arabic courses at Al-Asim Quran." /></asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
 
 
 	
 
-	<!-- Start Mini Cart -->
-	<div id="mini_cart" class="min_cart_wrapper">
-		<div class="cart_drawer">
-			<div class="cart_top">
-				<a href="#" class="cart_close"><i class="bx bx-x"></i></a>
-				<h3 class="title">Courses List</h3>
-				<span class="cart_number">4</span>
-			</div>
-
-			<div class="mini_cart_list">
-				<ul>
-					<li class="d-flex">
-						<div class="thumb_img_cartmini">
-							<a href="#" class="mc_img">
-								<img src="assets/img/courses/1.jpg" alt="">
-							</a>
-						</div>
-
-						<div class="product-detail">
-							<h3 class="product_name_mini">
-								<a href="course-details.aspx">Professional Ceramic Moulding for Beginners</a>
-							</h3>
-							<div class="product_info">
-								<div class="product_quanity"></div>
-								<div class="product_price">
-									<span class="price_sale">
-										<span class="quantity">3 Ã- <span
-												class="woocommerce-Price-amount amount"><bdi><span
-														class="woocommerce-Price-currencySymbol">$</span>250.00</bdi></span></span>
-									</span>
-								</div>
-							</div>
-						</div>
-
-						<div class="produc_remove">
-							<a href="#" class="remove-product"
-								aria-label="Remove Professional Ceramic Moulding for Beginners from cart"
-								data-product_id="861" data-cart_item_key="f9a40a4780f5e1306c46f1c8daecee3b"
-								data-product_sku=""><i class="bx bx-trash"></i></a>
-						</div>
-					</li>
-
-
-					<li class="d-flex">
-						<div class="thumb_img_cartmini">
-							<a href="#" class="mc_img">
-								<img src="assets/img/courses/2.jpg" alt="">
-							</a>
-						</div>
-
-						<div class="product-detail">
-							<h3 class="product_name_mini">
-								<a href="course-details.aspx">
-									WordPress for Beginners â€" Master WordPress
-								</a>
-							</h3>
-							<div class="product_info">
-								<div class="product_quanity"></div>
-								<div class="product_price">
-									<span class="price_sale">
-										<span class="quantity">1 Ã- <span
-												class="woocommerce-Price-amount amount"><bdi><span
-														class="woocommerce-Price-currencySymbol">$</span>270.00</bdi></span></span>
-									</span>
-								</div>
-							</div>
-						</div>
-
-						<div class="produc_remove">
-							<a href="#" class="remove-product"><i class="bx bx-trash"></i></a>
-						</div>
-					</li>
-				</ul>
-			</div>
-
-			<div class="cart_drawer_btm">
-				<div class="sub-total">
-					<strong>Subtotal:</strong> <span class="woocommerce-Price-amount amount"><bdi><span
-								class="woocommerce-Price-currencySymbol">$</span>1,020.00</bdi></span>
-				</div>
-
-				<div class="bottom_group">
-					<a href="cart.aspx" class="button-viewcart">
-						<span>View Cart</span>
-					</a>
-					<a href="checkout.aspx" class="button-checkout">
-						<span>Checkout</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Mini Cart -->
-
+	
 	<!-- Start Main Banner -->
 	<section class="main_banner position-relative" style="background-image: url('assets/img/bg/banner.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
-					<h2>Quran Intermediate Course Brother</h2>
+					<h2 id="courseBannerTitle">Quran Reading for Beginners</h2>
 					<p>
-						<a href="#">Home</a> <i class="fa-solid fa-angles-right"></i> Quran Intermediate Course Brother
+								<a href="Default.aspx">Home</a> <i class="fa-solid fa-angles-right"></i> <span id="courseBreadcrumbTitle">Quran Reading for Beginners</span>
 					</p>
 				</div>
 			</div>
@@ -121,22 +28,22 @@
 				<div class="col-xl-8 wow fadeIn">
 					<div class="course_details_content">
 						<div class="scourse_image mb-4">
-							<img src="assets/img/courses/course-details.png" alt="image">
-							<span class="category-badge">Islamic Studies</span>
+							<img id="courseHeroImage" src="assets/img/courses/1.jpg" alt="Quran course">
+							<span class="category-badge" id="courseCategory">Quran Reading</span>
 						</div>
-						<h2 class="course-title">Quran Intermediate Course</h2>
+						<h2 class="course-title" id="courseTitle">Quran Reading for Beginners</h2>
 						<div class="meta-pills mb-4">
 							<span class="pill rating-pill">
-								<i class="fa-solid fa-star"></i> 5.0 (128 Reviews)
+								<i class="fa-solid fa-star"></i> Online Quran learning
 							</span>
 							<span class="pill">
-								<i class="fa-solid fa-user-tie"></i> Kari. Abdul Hakim
+								<i class="fa-solid fa-user-tie"></i> <span id="courseInstructorName">Qari Abu Bakar</span>
 							</span>
 							<span class="pill">
-								<i class="fa-solid fa-users"></i> 150 Students
+								<i class="fa-solid fa-users"></i> One-to-one classes
 							</span>
 							<span class="pill">
-								<i class="fa-regular fa-clock"></i> Updated: August 2026
+								<i class="fa-regular fa-clock"></i> Flexible class timings
 							</span>
 						</div>
 
@@ -158,301 +65,37 @@
 						</nav>
 
 						<div class="tab-content" id="nav-tabContent">
-							<div class="tab-pane fade show active" id="nav-overview" role="tabpanel"
-								aria-labelledby="nav-overview-tab" tabindex="0">
-								<h3 class="cdtitle">Course Description:</h3>
-								<p>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-									Ipsum
-									has been the industry's standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type specimen book. It has
-									survived
-								</p>
-
-								<p>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-									Ipsum
-									has been the industry's standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type specimen book. It has
-									survived not only five centuries, but also the leap into electronic typesetting,
-									remaining essentially unchanged.
-								</p>
-
-								<p>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-									Ipsum
-									has been the industry's standard dummy text ever since the 1500s, when an unknown
-									printer took a
-								</p>
-
-								<div class="benefits">
-									<h3>Why you want to learn PHP ?</h3>
-									<ul>
-										<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-										</li>
-										<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-										</li>
-										<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-										</li>
-										<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-										</li>
-										<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-										</li>
-										<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-										</li>
-									</ul>
-								</div>
+							<div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab" tabindex="0">
+								<div id="courseOverviewContent"></div>
 							</div>
 
-							<div class="tab-pane fade" id="nav-curriculum" role="tabpanel"
-								aria-labelledby="nav-curriculum-tab" tabindex="0">
-								<div id="curriculum-tab" class="tab-panel active">
-									<h3>Course Structure</h3>
-									<p>Explore the step-by-step breakdown of modules and lessons included in this
-										course.</p>
-									<div class="curriculum-accordion">
-										<div class="accordion-block">
-											<div class="block-header">
-												<span>Module 1: Advanced Pronunciation &amp; Makharij</span>
-												<span class="meta">4 Lessons â€¢ 2h 15m</span>
-											</div>
-											<ul class="lesson-list">
-												<li>
-													<span class="title"><i class="fa-regular fa-circle-play"></i> Lesson
-														1.1: Heavy and Light Letters (Tafkheem &amp; Tarqeeq)</span>
-													<span class="duration">35 mins</span>
-												</li>
-												<li>
-													<span class="title"><i class="fa-regular fa-circle-play"></i> Lesson
-														1.2: Articulation Points of Throat Letters</span>
-													<span class="duration">40 mins</span>
-												</li>
-												<li>
-													<span class="title"><i class="fa-regular fa-circle-play"></i> Lesson
-														1.3: Tongue Articulation Points Deep Dive</span>
-													<span class="duration">45 mins</span>
-												</li>
-											</ul>
-										</div>
-
-										<div class="accordion-block">
-											<div class="block-header">
-												<span>Module 2: Rules of Nun Sakinah &amp; Tanween</span>
-												<span class="meta">5 Lessons â€¢ 3h 10m</span>
-											</div>
-											<ul class="lesson-list">
-												<li>
-													<span class="title"><i class="fa-regular fa-circle-play"></i> Lesson
-														2.1: Izhar (Clarity) Rules</span>
-													<span class="duration">40 mins</span>
-												</li>
-												<li>
-													<span class="title"><i class="fa-regular fa-circle-play"></i> Lesson
-														2.2: Idgham (Merging) with &amp; without Ghunnah</span>
-													<span class="duration">50 mins</span>
-												</li>
-												<li>
-													<span class="title"><i class="fa-regular fa-circle-play"></i> Lesson
-														2.3: Iqlab (Conversion) &amp; Ikhfa (Concealment)</span>
-													<span class="duration">45 mins</span>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
+							<div class="tab-pane fade" id="nav-curriculum" role="tabpanel" aria-labelledby="nav-curriculum-tab" tabindex="0">
+								<div id="courseCurriculumContent"></div>
 							</div>
 
-							<div class="tab-pane fade" id="nav-review" role="tabpanel" aria-labelledby="nav-review-tab"
-								tabindex="0">
-								<div class="cd_rating">
-									<h3>Student's Reviews</h3>
-									<div class="cd_rating_top">
-										<div class="cdr_rate_summary">
-											<h1>5.0</h1>
-											<span class="cdr_rating">
-												<i class="bx bxs-star"></i>
-												<i class="bx bxs-star"></i>
-												<i class="bx bxs-star"></i>
-												<i class="bx bxs-star"></i>
-												<i class="bx bxs-star"></i>
-											</span>
+							<div class="tab-pane fade" id="nav-review" role="tabpanel" aria-labelledby="nav-review-tab" tabindex="0">
+	<div class="cd_rating"><h3>Student and Parent Feedback</h3><p>Read feedback shared by learners and families about their Quran and Islamic education experience.</p></div>
+</div>
 
-											<p>Total 3 Rating</p>
-										</div>
-
-										<div class="cdr_rate_number">
-											<ul>
-												<li>
-													<span class="cdr_rate_star">5</span>
-													<span class="cdr_rate_value">
-														<span class="rating_width" style="width: 100%;"></span>
-														<span class="cdr_rate_count">3 Rating</span>
-													</span>
-
-												</li>
-
-												<li>
-													<span class="cdr_rate_star">4</span>
-													<span class="cdr_rate_value">
-														<span class="rating_width" style="width: 80%;"></span>
-														<span class="cdr_rate_count">2 Rating</span>
-													</span>
-												</li>
-
-												<li>
-													<span class="cdr_rate_star">3</span>
-													<span class="cdr_rate_value">
-														<span class="rating_width" style="width: 60%;"></span>
-														<span class="cdr_rate_count">1 Rating</span>
-													</span>
-												</li>
-
-												<li>
-													<span class="cdr_rate_star">2</span>
-													<span class="cdr_rate_value">
-														<span class="rating_width" style="width: 40%;"></span>
-														<span class="cdr_rate_count">2 Rating</span>
-													</span>
-												</li>
-
-												<li>
-													<span class="cdr_rate_star">1</span>
-													<span class="cdr_rate_value">
-														<span class="rating_width" style="width: 20%;"></span>
-														<span class="cdr_rate_count">2 Rating</span>
-													</span>
-												</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="rating_list">
-										<div class="rating_item">
-											<div class="rating_item_avatar">
-												<img src="assets/img/review/1.jpg" alt="avatar">
-												<div class="rava_conent">
-													<h3>Robert Max</h3>
-													<p> Verified Student â€¢ August 2026 </p>
-												</div>
-											</div>
-
-											<div class="rating_item_content">
-												<span class="rating_item_ricon">
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-												</span>
-												<p>
-													" Lorem Ipsum is simply dummy text of the printing and typesetting
-													industry. Lorem Ipsum has been the industry's standard dummy text
-													ever
-													since the 1500s, when an unknown printer took a galley of type and
-													scrambled it "
-												</p>
-											</div>
-										</div><!-- End Rating Item -->
-
-										<div class="rating_item">
-											<div class="rating_item_avatar">
-												<img src="assets/img/review/2.jpg" alt="avatar">
-												<div class="rava_conent">
-													<h3>Robert Max</h3>
-													<p> Verified Student â€¢ August 2026 </p>
-												</div>
-											</div>
-
-											<div class="rating_item_content">
-												<span class="rating_item_ricon">
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-												</span>
-												<p>
-													" Lorem Ipsum is simply dummy text of the printing and typesetting
-													industry. Lorem Ipsum has been the industry's standard dummy text
-													ever
-													since the 1500s, when an unknown printer took a galley of type and
-													scrambled it "
-												</p>
-											</div>
-										</div><!-- End Rating Item -->
-
-										<div class="rating_item">
-											<div class="rating_item_avatar">
-												<img src="assets/img/review/3.jpg" alt="avatar">
-												<div class="rava_conent">
-													<h3>Robert Max</h3>
-													<p> Verified Student â€¢ August 2026 </p>
-												</div>
-											</div>
-
-											<div class="rating_item_content">
-												<span class="rating_item_ricon">
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-													<i class="bx bxs-star"></i>
-												</span>
-												<p>
-													" Lorem Ipsum is simply dummy text of the printing and typesetting
-													industry. Lorem Ipsum has been the industry's standard dummy text
-													ever
-													since the 1500s, when an unknown printer took a galley of type and
-													scrambled it "
-												</p>
-											</div>
-										</div><!-- End Rating Item -->
-									</div><!-- End Rating List -->
-
-									<div class="cdr_review_form mt-4">
-										<h3>Add a Review</h3>
-										<div class="review_form_ricon">
-											<i class="bx bxs-star"></i>
-											<i class="bx bxs-star"></i>
-											<i class="bx bxs-star"></i>
-											<i class="bx bxs-star"></i>
-											<i class="bx bxs-star"></i>
-										</div>
-
-										<form action="#" class="rating_form">
-											<textarea name="rating_form" placeholder="Write a Your Rating">
-												</textarea><br>
-											<button type="submit" class="green_btn py40">
-												<span>Submit Review</span>
-											</button>
-										</form>
-									</div>
-
-								</div>
-							</div>
-
-							<div class="tab-pane fade" id="nav-instructor" role="tabpanel"
+						<div class="tab-pane fade" id="nav-instructor" role="tabpanel"
 								aria-labelledby="nav-instructor-tab" tabindex="0">
 								<div class="cd_instructor">
 									<div class="cdin_image">
-										<img src="assets/img/scholars/3.png" alt="">
+										<img src="assets/img/tutors/qari-habib.jpg" alt="">
 
 									</div>
 
 									<div class="cdin_content">
-										<h4><a href="#">Kari. Abdul Hakim</a></h4>
-										<span class="cdin_subtitle">Senior Tajweed & Qira'at Scholar</span>
+										<h4><a href="#">Qari Habib</a></h4>
+										<span class="cdin_subtitle">Quran Instructor</span>
 										<div class="cdin_meta">
-											<span><i class="fa-solid fa-star"></i> 5.0 Rating</span>
-											<span><i class="fa-solid fa-graduation-cap"></i> 1,400+ Students</span>
-											<span><i class='fa-solid fa-file-circle-check'></i> 32
-												Courses</span>
-											<span><i class="fa-solid fa-certificate"></i> Ijazah Certified</span>
+											<span><i class="fa-solid fa-book-open"></i> One-to-one guidance</span>
+											<span><i class="fa-solid fa-globe"></i> Online classes</span>
+											<span><i class='fa-solid fa-file-circle-check'></i> Flexible lessons</span>
+											<span><i class="fa-solid fa-clock"></i> Personalized instruction</span>
 										</div>
 										<p>
-											Kari Abdul Hakim holds an official Ijazah in Hafs 'an 'Aasim and has over 12
-											years of teaching experience across Islamic centers worldwide. He
-											specializes in helping non-native Arabic speakers refine their recitation.
+											Meet the Quran instructor for this course. Lessons are planned around the learner's current level, goals, and preferred schedule.
 										</p>
 										<ul>
 											<li>
@@ -485,13 +128,13 @@
 								</a>
 							</div>
 
-							<div class="price-row">
-								<span class="active-price">$300</span>
-								<span class="striked-price">$350</span>
-								<span class="discount-pill">14% Off</span>
+										<div class="price-row">
+											<span class="active-price" id="coursePrice">$40.00</span>
+											<span class="course-plan-note" id="courseOldPrice">Book a free trial</span>
+											<span class="discount-pill">Online</span>
 							</div>
 
-							<a href="cart.aspx" class="yellow_btn"><span>ENROLL IN COURSE</span></a>
+										<a href="inquiry.aspx" id="courseEnrollLink" class="yellow_btn"><span>BOOK A FREE TRIAL</span></a>
 						</div>
 
 						<div class="sidebar-specs-card">
@@ -500,23 +143,23 @@
 							<ul class="specs-list">
 								<li>
 									<span class="label"><i class="fa-regular fa-clock"></i> Duration</span>
-									<span class="val">24 Hours</span>
+													<span class="val" id="courseDuration">Flexible</span>
 								</li>
 								<li>
 									<span class="label"><i class="fa-regular fa-file-lines"></i> Total Lessons</span>
-									<span class="val">15 Lessons</span>
+													<span class="val" id="courseLessons">Personal plan</span>
 								</li>
 								<li>
 									<span class="label"><i class="fa-solid fa-graduation-cap"></i> Enrolled</span>
-									<span class="val">150 Students</span>
+													<span class="val">All ages</span>
 								</li>
 								<li>
 									<span class="label"><i class="fa-solid fa-video"></i> Video Content</span>
-									<span class="val">10 Hours</span>
+													<span class="val">Live online</span>
 								</li>
 								<li>
 									<span class="label"><i class="fa-solid fa-layer-group"></i> Skill Level</span>
-									<span class="val">Intermediate</span>
+													<span class="val" id="courseLevel">Beginner friendly</span>
 								</li>
 								<li>
 									<span class="label"><i class="fa-solid fa-globe"></i> Language</span>
@@ -660,4 +303,103 @@
 	<!-- End Courses -->
 
 	
+<script>
+(function () {
+    var courses = {
+        "quran-reading-for-beginners": {
+            title: "Quran Reading for Beginners", category: "Quran Reading", image: "assets/img/courses/1.jpg", price: "$40.00", lessons: "Personal plan", duration: "Flexible", level: "Beginner",
+            description: "Build a confident foundation in Quran reading with guided lessons that begin with Arabic letters and move toward clear, connected recitation.",
+            outcomes: ["Recognize Arabic letters and their forms", "Practice correct letter sounds and pronunciation", "Join letters and read words step by step", "Build a steady recitation routine", "Receive individual feedback from your teacher"],
+            modules: [["Arabic letters and sounds", "Letter shapes and joining", "Harakat and short vowels", "Reading short Quranic words"], ["Noorani Qaida practice", "Sukoon and Tanween", "Reading connected verses", "Revision and fluency practice"]],
+            instructor: "Qari Abu Bakar", instructorTitle: "Quran Reading Instructor", instructorImage: "assets/img/tutors/qari-abu-bakar.jpg", instructorBio: "Qari Abu Bakar guides learners through Quran reading with clear demonstrations, patient practice, and lessons paced to each student's level."
+        },
+        "quran-with-tajweed": {
+            title: "Quran with Tajweed", category: "Tajweed", image: "assets/img/courses/2.jpg", price: "$49.00", lessons: "Personal plan", duration: "Flexible", level: "All levels",
+            description: "Improve your Quran recitation through practical Tajweed lessons, careful listening, and regular one-to-one correction.",
+            outcomes: ["Learn the articulation points of Arabic letters", "Apply key Tajweed rules while reciting", "Improve fluency and confidence", "Practice with teacher feedback", "Create a consistent revision routine"],
+            modules: [["Makharij and letter qualities", "Heavy and light letters", "Noon sakin and Tanween", "Meem sakin rules"], ["Madd and stopping rules", "Common recitation mistakes", "Guided verse practice", "Revision and recitation assessment"]],
+            instructor: "Qari Habib", instructorTitle: "Quran and Tajweed Instructor", instructorImage: "assets/img/tutors/qari-habib.jpg", instructorBio: "Qari Habib helps students strengthen their recitation through clear explanations, focused Tajweed practice, and supportive individual lessons."
+        },
+        "hifz-ul-quran": {
+            title: "Hifz-ul-Quran", category: "Quran Memorization", image: "assets/img/courses/3.jpg", price: "$80.00", lessons: "Personal plan", duration: "Flexible", level: "Personalized",
+            description: "Follow a manageable memorization plan with teacher-guided new lessons, daily revision, and regular progress check-ins.",
+            outcomes: ["Set realistic memorization goals", "Learn new passages with guided repetition", "Revise previously memorized portions", "Strengthen accuracy and recall", "Track progress with your teacher"],
+            modules: [["Readiness and personal memorization plan", "Daily new lesson practice", "Revision of recent passages", "Listening and correction"], ["Long-term revision schedule", "Connecting memorized passages", "Recitation check-ins", "Review and next-step planning"]],
+            instructor: "Qari Habib", instructorTitle: "Quran Memorization Instructor", instructorImage: "assets/img/tutors/qari-habib.jpg", instructorBio: "Qari Habib supports Hifz students with steady lesson goals, repeated listening, and a revision routine suited to their pace."
+        },
+        "tafseer-translation": {
+            title: "Tafseer & Translation", category: "Quran Understanding", image: "assets/img/courses/4.jpg", price: "$39.00", lessons: "Personal plan", duration: "Flexible", level: "Beginner friendly",
+            description: "Explore Quranic meanings and themes through guided translation and accessible Tafseer lessons, with space to ask questions and reflect.",
+            outcomes: ["Understand selected Quranic vocabulary", "Follow the meaning of verses in context", "Explore key themes from selected Surahs", "Connect lessons with daily practice", "Learn with guided discussion and review"],
+            modules: [["How to approach translation", "Selected Quranic vocabulary", "Surah Al-Fatiha: meanings and themes", "Reading verses in context"], ["Selected short Surahs", "Tafseer and reflection", "Lessons for daily life", "Review and questions"]],
+            instructor: "Qari Abu Bakar", instructorTitle: "Quran Studies Instructor", instructorImage: "assets/img/tutors/qari-abu-bakar.jpg", instructorBio: "Qari Abu Bakar presents Quranic meanings in a clear, learner-friendly way and encourages thoughtful questions and reflection."
+        },
+        "islamic-studies": {
+            title: "Islamic Studies", category: "Islamic Education", image: "assets/img/courses/5.jpg", price: "$35.00", lessons: "Personal plan", duration: "Flexible", level: "Beginner friendly",
+            description: "Learn foundational Islamic knowledge through age-appropriate lessons about belief, worship, Prophetic character, and everyday manners.",
+            outcomes: ["Build foundational Islamic knowledge", "Learn essential beliefs and acts of worship", "Explore Seerah and Prophetic character", "Practice daily manners and values", "Ask questions in a supportive class"],
+            modules: [["Foundations of faith", "Purification and prayer", "Seerah and Prophetic example", "Daily duas and remembrance"], ["Good character and manners", "Family and community values", "Practical everyday questions", "Review and reflection"]],
+            instructor: "Qari Abu Bakar", instructorTitle: "Islamic Studies Instructor", instructorImage: "assets/img/tutors/qari-abu-bakar.jpg", instructorBio: "Qari Abu Bakar teaches core Islamic topics in an approachable format, helping students connect foundational knowledge with daily life."
+        },
+        "kids-quran-classes": {
+            title: "Online Quran Classes for Kids", category: "Children's Quran Classes", image: "assets/img/courses/6.jpg", price: "$45.00", lessons: "Personal plan", duration: "Flexible", level: "Children",
+            description: "Encourage children to learn Quran in a friendly online classroom with short, focused activities and lessons matched to their age and reading level.",
+            outcomes: ["Learn with patient, age-aware instruction", "Practice Arabic letters and Quran reading", "Build positive learning habits", "Receive individual attention", "Keep parents informed about progress"],
+            modules: [["Getting comfortable with Arabic letters", "Sound and pronunciation practice", "Noorani Qaida foundations", "Short reading activities"], ["Quran reading practice", "Memorization and duas", "Review through activities", "Progress check-in with family"]],
+            instructor: "Qari Habib", instructorTitle: "Children's Quran Instructor", instructorImage: "assets/img/tutors/qari-habib.jpg", instructorBio: "Qari Habib makes lessons welcoming and structured, using patient repetition and age-appropriate practice to help young learners progress."
+        },
+        "arabic-language": {
+            title: "Arabic Language", category: "Arabic Language", image: "assets/img/courses/7.jpg", price: "$65.00", lessons: "Personal plan", duration: "Flexible", level: "Beginner friendly",
+            description: "Develop practical Arabic skills through guided work on vocabulary, sentence patterns, reading, and conversation, including language used in Quranic study.",
+            outcomes: ["Build useful Arabic vocabulary", "Understand basic sentence patterns", "Practice reading and writing", "Develop listening and conversation skills", "Explore words found in Quranic Arabic"],
+            modules: [["Arabic sounds and alphabet review", "Everyday vocabulary", "Nouns, verbs, and simple sentences", "Reading short passages"], ["Question and answer practice", "Listening and conversation", "Quranic vocabulary introduction", "Review and guided practice"]],
+            instructor: "Qari Abu Bakar", instructorTitle: "Arabic Language Instructor", instructorImage: "assets/img/tutors/qari-abu-bakar.jpg", instructorBio: "Qari Abu Bakar guides learners through Arabic vocabulary and sentence practice, with lessons adapted to their goals and current level."
+        },
+        "structured-hifz-program": {
+            title: "Structured Hifz Program", category: "Quran Memorization", image: "assets/img/courses/8.jpg", price: "$75.00", lessons: "Personal plan", duration: "Flexible", level: "Personalized",
+            description: "A structured Hifz pathway combining new memorization, daily revision, teacher listening, and a schedule that can be adapted to the learner.",
+            outcomes: ["Create a sustainable memorization schedule", "Balance new lessons with revision", "Recite regularly to a qualified teacher", "Identify and correct weak passages", "Review progress and adjust targets"],
+            modules: [["Starting assessment and plan", "New memorization routine", "Recent lesson revision", "Teacher listening and correction"], ["Weekly revision structure", "Connecting memorized portions", "Monthly progress review", "Long-term retention plan"]],
+            instructor: "Qari Habib", instructorTitle: "Hifz Program Instructor", instructorImage: "assets/img/tutors/qari-habib.jpg", instructorBio: "Qari Habib helps learners build a realistic Hifz routine with careful listening, regular revision, and goals that fit their schedule."
+        }
+    };
+
+    var params = new URLSearchParams(window.location.search);
+    var course = courses[params.get("course")] || courses["quran-reading-for-beginners"];
+    document.title = course.title + " | Al-Asim Quran";
+    function setText(id, value) { var el = document.getElementById(id); if (el) el.textContent = value; }
+    setText("courseBannerTitle", course.title);
+    setText("courseBreadcrumbTitle", course.title);
+    setText("courseCategory", course.category);
+    setText("courseTitle", course.title);
+    setText("courseInstructorName", course.instructor);
+    setText("coursePrice", course.price);
+    setText("courseDuration", course.duration);
+    setText("courseLessons", course.lessons);
+    setText("courseLevel", course.level);
+    var hero = document.getElementById("courseHeroImage");
+    if (hero) { hero.src = course.image; hero.alt = course.title; }
+    var preview = document.querySelector(".video-thumbnail img");
+    if (preview) { preview.src = course.image; preview.alt = course.title + " course preview"; }
+    var enroll = document.getElementById("courseEnrollLink");
+    if (enroll) enroll.href = "inquiry.aspx?course=" + encodeURIComponent(params.get("course") || "quran-reading-for-beginners") + "&courseName=" + encodeURIComponent(course.title);
+
+    var overview = document.getElementById("courseOverviewContent");
+    if (overview) overview.innerHTML = "<h3 class='cdtitle'>About this course</h3><p>" + course.description + "</p><div class='benefits'><h3>What you will learn</h3><ul>" + course.outcomes.map(function (item) { return "<li>" + item + "</li>"; }).join("") + "</ul></div><p>Classes are held online with flexible scheduling. Book a free trial to discuss the learner's level, goals, and preferred timetable.</p>";
+
+    var curriculum = document.getElementById("courseCurriculumContent");
+    if (curriculum) {
+        var modulesHtml = course.modules.map(function (lessons, index) {
+            return "<div class='accordion-block'><div class='block-header'><span>Module " + (index + 1) + ": " + lessons[0] + "</span><span class='meta'>" + lessons.length + " lessons</span></div><ul class='lesson-list'>" + lessons.map(function (lesson, lessonIndex) { return "<li><span class='title'><i class='fa-regular fa-circle-play'></i> " + lesson + "</span><span class='duration'>Guided practice</span></li>"; }).join("") + "</ul></div>";
+        }).join("");
+        curriculum.innerHTML = "<div id='curriculum-tab' class='tab-panel active'><h3>Course Structure</h3><p>A practical learning path tailored to the student's level and pace.</p><div class='curriculum-accordion'>" + modulesHtml + "</div></div>";
+    }
+
+    var reviews = document.querySelector("#nav-review .cd_rating");
+    if (reviews) reviews.innerHTML = "<h3>Student and Parent Feedback</h3><div class='rating_list'><div class='rating_item'><div class='rating_item_avatar'><img src='assets/img/review/1.jpg' alt='Student review'><div class='rava_conent'><h3>Fatima Ali</h3><p>Canada · Parent</p></div></div><div class='rating_item_content'><span class='rating_item_ricon'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></span><p>“My children enjoy every class. The instructors are professional and make learning the Quran easy and engaging for young students.”</p></div></div><div class='rating_item'><div class='rating_item_avatar'><img src='assets/img/review/2.jpg' alt='Student review'><div class='rava_conent'><h3>Muhammad Hassan</h3><p>United States · Student</p></div></div><div class='rating_item_content'><span class='rating_item_ricon'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></span><p>“The flexible scheduling and one-to-one sessions have helped me continue my Quran studies despite my busy work routine.”</p></div></div><div class='rating_item'><div class='rating_item_avatar'><img src='assets/img/review/3.jpg' alt='Student review'><div class='rava_conent'><h3>Ayesha Noor</h3><p>Australia · Student</p></div></div><div class='rating_item_content'><span class='rating_item_ricon'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></span><p>“My Tajweed has improved greatly, and I feel more confident in my recitation.”</p></div></div></div><p class='mt-3'>These reviews were shared by students and families in their testimonials.</p>";
+
+    var instructorPane = document.getElementById("nav-instructor");
+    if (instructorPane) instructorPane.innerHTML = "<div class='cd_instructor'><div class='cdin_image'><img src='" + course.instructorImage + "' alt='" + course.instructor + "'></div><div class='cdin_content'><h4>" + course.instructor + "</h4><span class='cdin_subtitle'>" + course.instructorTitle + "</span><div class='cdin_meta'><span><i class='fa-solid fa-book-open'></i> One-to-one Quran learning</span><span><i class='fa-solid fa-globe'></i> Online classes worldwide</span><span><i class='fa-solid fa-clock'></i> Flexible schedule</span></div><p>" + course.instructorBio + "</p><ul><li><a href='https://web.facebook.com/profile.php?id=61595788242425' target='_blank' rel='noopener noreferrer' aria-label='Facebook'><i class='fa-brands fa-facebook-f'></i></a></li><li><a href='https://www.tiktok.com/@al_asimquran' target='_blank' rel='noopener noreferrer' aria-label='TikTok'><i class='fa-brands fa-tiktok'></i></a></li><li><a href='https://youtube.com/@alasimquran' target='_blank' rel='noopener noreferrer' aria-label='YouTube'><i class='fa-brands fa-youtube'></i></a></li><li><a href='https://wa.me/923424852893' target='_blank' rel='noopener noreferrer' aria-label='WhatsApp'><i class='fa-brands fa-whatsapp'></i></a></li></ul></div></div>";
+})();
+</script>
 </asp:Content>

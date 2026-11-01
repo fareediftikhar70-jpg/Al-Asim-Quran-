@@ -8,6 +8,12 @@
 # Build results
 [Oo]bj/
 
+# Local SMTP credentials
+SmtpSecrets.config
+
+# Temporary previews
+_preview*
+
 # Windows desktop
 Thumbs.db
 ehthumbs.db

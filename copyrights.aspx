@@ -2,7 +2,7 @@
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent"><meta name="description" content="All content, materials, and trademarks on Al-Asim Quran are protected by intellectual property laws." /></asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
 <div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
-<section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/slider2.jpg');"><div class="container"><div class="row"><div class="col-12 text-center"><span class="am-extra-eyebrow">Al-Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span><h1>Copyrights Notice</h1><p><a href="Default.aspx">Home</a> <i class="fa-solid fa-angles-right"></i> Copyrights</p></div></div></div></section>
+<section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/banner.jpg');"><div class="container"><div class="row"><div class="col-12 text-center"><span class="am-extra-eyebrow">Al-Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span><h1>Copyrights Notice</h1><p><a href="Default.aspx">Home</a> <i class="fa-solid fa-angles-right"></i> Copyrights</p></div></div></div></section>
 <section class="am-extra-content section-padding"><div class="container"><header class="am-extra-lead wow fadeInUp"><span>Protecting educational intellectual property</span><h2>Copyrights &amp; Ownership</h2><p>All content, materials, and digital assets on Al-Asim Quran are legally protected.</p></header>
 
 <div class="row g-4 am-extra-grid">

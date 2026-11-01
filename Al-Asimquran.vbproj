@@ -89,17 +89,36 @@
     <Content Include="About.aspx" />
     <Content Include="aims-and-objectives.aspx" />
     <Content Include="assets\img\icons\Gemini_Generated_Image_ag0dm7ag0dm7ag0d.jpeg" />
+    <Content Include="assets\img\icons\navbarlogo.jpg" />
+    <Content Include="assets\img\icons\navbarlogo-transparent.png" />
+    <Content Include="assets\img\icons\topmidloogo.jpg" />
+    <Content Include="assets\img\icons\topmidloogo-transparent.png" />
     <Content Include="assets\img\icons\WhatsApp Image 2026-10-24 at 5.04.20 PM.jpeg" />
+    <Content Include="announcements.aspx" />
+    <Content Include="arabic-language.aspx" />
     <Content Include="core-values.aspx" />
+    <Content Include="events.aspx" />
+    <Content Include="hifz-ul-quran.aspx" />
     <Content Include="inquiry.aspx" />
     <Content Include="introduction.aspx" />
     <Content Include="mission-statement.aspx" />
+    <Content Include="modern-integrations.aspx" />
     <Content Include="our-certificate.aspx" />
     <Content Include="our-registration.aspx" />
     <Content Include="our-story.aspx" />
+    <Content Include="publications.aspx" />
+    <Content Include="quran-reading-for-beginners.aspx" />
+    <Content Include="noorani-qaida.aspx" />
+    <Content Include="quran-with-tajweed.aspx" />
+    <Content Include="spiritual-development.aspx" />
     <Content Include="support.aspx" />
+    <Content Include="student-programs.aspx" />
+    <Content Include="tafseer-and-translation.aspx" />
     <Content Include="team-management.aspx" />
     <Content Include="the-message.aspx" />
+    <Content Include="terms-conditions.aspx" />
+    <Content Include="testimonials.aspx" />
+    <Content Include="tutors.aspx" />
     <Content Include="vision-statement.aspx" />
     <Content Include="why-choose-al-asim-quran.aspx" />
     <Content Include="Account\ChangePassword.aspx" />
@@ -151,7 +170,10 @@
     <Content Include="assets\img\donation\3.jpg" />
     <Content Include="assets\img\donation\4.jpg" />
     <Content Include="assets\img\donation\details.jpg" />
-    <Content Include="assets\img\icons\al-asim-quran-logo-255x113 %281%29.png" />
+    <Content Include="assets\img\icons\al-asim-quran-logo-255x113 (1).png" />
+    <Content Include="assets\img\icons\al-asim-logo-black-transparent.png" />
+    <Content Include="assets\img\icons\al-asim-logo-white-transparent.png" />
+    <Content Include="assets\img\icons\al-asim-logo-horizontal.png" />
     <Content Include="assets\img\icons\Al-Asim.png" />
     <Content Include="assets\img\icons\arrow-left.ico" />
     <Content Include="assets\img\icons\arrow-right.ico" />
@@ -193,6 +215,12 @@
     <Content Include="assets\img\services\praying.svg" />
     <Content Include="assets\img\services\quran.svg" />
     <Content Include="assets\img\services\service-details.jpg" />
+    <Content Include="assets\img\services\3.jpg" />
+    <Content Include="assets\img\services\4.jpg" />
+    <Content Include="assets\img\services\5.jpg" />
+    <Content Include="assets\img\tutors\qari-habib.jpg" />
+    <Content Include="assets\img\tutors\qari-abu-bakar.jpg" />
+    <Content Include="assets\img\bismillah-white-transparent.png" />
     <Content Include="assets\img\shapes\blog_shape.svg" />
     <Content Include="assets\img\shapes\fcircle.svg" />
     <Content Include="assets\img\shapes\fdots.svg" />
@@ -252,9 +280,9 @@
     <Content Include="contact.aspx" />
     <Content Include="course-details.aspx" />
     <Content Include="courses.aspx" />
-    <Content Include="courses2.aspx" />
     <Content Include="donation.aspx" />
     <Content Include="faq.aspx" />
+    <Content Include="form-submit.aspx" />
     <Content Include="available-worldwide.aspx" />
     <Content Include="careers.aspx" />
     <Content Include="copyrights.aspx" />
@@ -320,6 +348,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form-submit.aspx.designer.vb">
+      <DependentUpon>form-submit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form-submit.aspx.vb">
+      <DependentUpon>form-submit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>

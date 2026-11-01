@@ -1,6 +1,6 @@
 <%@ Page Title="Al-Asim Quran Courses | Online Quran & Islamic Studies" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent">
-	<meta name="description" content="Explore online Quran, Tajweed, Hifz, Tafseer, Islamic Studies and Arabic courses at Al-Asim Quran." />
+	<meta name="description" content="Explore online Noorani Qaida, Quran reading, Tajweed, Hifz, Tafseer, Daily Duas, Islamic Studies and Arabic courses at Al-Asim Quran." />
 </asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
 	<section class="main_banner position-relative am-courses-banner" style="background-image: url('assets/img/bg/banner.jpg');">
@@ -26,45 +26,69 @@
 				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp">
 					<div class="am-course-photo"><img src="assets/img/courses/1.jpg" alt="Student learning Quran reading with a teacher"><span>01 &bull; FOUNDATIONS</span></div>
 					<div class="am-course-copy"><h2>Quran Reading for Beginners</h2><p>Learn the basics of Quran reading from Arabic letters to fluent recitation.</p>
-						<h3>What You'll Learn</h3><ul><li>Noorani Qaida</li><li>Arabic pronunciation</li><li>Reading practice</li><li>One-to-one classes</li></ul>
-						<a href="#trial" class="green_border_btn">Book a Free Trial</a>
+						<h3>What You'll Learn</h3><ul><li>Arabic letters and sounds</li><li>Vowel signs and joined letters</li><li>Reading practice</li><li>Basic Tajweed principles</li></ul>
+						<a href="quran-reading-for-beginners.aspx" class="green_border_btn">Explore Nazra Course</a>
+					</div>
+				</article></div>
+				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp" data-wow-delay=".08s">
+					<div class="am-course-photo"><img src="assets/img/courses/1.jpg" alt="Student learning Arabic letters with Noorani Qaida"><span>02 &bull; FOUNDATIONS</span></div>
+					<div class="am-course-copy"><h2>Noorani Qaida</h2><p>Start with Arabic letters, pronunciation and reading patterns that prepare you for Quran recitation.</p>
+						<h3>What You'll Learn</h3><ul><li>Arabic letter forms</li><li>Harakaat and Madd</li><li>Sukoon and Tashdeed</li><li>Basic reading skills</li></ul>
+						<a href="noorani-qaida.aspx" class="green_border_btn">Explore Noorani Qaida</a>
 					</div>
 				</article></div>
 				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp" data-wow-delay=".1s">
-					<div class="am-course-photo"><img src="assets/img/courses/2.jpg" alt="Quran recitation practice"><span>02 &bull; RECITATION</span></div>
+					<div class="am-course-photo"><img src="assets/img/courses/2.jpg" alt="Quran recitation practice"><span>03 &bull; RECITATION</span></div>
 					<div class="am-course-copy"><h2>Quran with Tajweed</h2><p>Master Quran recitation with proper pronunciation and Tajweed rules.</p>
 						<h3>What You'll Learn</h3><ul><li>Makharij</li><li>Tajweed rules</li><li>Fluency training</li><li>Recitation practice</li></ul>
 						<a href="#trial" class="green_border_btn">Book a Free Trial</a>
 					</div>
 				</article></div>
 				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp" data-wow-delay=".2s">
-					<div class="am-course-photo"><img src="assets/img/courses/3.jpg" alt="Student memorizing Quran"><span>03 &bull; MEMORIZATION</span></div>
+					<div class="am-course-photo"><img src="assets/img/courses/3.jpg" alt="Student memorizing Quran"><span>04 &bull; MEMORIZATION</span></div>
 					<div class="am-course-copy"><h2>Hifz-ul-Quran</h2><p>Memorize the Holy Quran under experienced Hafez instructors.</p>
 						<h3>What You'll Learn</h3><ul><li>Daily revision</li><li>Memorization plan</li><li>Progress tracking</li><li>Regular assessments</li></ul>
 						<a href="#trial" class="green_border_btn">Book a Free Trial</a>
 					</div>
 				</article></div>
 				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp">
-					<div class="am-course-photo"><img src="assets/img/courses/4.jpg" alt="Reading and understanding Quran"><span>04 &bull; UNDERSTANDING</span></div>
+					<div class="am-course-photo"><img src="assets/img/courses/4.jpg" alt="Reading and understanding Quran"><span>05 &bull; UNDERSTANDING</span></div>
 					<div class="am-course-copy"><h2>Tafseer &amp; Translation</h2><p>Understand the meanings and teachings of the Holy Quran.</p>
 						<h3>What You'll Learn</h3><ul><li>Quran translation</li><li>Tafseer lessons</li><li>Practical guidance</li><li>Islamic values</li></ul>
 						<a href="#trial" class="green_border_btn">Book a Free Trial</a>
 					</div>
 				</article></div>
 				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp" data-wow-delay=".1s">
-					<div class="am-course-photo"><img src="assets/img/courses/5.jpg" alt="Islamic learning at home"><span>05 &bull; KNOWLEDGE</span></div>
+					<div class="am-course-photo"><img src="assets/img/courses/5.jpg" alt="Islamic learning at home"><span>06 &bull; KNOWLEDGE</span></div>
 					<div class="am-course-copy"><h2>Islamic Studies</h2><p>Build strong Islamic knowledge and character through clear, age-appropriate lessons.</p>
 						<h3>What You'll Learn</h3><ul><li>Aqeedah</li><li>Seerah</li><li>Fiqh basics</li><li>Islamic ethics</li></ul>
 						<a href="#trial" class="green_border_btn">Book a Free Trial</a>
 					</div>
 				</article></div>
+				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp" data-wow-delay=".15s">
+					<div class="am-course-photo"><img src="assets/img/courses/4.jpg" alt="Learning daily supplications from Quran and Sunnah"><span>07 &bull; DAILY PRACTICE</span></div>
+					<div class="am-course-copy"><h2>Daily Duas &amp; Sunnah</h2><p>Learn everyday supplications, their meanings and how to include them in daily routines.</p>
+						<h3>What You'll Learn</h3><ul><li>Morning and evening remembrance</li><li>Daily routine Duas</li><li>Pronunciation and meanings</li><li>Practice and memorization</li></ul>
+						<a href="daily-islamic-supplications.aspx" class="green_border_btn">Explore Daily Duas</a>
+					</div>
+				</article></div>
 				<div class="col-xl-4 col-md-6"><article class="am-course-card wow fadeInUp" data-wow-delay=".2s">
-					<div class="am-course-photo"><img src="assets/img/courses/6.jpg" alt="Learning Arabic for Quran studies"><span>06 &bull; LANGUAGE</span></div>
+					<div class="am-course-photo"><img src="assets/img/courses/6.jpg" alt="Learning Arabic for Quran studies"><span>08 &bull; LANGUAGE</span></div>
 					<div class="am-course-copy"><h2>Arabic Language</h2><p>Learn Arabic for better understanding of Quran and Islamic texts.</p>
 						<h3>What You'll Learn</h3><ul><li>Grammar</li><li>Vocabulary</li><li>Conversation skills</li><li>Reading &amp; writing</li></ul>
 						<a href="#trial" class="green_border_btn">Book a Free Trial</a>
 					</div>
 				</article></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="am-quran-verse-section">
+		<div class="container">
+			<div class="am-quran-verse am-quran-verse-light">
+				<p class="am-quran-arabic" lang="ar" dir="rtl">ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ</p>
+				<p class="am-quran-translation">“Read, O Prophet, in the Name of your Lord Who created—”</p>
+				<span class="am-quran-reference">Surah Al-‘Alaq · 96:1 · Translation: Dr. Mustafa Khattab</span>
 			</div>
 		</div>
 	</section>
@@ -79,150 +103,19 @@
 					<ul class="am-trial-points"><li><i class="fa-solid fa-circle-check"></i> Meet your teacher and discuss your goals</li><li><i class="fa-solid fa-circle-check"></i> Find a suitable class time</li><li><i class="fa-solid fa-circle-check"></i> Explore the course that fits you</li></ul>
 				</div>
 				<div class="col-lg-7">
-					<form class="am-trial-form" action="inquiry.aspx" method="get">
+					<form class="am-trial-form" action="form-submit.aspx?type=FreeTrial" method="post">
+						<div aria-hidden="true" style="position:absolute;left:-10000px;height:1px;width:1px;overflow:hidden;"><label>Leave this field empty<input type="text" name="website_check" tabindex="-1" autocomplete="off"></label></div>
 						<div class="row g-3">
 							<div class="col-md-6"><label for="trialName">Full Name</label><input id="trialName" name="name" type="text" placeholder="Your full name" required="required"></div>
 							<div class="col-md-6"><label for="trialEmail">Email Address</label><input id="trialEmail" name="email" type="email" placeholder="you@example.com" required="required"></div>
 							<div class="col-md-6"><label for="trialPhone">Phone Number</label><input id="trialPhone" name="phone" type="tel" placeholder="Include country code"></div>
 							<div class="col-md-6"><label for="trialCountry">Country</label><input id="trialCountry" name="country" type="text" placeholder="Your country"></div>
-							<div class="col-md-6"><label for="trialCourse">Course Selection</label><select id="trialCourse" name="course"><option value="">Choose a course</option><option>Quran Reading for Beginners</option><option>Quran with Tajweed</option><option>Hifz-ul-Quran</option><option>Tafseer &amp; Translation</option><option>Islamic Studies</option><option>Arabic Language</option></select></div>
+							<div class="col-md-6"><label for="trialCourse">Course Selection</label><select id="trialCourse" name="courseName"><option value="">Choose a course</option><option>Quran Reading (Nazra)</option><option>Noorani Qaida</option><option>Quran with Tajweed</option><option>Hifz-ul-Quran</option><option>Tafseer &amp; Translation</option><option>Daily Duas &amp; Sunnah</option><option>Islamic Studies</option><option>Arabic Language</option></select></div>
 							<div class="col-md-6"><label for="trialTime">Preferred Time</label><input id="trialTime" name="time" type="text" placeholder="Your time zone and availability"></div>
 							<div class="col-12"><label for="trialMessage">Message</label><textarea id="trialMessage" name="message" rows="4" placeholder="Tell us about your learning goals"></textarea></div>
 							<div class="col-12"><button type="submit" class="green_btn"><span>Request My Free Trial</span></button></div>
 						</div>
 					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Subscription Plans Section (SS 3) -->
-	<section class="am-subscription-section section-padding">
-		<div class="container">
-			<div class="section-heading text-center mb-50 wow fadeInUp">
-				<span>Flexible Monthly Plans</span>
-				<h2>Our Subscription Plans</h2>
-				<p>Choose an authentic Quranic learning plan tailored to your family's educational goals.</p>
-				<img src="assets/img/icons/title.ico" alt="Decorative section divider">
-			</div>
-
-			<div class="row g-4 justify-content-center">
-				<!-- BASIC PLAN -->
-				<div class="col-lg-4 col-md-6">
-					<article class="am-sub-card wow fadeInUp" data-wow-delay="0.05s">
-						<div class="am-sub-header am-sub-header-basic">
-							<h3 class="am-sub-title">BASIC</h3>
-						</div>
-						<div class="am-sub-ribbon-wrap">
-							<div class="am-sub-ribbon">
-								<span class="am-sub-price">PKR 20,000</span>
-								<span class="am-sub-period">/ Month</span>
-							</div>
-						</div>
-						<div class="am-sub-body">
-							<ul class="am-sub-features">
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Quran Reading with Tajweed</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Basic Tafseer</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Daily Practice &amp; Revision</span>
-								</li>
-							</ul>
-							<a href="inquiry.aspx?plan=Basic" class="am-sub-btn am-sub-btn-basic">
-								<span>Enroll Now <i class="fa-solid fa-arrow-right ms-2"></i></span>
-							</a>
-						</div>
-					</article>
-				</div>
-
-				<!-- STANDARD PLAN -->
-				<div class="col-lg-4 col-md-6">
-					<article class="am-sub-card am-sub-card-featured wow fadeInUp" data-wow-delay="0.15s">
-						<div class="am-sub-header am-sub-header-standard">
-							<h3 class="am-sub-title">STANDARD</h3>
-						</div>
-						<div class="am-sub-ribbon-wrap">
-							<div class="am-sub-ribbon">
-								<span class="am-sub-price">PKR 25,000</span>
-								<span class="am-sub-period">/ Month</span>
-							</div>
-						</div>
-						<div class="am-sub-body">
-							<ul class="am-sub-features">
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Quran Reading with Tajweed</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Tafseer &amp; Islamic Studies</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Quran Translation</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Regular Assessments</span>
-								</li>
-							</ul>
-							<a href="inquiry.aspx?plan=Standard" class="am-sub-btn am-sub-btn-standard">
-								<span>Enroll Now <i class="fa-solid fa-arrow-right ms-2"></i></span>
-							</a>
-						</div>
-					</article>
-				</div>
-
-				<!-- PREMIUM PLAN -->
-				<div class="col-lg-4 col-md-6">
-					<article class="am-sub-card wow fadeInUp" data-wow-delay="0.25s">
-						<div class="am-sub-header am-sub-header-premium">
-							<h3 class="am-sub-title">PREMIUM</h3>
-						</div>
-						<div class="am-sub-ribbon-wrap">
-							<div class="am-sub-ribbon">
-								<span class="am-sub-price">PKR 35,000</span>
-								<span class="am-sub-period">/ Month</span>
-							</div>
-						</div>
-						<div class="am-sub-body">
-							<ul class="am-sub-features">
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Quran Reading with Tajweed</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Tafseer &amp; Islamic Studies</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Quran Translation</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Hifz ul Quran</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Arabic Language</span>
-								</li>
-								<li>
-									<i class="fa-solid fa-circle-check am-sub-check"></i>
-									<span>Monthly Progress Report</span>
-								</li>
-							</ul>
-							<a href="inquiry.aspx?plan=Premium" class="am-sub-btn am-sub-btn-premium">
-								<span>Enroll Now <i class="fa-solid fa-arrow-right ms-2"></i></span>
-							</a>
-						</div>
-					</article>
 				</div>
 			</div>
 		</div>

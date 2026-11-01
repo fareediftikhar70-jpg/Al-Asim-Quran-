@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About Us - Al-Asim Quran | Online Islamic Academy" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
+<%@ Page Title="About Us - Al-Asim Quran | Online Islamic Academy" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false" %>
 <asp:Content ID="PageHead" runat="server" ContentPlaceHolderID="HeadContent">
     <meta name="description" content="Learn about Al-Asim Quran, our mission, qualified tutors, and dedication to providing authentic Quranic and Islamic education worldwide." />
 </asp:Content>
@@ -35,25 +35,53 @@
         </div>
     </section>
 
-    <!-- Stats Bar -->
-    <section class="py-4 bg-light border-bottom">
+    <!-- Stats Bar (Image 2 Card Style) -->
+    <section class="counter-up py-5">
         <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-6 col-md-3">
-                    <h2 class="fw-bold text-dark mb-0">100+</h2>
-                    <p class="text-muted mb-0">Active Students Worldwide</p>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-counter d-flex align-items-center">
+                        <div class="counter_icon am-counter-badge">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <div class="counter_content">
+                            <h2><span class="counter">100</span>+</h2>
+                            <p>Students</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 col-md-3">
-                    <h2 class="fw-bold text-dark mb-0">10+</h2>
-                    <p class="text-muted mb-0">Certified Islamic Tutors</p>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-counter d-flex align-items-center">
+                        <div class="counter_icon am-counter-badge">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <div class="counter_content">
+                            <h2><span class="counter">10</span>+</h2>
+                            <p>Qualified Tutors</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 col-md-3">
-                    <h2 class="fw-bold text-dark mb-0">20+</h2>
-                    <p class="text-muted mb-0">Countries Served</p>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-counter d-flex align-items-center">
+                        <div class="counter_icon am-counter-badge">
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                        <div class="counter_content">
+                            <h2><span class="counter">20</span>+</h2>
+                            <p>Countries Served</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 col-md-3">
-                    <h2 class="fw-bold text-dark mb-0">10+</h2>
-                    <p class="text-muted mb-0">Years of Experience</p>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-counter d-flex align-items-center">
+                        <div class="counter_icon am-counter-badge">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="counter_content">
+                            <h2><span class="counter">10</span>+</h2>
+                            <p>Years' Experience</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -112,6 +140,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="am-quran-verse am-quran-verse-light my-5">
+                <p class="am-quran-arabic" lang="ar" dir="rtl">قُلْ هَلْ يَسْتَوِي ٱلَّذِينَ يَعْلَمُونَ وَٱلَّذِينَ لَا يَعْلَمُونَ</p>
+                <p class="am-quran-translation">“Say, ‘O Prophet, are those who know equal to those who do not know?’”</p>
+                <span class="am-quran-reference">Surah Az-Zumar · 39:9 · Translation: Dr. Mustafa Khattab</span>
             </div>
 
             <!-- Pillars of Islam -->

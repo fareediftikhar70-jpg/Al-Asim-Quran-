@@ -3,7 +3,7 @@
     <meta name="description" content="Book your free trial class with Al-Asim Quran. Experience our 1-on-1 teaching approach before enrolling and explore a customized learning plan with a qualified Quran tutor." />
 </asp:Content>
 <asp:Content ID="PageBody" runat="server" ContentPlaceHolderID="MainContent">
-<div class="am-extra-page" style="--am-extra-accent: #b8891a;">
+<div class="am-extra-page" style="--am-extra-accent: #0f6d49;">
     <section class="main_banner position-relative am-extra-banner" style="background-image: url('assets/img/bg/log-reg.jpg');">
         <div class="container">
             <div class="row">
@@ -89,6 +89,81 @@
                         <h2>Dedicated Support Team</h2>
                         <p>Have questions before booking? Our support desk is reachable 24/7 on WhatsApp (+92 342 4852893) or email (alasimquran@gmail.com) to assist you with scheduling and course selection.</p>
                     </article>
+                </div>
+            </div>
+
+            <!-- Interactive Free Trial Form -->
+            <div class="row justify-content-center my-5 wow fadeInUp">
+                <div class="col-lg-10">
+                    <div class="am-contact-form-wrap" style="background: #ffffff; padding: 40px; border-radius: 18px; box-shadow: 0 10px 35px rgba(0,0,0,0.06); border: 1px solid rgba(17,54,38,0.1);">
+                        <div class="am-contact-form-heading text-center mb-4">
+                            <span style="color: #0e8544; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: 13px;">Instant Online Registration</span>
+                            <h2 style="color: #113626; font-size: 28px; margin-top: 5px;">Book Your Free 1-on-1 Trial Class</h2>
+                            <p style="color: #666; font-size: 15px;">Fill out the short form below and our coordinator will confirm your session time on WhatsApp or email.</p>
+                        </div>
+                        <form class="am-trial-form" action="form-submit.aspx?type=FreeTrial" method="post">
+                            <div aria-hidden="true" style="position:absolute;left:-10000px;height:1px;width:1px;overflow:hidden;"><label>Leave this field empty<input type="text" name="website_check" tabindex="-1" autocomplete="off"></label></div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="am-form-group">
+                                        <label for="trialName">Student / Guardian Full Name <span class="text-danger">*</span></label>
+                                        <input id="trialName" name="name" type="text" class="form-control" placeholder="Your full name" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="am-form-group">
+                                        <label for="trialEmail">Email Address <span class="text-danger">*</span></label>
+                                        <input id="trialEmail" name="email" type="email" class="form-control" placeholder="alasimquran@gmail.com" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="am-form-group">
+                                        <label for="trialPhone">Phone / WhatsApp Number <span class="text-danger">*</span></label>
+                                        <input id="trialPhone" name="phone" type="tel" class="form-control" placeholder="e.g. 0342-4852893" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="am-form-group">
+                                        <label for="trialCountry">Country / Location</label>
+                                        <input id="trialCountry" name="country" type="text" class="form-control" placeholder="e.g. Pakistan, UK, USA">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="am-form-group">
+                                        <label for="trialCourse">Course of Interest</label>
+                                        <select id="trialCourse" name="course" class="form-control" style="height: 52px !important; line-height: normal !important; padding: 10px 16px !important; font-size: 15px !important; display: block !important;">
+                                            <option value="">Choose a course</option>
+                                            <option value="Quran Reading (Nazra)">Quran Reading (Nazra)</option>
+                                            <option value="Noorani Qaida">Noorani Qaida</option>
+                                            <option value="Quran with Tajweed">Quran with Tajweed</option>
+                                            <option value="Hifz-ul-Quran">Hifz-ul-Quran</option>
+                                            <option value="Tafseer & Translation">Tafseer &amp; Translation</option>
+                                            <option value="Daily Duas & Sunnah">Daily Duas &amp; Sunnah</option>
+                                            <option value="Islamic Studies">Islamic Studies</option>
+                                            <option value="Arabic Language">Arabic Language</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="am-form-group">
+                                        <label for="trialTime">Preferred Class Time / Timezone</label>
+                                        <input id="trialTime" name="time" type="text" class="form-control" placeholder="e.g. Evenings, 7:00 PM PKT / UK time">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="am-form-group">
+                                        <label for="trialMessage">Student Level or Any Special Requirements</label>
+                                        <textarea id="trialMessage" name="message" rows="4" class="form-control" placeholder="Tell us about the student's age, previous Quran background, or preferred days..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-2 text-start">
+                                    <button class="green_btn" type="submit">
+                                        <span>Request Free Trial Session <i class="fa-solid fa-paper-plane ms-2"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
 

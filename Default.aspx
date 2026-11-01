@@ -16,7 +16,7 @@
 										<span class="slider_subtitle animated">Al Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span>
 										<h1 class="animated">Learn Quran Online with Qualified Islamic Teachers</h1>
 										<p class="animated">Join students worldwide for personalized Quran, Tajweed, Hifz, Islamic Studies and Arabic Language classes.</p>
-										<a href="free-trial.aspx" class="yellow_btn animated"><span>Book a Free Trial Class</span></a>
+						<a href="courses.aspx#trial" class="yellow_btn animated"><span>Book a Free Trial Class</span></a>
 										<a href="inquiry.aspx" class="yellow_btn animated"><span>Contact Us</span></a>
 									</div>
 								</div><!-- End Col -->
@@ -54,6 +54,11 @@
 					<a href="#" class="rev_prev"><img src="assets/img/icons/arrow-left.ico" alt=""></a>
 					<a href="#" class="rev_next"><img src="assets/img/icons/arrow-right.ico" alt=""></a>
 				</div>
+
+				<!-- Wave Shape at bottom of Slider (Image 1 fix) -->
+				<div class="am-slider-bottom-wave">
+					<img src="assets/img/slider/btm_shape.svg" alt="Bottom Wave Shape" />
+				</div>
 			</div>
 		</section>
 		<!-- End Slider -->
@@ -70,7 +75,8 @@
 							</span>
 							<h2>Listen To Quran Audio</h2>
 							<div class="bismillah"><img src="assets/img/bismillah.svg" alt=""></div>
-							<p class="surah">Surah - Al - Fatiha (1:1)</p>
+							<p class="surah" style="margin-bottom: 4px;">Surah - Al - Fatiha (1:1)</p>
+							<p class="am-player-arabic" style="font-family: 'Amiri', serif; font-size: 20px; color: #caa304; font-weight: 700; margin-bottom: 12px; direction: rtl;">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۖ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</p>
 							<audio id="audio"></audio>
 							<div class="time-row">
 								<span id="current">00:00</span>
@@ -92,26 +98,27 @@
 					<div class="col-lg-6 col-12">
 						<div class="about-content about-content-two wow fadeInRight">
 							<div class="d-flex align-items-center gap-3 mb-3">
-								<img src="assets/img/icons/al-asim-logo-black-transparent.png" alt="Al-Asim Quran Official Logo" style="max-height: 72px; width: auto; background: transparent;" />
+								<img src="assets/img/icons/topmidloogo-transparent.png" alt="Al-Asim Quran Official Logo" style="max-height: 72px; width: auto; background: transparent;" />
 								<div>
-									<span class="badge bg-dark text-white px-2 py-1 mb-1">Official Academy</span>
+									<span class="badge bg-dark text-white px-2 py-1 mb-1">Online Academy</span>
 									<h4 class="mb-0 fw-bold">Al-Asim Quran Academy</h4>
 									<small class="text-muted">Learn Quran Online Worldwide</small>
 								</div>
 							</div>
 							<div class="section-heading mb-30">
 								<span>About Us</span>
-								<h2>Al-Asim Quran - Learn Quran Online &amp; Islamic Education</h2>
+								<h3>Learn Quran &amp; Islamic Education</h3>
 								<img src="assets/img/icons/title.ico" alt="Title Icon">	
-							</div>
-							<p>
+                                							<p>
 								Al-Asim Quran makes Quran learning personal and accessible for students of every age. Learn online with caring teachers through one-to-one lessons shaped around your level, goals and schedule.
 							</p>
 							<p>
 								Build confidence in Quran reading, improve Tajweed, work towards Hifz, or explore Islamic Studies and Arabic with steady guidance from home.
 							</p>
+							</div>
+
 							<div class="d-flex flex-wrap gap-2 mt-3">
-								<a href="free-trial.aspx" class="green_btn"><span>Book a Free Trial Class</span></a>
+								<a href="courses.aspx#trial" class="green_btn"><span>Book a Free Trial Class</span></a>
 								<a href="our-story.aspx" class="btn btn-outline-dark px-3 py-2 rounded-pill fw-bold">Our Story</a>
 							</div>
 						</div>
@@ -130,6 +137,11 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="section-heading text-center mb-30 wow fadeInUp" data-wow-delay=".3s">
+							<div class="am-quran-verse am-quran-verse-compact">
+								<p class="am-quran-arabic" lang="ar" dir="rtl">وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا</p>
+								<p class="am-quran-translation">“…and recite the Quran with measured recitation.”</p>
+								<span class="am-quran-reference">Surah Al-Muzzammil · 73:4 · Translation: Sahih International</span>
+							</div>
 							<span>Why Choose Al-Asim Quran</span>
 							<h2>Support for Every Step of Your Learning Journey</h2>
 							<img src="assets/img/icons/title.ico" alt="Title Icon">	
@@ -137,7 +149,7 @@
 					</div><!-- End Col -->
 				</div><!-- End Row -->
 
-				<div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-center">
+				<div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">
 					<div class="col ">
 						<div class="single-pillar wow fadeInUp" data-wow-delay=".1s">
 											<img src="assets/img/pillars/1.png" alt="Qualified Quran teachers">
@@ -206,13 +218,18 @@
 		<!-- End Pillar of Islam -->
 
 		<!-- Start Services -->
-		<section class="services section-padding" style="background-image: url(assets/img/bg/service.jpg);">
+		<section class="services section-padding">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<div class="section-heading white-title text-center mb-30 wow fadeInUp" data-wow-delay=".3s">
 							<span>Our Services</span>
 							<h2>What We Provide For You</h2>
+							<div class="am-quran-verse am-quran-verse-dark">
+								<p class="am-quran-arabic" lang="ar" dir="rtl">وَقُل رَّبِّ زِدْنِي عِلْمًا</p>
+								<p class="am-quran-translation">“My Lord! Increase me in knowledge.”</p>
+								<span class="am-quran-reference">Surah Taha · 20:114</span>
+							</div>
 							<img src="assets/img/icons/title.ico" alt="Title Icon">	
 						</div>
 					</div><!-- End Col -->
@@ -308,11 +325,11 @@
 							<div class="course-image">
 								<img src="assets/img/courses/1.jpg" alt="Course Image">
 								<div class="course_author">
-								<img src="assets/img/tutors/qari-abu-bakar.jpg" alt="Qari Abu Bakar" style="object-fit: cover; object-position: center top;">
+								<img src="assets/img/tutors/qari-abu-bakar.jpg" alt="Qari Abu Bakar" >
 								<span><strong>Qari.</strong> <a href="tutors.aspx">Abu Bakar</a></span>
 								</div>
 							</div>
-
+                            `
 							<div class="course-content">
 								<div class="course_meta d-flex justify-content-between">
 								<div class="cor_rating">
@@ -325,13 +342,13 @@
 								<span class="cor_price">$40.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Quran Reading for Beginners</a></h3>
+								<h3><a href="course-details.aspx?course=quran-reading-for-beginners">Quran Reading for Beginners</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 								<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 								<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-								<a href="course-details.aspx" class="green_border_btn">Start Now</a>
+								<a href="course-details.aspx?course=quran-reading-for-beginners" class="green_border_btn">Start Now</a>
 								<a href="#" class="course_category gray_btn">Quran</a>
 								</div>
 							</div>
@@ -343,7 +360,7 @@
 							<div class="course-image">
 								<img src="assets/img/courses/2.jpg" alt="Course Image">
 								<div class="course_author">
-									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" style="object-fit: cover; object-position: center top;">
+									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib">
 									<span><strong>Qari.</strong> <a href="tutors.aspx">Habib</a></span>
 								</div>
 							</div> 
@@ -361,13 +378,13 @@
 									<span class="cor_price">$49.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Quran with Tajweed</a></h3>
+								<h3><a href="course-details.aspx?course=quran-with-tajweed">Quran with Tajweed</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 									<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 									<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-									<a href="course-details.aspx" class="green_border_btn ">Start Now</a>
+									<a href="course-details.aspx?course=quran-with-tajweed" class="green_border_btn ">Start Now</a>
 									<a href="#" class="course_category gray_btn">Arabic</a>
 								</div>
 							</div>
@@ -380,7 +397,7 @@
 							<div class="course-image">
 								<img src="assets/img/courses/3.jpg" alt="Course Image">
 								<div class="course_author">
-									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" style="object-fit: cover; object-position: center top;">
+									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib">
 									<span><strong>Qari.</strong> <a href="tutors.aspx">Habib</a></span>
 								</div>
 							</div> 
@@ -398,13 +415,13 @@
 									<span class="cor_price">$80.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Hifz-ul-Quran</a></h3>
+								<h3><a href="course-details.aspx?course=hifz-ul-quran">Hifz-ul-Quran</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 									<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 									<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-									<a href="course-details.aspx" class="green_border_btn ">Start Now</a>
+									<a href="course-details.aspx?course=hifz-ul-quran" class="green_border_btn ">Start Now</a>
 									<a href="#" class="course_category gray_btn">Tafsir</a>
 								</div>
 							</div>
@@ -417,9 +434,10 @@
 							<div class="course-image">
 								<img src="assets/img/courses/4.jpg" alt="Course Image">
 								<div class="course_author">
-									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" style="object-fit: cover; object-position: center top;">
+									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib">
 									<span><strong>Qari.</strong> <a href="tutors.aspx">Habib</a></span>
 								</div>
+
 							</div> 
 
 							<div class="course-content">
@@ -435,13 +453,13 @@
 									<span class="cor_price">$39.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Tafseer &amp; Translation</a></h3>
+								<h3><a href="course-details.aspx?course=tafseer-translation">Tafseer &amp; Translation</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 									<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 									<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-									<a href="course-details.aspx" class="green_border_btn ">Start Now</a>
+									<a href="course-details.aspx?course=tafseer-translation" class="green_border_btn ">Start Now</a>
 									<a href="#" class="course_category gray_btn">Quran</a>
 								</div>
 							</div>
@@ -454,7 +472,7 @@
 							<div class="course-image">
 								<img src="assets/img/courses/5.jpg" alt="Course Image">
 								<div class="course_author">
-									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" style="object-fit: cover; object-position: center top;">
+									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" >
 									<span><strong>Qari.</strong> <a href="tutors.aspx">Habib</a></span>
 								</div>
 							</div> 
@@ -472,13 +490,13 @@
 									<span class="cor_price">$35.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Islamic Studies</a></h3>
+								<h3><a href="course-details.aspx?course=islamic-studies">Islamic Studies</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 									<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 									<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-									<a href="course-details.aspx" class="green_border_btn ">Start Now</a>
+									<a href="course-details.aspx?course=islamic-studies" class="green_border_btn ">Start Now</a>
 									<a href="#" class="course_category gray_btn">Arabic</a>
 								</div>
 							</div>
@@ -491,7 +509,7 @@
 							<div class="course-image">
 								<img src="assets/img/courses/6.jpg" alt="Course Image">
 								<div class="course_author">
-									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" style="object-fit: cover; object-position: center top;">
+									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib">
 									<span><strong>Qari.</strong> <a href="tutors.aspx">Habib</a></span>
 								</div>
 							</div> 
@@ -509,13 +527,13 @@
 									<span class="cor_price">$45.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Online Quran Classes For your Kids</a></h3>
+								<h3><a href="course-details.aspx?course=kids-quran-classes">Online Quran Classes For your Kids</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 									<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 									<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-									<a href="course-details.aspx" class="green_border_btn ">Start Now</a>
+									<a href="course-details.aspx?course=kids-quran-classes" class="green_border_btn ">Start Now</a>
 									<a href="#" class="course_category gray_btn">Quran</a>
 								</div>
 							</div>
@@ -527,7 +545,7 @@
 							<div class="course-image">
 								<img src="assets/img/courses/7.jpg" alt="Course Image">
 								<div class="course_author">
-									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" style="object-fit: cover; object-position: center top;">
+									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib">
 									<span><strong>Qari.</strong> <a href="tutors.aspx">Habib</a></span>
 								</div>
 							</div> 
@@ -545,13 +563,13 @@
 									<span class="cor_price">$65.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Arabic Language</a></h3>
+								<h3><a href="course-details.aspx?course=arabic-language">Arabic Language</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 									<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 									<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-									<a href="course-details.aspx" class="green_border_btn ">Start Now</a>
+									<a href="course-details.aspx?course=arabic-language" class="green_border_btn ">Start Now</a>
 									<a href="#" class="course_category gray_btn">Fiqah</a>
 								</div>
 							</div>
@@ -563,7 +581,7 @@
 							<div class="course-image">
 								<img src="assets/img/courses/8.jpg" alt="Course Image">
 								<div class="course_author">
-									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib" style="object-fit: cover; object-position: center top;">
+									<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib">
 									<span><strong>Qari.</strong> <a href="tutors.aspx">Habib</a></span>
 								</div>
 							</div> 
@@ -581,13 +599,13 @@
 									<span class="cor_price">$75.00</span>
 								</div>
 
-								<h3><a href="course-details.aspx">Best Online Hifz Course Structured Hifz Program</a></h3>
+								<h3><a href="course-details.aspx?course=structured-hifz-program">Best Online Hifz Course Structured Hifz Program</a></h3>
 								<div class="course_meta d-flex justify-content-between">
 									<span><i class="fa-solid fa-users"></i> 1.2k Students</span>
 									<span><i class="fa-solid fa-clock"></i> 8 Hours</span>
 								</div>
 								<div class="d-flex course_btn gap-3 mt-3">
-									<a href="course-details.aspx" class="green_border_btn ">Start Now</a>
+									<a href="course-details.aspx?course=structured-hifz-program" class="green_border_btn ">Start Now</a>
 									<a href="#" class="course_category gray_btn">Hadith</a>
 								</div>
 							</div>
@@ -604,138 +622,6 @@
 		</section>
 		<!-- End Courses -->
 
-		<!-- Subscription Plans Section (SS 3) -->
-		<section class="am-subscription-section section-padding">
-			<div class="container">
-				<div class="section-heading text-center mb-50 wow fadeInUp">
-					<span>Affordable Monthly Learning</span>
-					<h2>Subscription Plans</h2>
-					<p>Choose an authentic Quranic learning plan tailored to your family's educational goals.</p>
-					<img src="assets/img/icons/title.ico" alt="Decorative section divider">
-				</div>
-
-				<div class="row g-4 justify-content-center">
-					<!-- BASIC PLAN -->
-					<div class="col-lg-4 col-md-6">
-						<article class="am-sub-card wow fadeInUp" data-wow-delay="0.05s">
-							<div class="am-sub-header am-sub-header-basic">
-								<h3 class="am-sub-title">BASIC</h3>
-							</div>
-							<div class="am-sub-ribbon-wrap">
-								<div class="am-sub-ribbon">
-									<span class="am-sub-price">PKR 20,000</span>
-									<span class="am-sub-period">/ Month</span>
-								</div>
-							</div>
-							<div class="am-sub-body">
-								<ul class="am-sub-features">
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Quran Reading with Tajweed</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Basic Tafseer</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Daily Practice &amp; Revision</span>
-									</li>
-								</ul>
-								<a href="inquiry.aspx?plan=Basic" class="am-sub-btn am-sub-btn-basic">
-									<span>Enroll Now <i class="fa-solid fa-arrow-right ms-2"></i></span>
-								</a>
-							</div>
-						</article>
-					</div>
-
-					<!-- STANDARD PLAN -->
-					<div class="col-lg-4 col-md-6">
-						<article class="am-sub-card am-sub-card-featured wow fadeInUp" data-wow-delay="0.15s">
-							<div class="am-sub-header am-sub-header-standard">
-								<h3 class="am-sub-title">STANDARD</h3>
-							</div>
-							<div class="am-sub-ribbon-wrap">
-								<div class="am-sub-ribbon">
-									<span class="am-sub-price">PKR 25,000</span>
-									<span class="am-sub-period">/ Month</span>
-								</div>
-							</div>
-							<div class="am-sub-body">
-								<ul class="am-sub-features">
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Quran Reading with Tajweed</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Tafseer &amp; Islamic Studies</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Quran Translation</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Regular Assessments</span>
-									</li>
-								</ul>
-								<a href="inquiry.aspx?plan=Standard" class="am-sub-btn am-sub-btn-standard">
-									<span>Enroll Now <i class="fa-solid fa-arrow-right ms-2"></i></span>
-								</a>
-							</div>
-						</article>
-					</div>
-
-					<!-- PREMIUM PLAN -->
-					<div class="col-lg-4 col-md-6">
-						<article class="am-sub-card wow fadeInUp" data-wow-delay="0.25s">
-							<div class="am-sub-header am-sub-header-premium">
-								<h3 class="am-sub-title">PREMIUM</h3>
-							</div>
-							<div class="am-sub-ribbon-wrap">
-								<div class="am-sub-ribbon">
-									<span class="am-sub-price">PKR 35,000</span>
-									<span class="am-sub-period">/ Month</span>
-								</div>
-							</div>
-							<div class="am-sub-body">
-								<ul class="am-sub-features">
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Quran Reading with Tajweed</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Tafseer &amp; Islamic Studies</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Quran Translation</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Hifz ul Quran</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Arabic Language</span>
-									</li>
-									<li>
-										<i class="fa-solid fa-circle-check am-sub-check"></i>
-										<span>Monthly Progress Report</span>
-									</li>
-								</ul>
-								<a href="inquiry.aspx?plan=Premium" class="am-sub-btn am-sub-btn-premium">
-									<span>Enroll Now <i class="fa-solid fa-arrow-right ms-2"></i></span>
-								</a>
-							</div>
-						</article>
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<section class="am-home-steps section-padding">
 			<div class="container">
 				<div class="section-heading text-center mb-30 wow fadeInUp">
@@ -751,73 +637,6 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- Start Prayer Time -->
-		<section class="prayer_time section-padding" style="background-image: url(assets/img/bg/prayer_time.jpg);">
-			<div class="container">
-				<div class="row g-4 ">
-					<div class="col-lg-6 col-12 align-self-center">
-						<div class="prayer_time_image wow fadeInLeft" data-wow-delay=".5s">
-							<img src="assets/img/prayer_img.png" alt="Prayer Time Image">
-							<a href="https://www.youtube.com/watch?v=bFzzovAxqDo" class="prayer_btn"><i class="fa fa-play"></i></a>
-						</div>
-					</div><!-- End Col -->
-
-					<div class="col-lg-6 col-12 align-self-center">
-						<div class="section-heading text-start mb-30 wow fadeInUp" data-wow-delay=".3s">
-							<span>Prayer Time</span>
-							<h2>Today's Prayer Time</h2>
-							<img src="assets/img/icons/title.ico" alt="Title Icon">	
-						</div>
-
-						<div class="prayer_time wow fadeInRight" data-wow-delay=".5s">
-							<div class="prayer-time-box">
-								<h3 class="prayer-title ">Prayer Times</h3>
-
-								<ul class="prayer-table">
-									<li class="prayer-head">
-										<span>Salat</span>
-										<span>Azan</span>
-										<span>Iqamah</span>
-									</li>
-
-									<li>
-										<span class="cgreen">Fajr</span>
-										<span>4:30 AM</span>
-										<span>4:45 AM</span>
-									</li>
-
-									<li>
-										<span class="cgreen">Dhuhr</span>
-										<span>12:30 PM</span>
-										<span>12:45 PM</span>
-									</li>
-
-									<li>
-										<span class="cgreen">Asr</span>
-										<span>4:15 PM</span>
-										<span>4:30 PM</span>
-									</li>
-
-									<li>
-										<span class="cgreen">Maghrib</span>
-										<span>6:10 PM</span>
-										<span>6:15 PM</span>
-									</li>
-
-									<li>
-										<span class="cgreen">Isha</span>
-										<span>7:30 PM</span>
-										<span>7:45 PM</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div><!-- End Col -->
-				</div><!-- End Row -->
-			</div>
-		 </section>
-		<!-- End Prayer Time -->
 
 		<!-- Start Islamic Scholars-->
 		<section class="islamic_scholars section-padding">
@@ -837,7 +656,7 @@
 					<div class="col-xl-4 col-md-6 col-12">
 						<div class="single-scholar wow fadeInUp" data-wow-delay=".1s">
 							<div class="scholar_img position-relative">
-								<img src="assets/img/tutors/qari-abu-bakar.jpg" alt="Qari Abu Bakar - Quran Teacher" />
+								<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib - Quran Teacher" />
 								<ul class="scholar_social">
 									<li><a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
 									<li><a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
@@ -853,7 +672,7 @@
 					<div class="col-xl-4 col-md-6 col-12">
 						<div class="single-scholar wow fadeInUp" data-wow-delay=".2s">
 							<div class="scholar_img position-relative">
-								<img src="assets/img/tutors/qari-habib.jpg" alt="Qari Habib - Quran Teacher" />
+								<img src="assets/img/tutors/qari-abu-bakar.jpg" alt="Qari Abu Bakar - Quran Teacher" />
 								<ul class="scholar_social">
 									<li><a href="https://web.facebook.com/profile.php?id=61595788242425" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
 									<li><a href="https://youtube.com/@alasimquran?si=kPHQ2D-LUfIQuLoc" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
@@ -879,7 +698,7 @@
 				<div class="row g-4">
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-counter d-flex align-items-center">
-							<div class="counter_icon d-flex align-items-center justify-content-center" style="font-size: 36px; color: #0e8544;">
+							<div class="counter_icon am-counter-badge">
 								<i class="fa-solid fa-user-graduate"></i>
 							</div>
 
@@ -892,7 +711,7 @@
 
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-counter d-flex align-items-center">
-							<div class="counter_icon d-flex align-items-center justify-content-center" style="font-size: 36px; color: #0e8544;">
+							<div class="counter_icon am-counter-badge">
 								<i class="fa-solid fa-chalkboard-user"></i>
 							</div>
 
@@ -905,7 +724,7 @@
 
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-counter d-flex align-items-center">
-							<div class="counter_icon d-flex align-items-center justify-content-center" style="font-size: 36px; color: #0e8544;">
+							<div class="counter_icon am-counter-badge">
 								<i class="fa-solid fa-earth-americas"></i>
 							</div>
 
@@ -917,7 +736,7 @@
 					</div><!-- End Col -->
 					<div class="col-lg-3 col-md-6 col-12">
 						<div class="single-counter d-flex align-items-center">
-							<div class="counter_icon d-flex align-items-center justify-content-center" style="font-size: 36px; color: #0e8544;">
+							<div class="counter_icon am-counter-badge">
 								<i class="fa-solid fa-award"></i>
 							</div>
 							<div class="counter_content"><h2><span class="counter">10</span>+</h2><p>Years' Experience</p></div>
@@ -1006,96 +825,22 @@
 		<section class="am-home-cta wow fadeInUp">
 			<div class="container">
 				<div class="am-home-cta-inner">
-					<div><span>Al-Asim Quran &bull; Learn Quran Online &amp; Islamic Education</span><h2>Start Your Quran Learning Journey Today</h2><p>Book your free trial class and begin learning Quran from the comfort of your home.</p></div>
-					<a href="register.aspx" class="yellow_btn"><span>Book Your Free Trial</span></a>
+					<div class="am-cta-left-content">
+						<span class="am-cta-tagline"><i class="fa-solid fa-star-and-crescent me-1"></i> Al-Asim Quran &bull; Online Academy</span>
+						<div class="am-cta-heading-wrap">
+							<h2 class="am-cta-title">Start Your Quran Learning Journey Today</h2>
+							<span class="am-cta-desc">Book your free trial class and begin learning Quran from home.</span>
+						</div>
+					</div>
+					<div class="am-cta-btn-wrap">
+						<a href="courses.aspx#trial" class="am-cta-btn">
+							<span style="color: #092c1c !important; display: inline-block !important; font-size: 15px !important; font-weight: 700 !important; margin: 0 !important; text-transform: none !important;">Book Free Trial</span>
+							<i class="fa-solid fa-arrow-right ms-2"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
-
-		<!-- Start Blog -->
-		<section class="blog section-padding">
-			<div class="container">
-				<div class="row g-4 mb-60">
-					<div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay=".3s">
-						<div class="section-heading">
-							<span>Latest News</span>
-							<h2>Latest News From The Blog</h2>
-							<img src="assets/img/icons/title.ico" alt="Title Icon">	
-						</div>						
-					</div><!-- End Col -->
-
-					<div class="col-lg-6 col-12 text-start text-lg-end wow fadeInRight" data-wow-delay=".3s">
-						<a href="blog.aspx" class="green_btn"><span>Browse All</span></a>
-					</div><!-- End Col -->
-				</div><!-- End Row -->
-
-				<div class="row g-4">
-					<div class="col-xl-4 col-md-6 col-12">
-						<div class="single-blog wow fadeInUp" data-wow-delay=".1s">
-							<div class="blog-image position-relative">
-								<img src="assets/img/blog/1.jpg" alt="Blog Image">
-								<div class="blog_category">
-									<a href="blog.aspx">Quran Learning</a>
-								</div>
-							</div>
-
-							<div class="blog_content">
-								<div class="blog_meta d-flex justify-content-between">
-									<span><i class="fa-regular fa-bookmark"></i> Learning Resource</span>
-								</div>
-								<h3><a href="blog.aspx">Benefits of Learning Quran Online</a></h3>
-								<a href="blog.aspx" class="blog_btn">
-									Explore Articles
-								</a>
-							</div>
-						</div>
-					</div><!-- End Col -->
-
-					<div class="col-xl-4 col-md-6 col-12">
-						<div class="single-blog wow fadeInUp" data-wow-delay=".1s">
-							<div class="blog-image position-relative">
-								<img src="assets/img/blog/2.jpg" alt="Blog Image">
-								<div class="blog_category">
-									<a href="blog.aspx">Tajweed</a>
-								</div>
-							</div>
-
-							<div class="blog_content">
-								<div class="blog_meta d-flex justify-content-between">
-									<span><i class="fa-regular fa-bookmark"></i> Learning Resource</span>
-								</div>
-								<h3><a href="blog.aspx">Importance of Tajweed</a></h3>
-								<a href="blog.aspx" class="blog_btn">
-									Explore Articles
-								</a>
-							</div>
-						</div>
-					</div><!-- End Col -->
-					
-					<div class="col-xl-4 col-md-6 col-12">
-						<div class="single-blog wow fadeInUp" data-wow-delay=".1s">
-							<div class="blog-image position-relative">
-								<img src="assets/img/blog/3.jpg" alt="Blog Image">
-								<div class="blog_category">
-									<a href="blog.aspx">Hifz</a>
-								</div>
-							</div>
-
-							<div class="blog_content">
-								<div class="blog_meta d-flex justify-content-between">
-									<span><i class="fa-regular fa-bookmark"></i> Learning Resource</span>
-								</div>
-								<h3><a href="blog.aspx">How to Memorize Quran Effectively</a></h3>
-								<a href="blog.aspx" class="blog_btn">
-									Explore Articles
-								</a>
-							</div>
-						</div>
-					</div><!-- End Col -->					
-				</div><!-- End Row -->
-			</div>
-		</section>
-		<!-- Start Blog -->
 
 		
 </asp:Content>

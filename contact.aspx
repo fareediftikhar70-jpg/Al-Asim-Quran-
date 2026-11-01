@@ -25,7 +25,8 @@
 				<div class="col-lg-7">
 					<div class="am-contact-form-wrap">
 						<div class="am-contact-form-heading"><span>Get in touch</span><h2>Send Us Your Question</h2><p>Have questions about our courses? Contact our team today.</p></div>
-						<form class="am-contact-form" action="inquiry.aspx" method="get">
+						<form class="am-contact-form" action="form-submit.aspx?type=Contact" method="post">
+							<div aria-hidden="true" style="position:absolute;left:-10000px;height:1px;width:1px;overflow:hidden;"><label>Leave this field empty<input type="text" name="website_check" tabindex="-1" autocomplete="off"></label></div>
 							<div class="row g-3">
 								<div class="col-md-6"><div class="am-form-group"><label for="contactName">Full Name <span class="text-danger">*</span></label><input id="contactName" name="name" type="text" class="form-control" placeholder="Your full name" required="required"></div></div>
 								<div class="col-md-6"><div class="am-form-group"><label for="contactEmail">Email Address <span class="text-danger">*</span></label><input id="contactEmail" name="email" type="email" class="form-control" placeholder="alasimquran@gmail.com" required="required"></div></div>
